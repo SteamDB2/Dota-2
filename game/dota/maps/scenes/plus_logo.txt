@@ -1,0 +1,5 @@
+maps/scenes/plus_logo.vmap_c CRC:00beab5aec size:1472
+maps/scenes/plus_logo/entities/default_ents.vents_c CRC:00aa2eed9b size:3093
+maps/scenes/plus_logo/world.vrman_c CRC:008efd0961 size:518
+maps/scenes/plus_logo/world.vwrld_c CRC:00783f70e1 size:2456
+maps/scenes/plus_logo/world_visibility.vvis_c CRC:00ee704d92 size:664

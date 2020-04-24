@@ -1,0 +1,384 @@
+"ti_podseats"
+{
+	// Updated for TI9, seat positions are real
+	// Visit http://www.dota2.com/registeredteams for latest data
+
+	//=========================================
+	// Virtus Pro
+	//=========================================
+	"team"
+	{
+		"teamid"		"1883502"
+		
+		// http://www.dota2.com/teams/teamdetails/?team_id=1883502?u=public&appid=570
+
+		"players"
+		{
+			"seat4"		"92423451"		// 9pasha
+			"seat2"		"106573901"		// No[o]ne-
+			"seat0"		"132851371"		// RAMZEs
+			"seat1"		"134556694"		// Solo
+			"seat3"		"159020918"		// RodjER
+		}
+
+		"notevalue"		"1"
+	}
+
+	//=========================================
+	// Team Liquid
+	//=========================================
+	"team"
+	{
+		"teamid"		"2163"
+		
+		// http://www.dota2.com/teams/teamdetails/?team_id=2163?u=public&appid=570
+
+		"players"
+		{
+			"seat4"		"34505203"		// MinD_ContRoL
+			"seat2"		"82262664"		// KuroKy
+			"seat1"		"101356886"		// Gh
+			"seat3"		"105248644"		// Miracle-
+			"seat0"		"86700461"		// w33
+		}
+
+		"notevalue"		"2"
+	}
+
+	//=========================================
+	// PSG.LGD
+	//=========================================
+	"team"
+	{
+		"teamid"		"15"
+
+		// http://www.dota2.com/teams/teamdetails/?team_id=15?u=public&appid=570
+		
+		"players"
+		{
+			"seat3"		"94296097"		// xNova
+			"seat0"		"94738847"		// Chalice
+			"seat2"		"101695162"		// fy
+			"seat1"		"106863163"		// Somnus / 小可
+			"seat4"		"125581247"		// Ameame
+		}
+
+		"notevalue"		"3"
+	}
+
+	//=========================================
+	// Team Secret
+	//=========================================
+	"team"
+	{
+		"teamid"		"1838315"
+
+		// http://www.dota2.com/teams/teamdetails/?team_id=1838315?u=public&appid=570
+		
+		"players"
+		{
+			"seat2"		"87278757"		// Puppey
+			"seat3"		"89117038"		// YapzOr
+			"seat0"		"116585378"		// MidOne
+			"seat1"		"73562326"		// Zai
+			"seat4"		"121769650"		// Nisha
+		}
+
+		"notevalue"		"4"
+	}
+
+	//=========================================
+	// Mineski
+	//=========================================
+	"team"
+	{
+		"teamid"		"543897"
+
+		// http://www.dota2.com/teams/teamdetails/?team_id=543897?u=public&appid=570
+		
+		"players"
+		{
+			"seat0"		"87012746"		// kpii
+			"seat2"		"91443418"		// ninjaboogie
+			"seat1"		"113457795"		// MooN
+			"seat3"		"192914280"		// Bimbo
+			"seat4"		"412753955"		// Nikobaby竜の道
+		}
+
+		"notevalue"		"5"
+	}
+
+	//=========================================
+	// Vici Gaming
+	//=========================================
+	"team"
+	{
+		"teamid"		"726228"
+
+		// http://www.dota2.com/teams/teamdetails/?team_id=726228?u=public&appid=570
+		
+		"players"
+		{
+			"seat4"		"107803494"		// Ori
+			"seat0"		"137193239"		// Paparazi
+			"seat3"		"139937922"		// Yang
+			"seat1"		"143693439"		// Dy
+			"seat2"		"182331313"		// Fade
+		}
+
+		"notevalue"		"6"
+	}
+
+	//=========================================
+	// Ninjas in Pyjamas- not in finals
+	//=========================================
+	"team"
+	{
+		"teamid"		"6214973"
+		
+		// http://www.dota2.com/teams/teamdetails/?team_id=6214973?u=public&appid=570
+
+		"players"
+		{
+			"seat4"		"86698277"		// 33
+			"seat2"		"86727555"		// peterpandam
+			"seat0"		"86799300"		// Fata
+			"seat1"		"97590558"		// Ace
+			"seat3"		"103735745"		// Saksa
+		}
+
+		"notevalue"		"7"
+	}
+
+	//=========================================
+	// Alliance
+	//=========================================
+	"team"
+	{
+		"teamid"		"111474"
+		
+		// http://www.dota2.com/teams/teamdetails/?team_id=111474?u=public&appid=570
+
+		"players"
+		{
+			"seat2"		"54580962"		// iNSaNia
+			"seat4"		"77490514"		// Boxi
+			"seat0"		"86738694"		// qojqva
+			"seat1"		"152962063"		// miCKe
+			"seat3"		"401792574"		// Taiga
+		}
+
+		"notevalue"		"8"
+	}
+
+	//=========================================
+	// Keen Gaming
+	//=========================================
+	"team"
+	{
+		"teamid"		"2626685"
+		
+		// http://www.dota2.com/teams/teamdetails/?team_id=2626685?u=public&appid=570
+
+		"players"
+		{
+			"seat4"		"134276083"		// old eLeVeN
+			"seat0"		"135878232"		// old chicken
+			"seat3"		"139876032"		// kaka
+			"seat2"		"255219872"		// 一
+			"seat1"		"397462905"		// Dark
+		}
+
+		"notevalue"		"9"
+	}
+
+	//=========================================
+	// Newbee (Formerly Forward)
+	//=========================================
+	"team"
+	{
+		"teamid"		"6214538"
+		
+		// http://www.dota2.com/teams/teamdetails/?team_id=6214538?u=public&appid=570
+
+		"players"
+		{
+			"seat2"		"6922000"		// pieliedie
+			"seat4"		"10366616"		// Sneyking
+			"seat3"		"86726887"		// MSS-
+			"seat1"		"108452107"		// YawaR
+			"seat0"		"221666230"		// CCnC
+		}
+
+		"notevalue"		"10"
+	}
+
+	//=========================================
+	// Fnatic
+	//=========================================
+	"team"
+	{
+		"teamid"		"350190"
+
+		// http://www.dota2.com/teams/teamdetails/?team_id=350190?u=public&appid=570
+		
+		"players"
+		{
+			"seat0"		"84772440"		// iceiceice
+			"seat3"		"100471531"		// JAbz
+			"seat1"		"102099826"		// DJ
+			"seat4"		"145550466"		// DuBu
+			"seat2"		"154715080"		// Abed
+		}
+
+		"notevalue"		"11"
+	}
+
+	//=========================================
+	// TNC Predator
+	//=========================================
+	"team"
+	{
+		"teamid"		"2108395"
+
+		// http://www.dota2.com/teams/teamdetails/?team_id=2108395?u=public&appid=570
+		
+		"players"
+		{
+			"seat4"		"152545459"		// Gabbi
+			"seat2"		"155494381"		// Tims
+			"seat1"		"164532005"		// ARMEL
+			"seat3"		"173476224"		// eyyou
+			"seat0"		"184950344"		// Kuku^
+		}
+
+		"notevalue"		"12"
+	}
+
+	//=========================================
+	// OG
+	//=========================================
+	"team"
+	{
+		"teamid"		"2586976"
+		
+		// http://www.dota2.com/teams/teamdetails/?team_id=2586976?u=public&appid=570
+
+		"players"
+		{
+			"seat2"		"19672354"		// N0tail
+			"seat4"		"26771994"		// JerAx
+			"seat1"		"88271237"		// Ceeeeeeeeeeeeeeeeeeeeeeeb
+			"seat3"		"94054712"		// Topson
+			"seat0"		"311360822"		// ana
+		}
+
+		"notevalue"		"13"
+	}
+
+	//=========================================
+	// Infamous
+	//=========================================
+	"team"
+	{
+		"teamid"		"2672298"
+		
+		// http://www.dota2.com/teams/teamdetails/?team_id=2672298?u=public&appid=570
+
+		"players"
+		{
+			"seat3"		"119631156"		// stinger
+			"seat0"		"153836240"		// Chris Luck
+			"seat1"		"157989498"		// Scofield
+			"seat4"		"164685175"		// K1 Hector
+			"seat2"		"292921272"		// Wisper
+		}
+
+		"notevalue"		"14"
+	}
+
+	//=========================================
+	// Chaos Esports Club - not in finals
+	//=========================================
+	"team"
+	{
+		"teamid"		"203342"
+		
+		// http://www.dota2.com/teams/teamdetails/?team_id=203342?u=public&appid=570
+
+		"players"
+		{
+			"seat2"		"72312627"		// MATUMBAMAN
+			"seat3"		"87382579"		// misery
+			"seat1"		"98172857"		// MiLAN
+			"seat4"		"142139318"		// vtFαded
+			"seat0"		"169025618"		// KheZu
+		}
+
+		"notevalue"		"15"
+	}
+	
+	//=========================================
+	// Evil Geniuses
+	//=========================================
+	"team"
+	{
+		"teamid"		"39"
+		
+		// http://www.dota2.com/teams/teamdetails/?team_id=39?u=public&appid=570
+
+		"players"
+		{
+			"seat3"		"25907144"		// Cr1t-
+			"seat1"		"86745912"		// Arteezy
+			"seat4"		"111620041"		// SumaiL
+			"seat2"		"94155156"		// Fly
+			"seat0"		"41231571"		// s4
+		}
+
+		"notevalue"		"16"
+	}
+
+	//=========================================
+	// Navi
+	//=========================================
+	"team"
+	{
+		"teamid"		"36"
+		
+		// http://www.dota2.com/teams/teamdetails/?team_id=36?u=public&appid=570
+
+		"players"
+		{
+			"seat3"		"111030315"		// W_Zayac
+			"seat4"		"114619230"		// Crystallize
+			"seat2"		"117421467"		// SoNNeikO
+			"seat1"		"171981096"		// MagicaL
+			"seat0"		"234699894"		// Blizzy
+		}
+
+		"notevalue"		"17"
+	}
+
+	//=========================================
+	// Royal Never Give Up
+	//=========================================
+	"team"
+	{
+		"teamid"		"6209804"
+		
+		// http://www.dota2.com/teams/teamdetails/?team_id=6209804?u=public&appid=570
+
+		"players"
+		{
+			"seat3"		"89423756"		// LaNm
+			"seat2"		"119576842"		// - ah fu -
+			"seat0"		"139822354"		// Setsu
+			"seat4"		"148215639"		// Monet
+			"seat1"		"186627166"		// Flyby
+		}
+
+		"notevalue"		"18"
+	}
+
+}

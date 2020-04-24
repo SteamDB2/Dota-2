@@ -1,0 +1,6227 @@
+{
+	abaddon_abad_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/abaddon/abad_spawn_01.vsnd",
+		]
+	}
+	abaddon_abad_anger_07 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/abaddon/abad_anger_07.vsnd",
+		]
+	}
+	Hero_Abaddon.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/abaddon/borrowed_time.vsnd",
+		]
+	}
+	Hero_Abaddon.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.699707
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/abaddon/borrowed_time.vsnd",
+		]
+	}
+	abyssal_underlord_abys_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/abyssal_underlord/abys_spawn_01.vsnd",
+		]
+	}
+	abyssal_underlord_abys_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/abyssal_underlord/abys_anger_01.vsnd",
+		]
+	}
+	Hero_Underlord.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/underlord/dark_rift_complete.vsnd",
+		]
+	}
+	alchemist_alch_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/alchemist/alch_spawn_01.vsnd",
+		]
+	}
+	alchemist_alch_anger_05 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/alchemist/alch_anger_05.vsnd",
+		]
+	}
+	Hero_Alchemist.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/alchemist/chemical_rage_cast.vsnd",
+		]
+	}
+	Hero_Alchemist.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/alchemist/chemical_rage_cast.vsnd",
+		]
+	}
+	ancient_apparition_appa_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/ancient_apparition/appa_spawn_01.vsnd",
+		]
+	}
+	ancient_apparition_appa_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/ancient_apparition/appa_anger_03.vsnd",
+		]
+	}
+	Hero_Ancient_Apparition.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ancient_apparition/ice_vortex_cast.vsnd",
+		]
+	}
+	Hero_Ancient_Apparition.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ancient_apparition/iceblast_explode.vsnd",
+		]
+	}
+	antimage_anti_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/antimage/anti_spawn_01.vsnd",
+		]
+	}
+	antimage_anti_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/antimage/anti_anger_04.vsnd",
+		]
+	}
+	Hero_Antimage.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/antimage/blink_out.vsnd",
+		]
+	}
+	Hero_Antimage.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/antimage/mana_void.vsnd",
+		]
+	}
+	arc_warden_arcwar_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/arc_warden/arcwar_spawn_01.vsnd",
+		]
+	}
+	arc_warden_arcwar_anger_10 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/arc_warden/arcwar_anger_10.vsnd",
+		]
+	}
+	Hero_ArcWarden.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/arc_warden/tempest_double.vsnd",
+		]
+	}
+	axe_axe_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/axe/axe_spawn_01.vsnd",
+		]
+	}
+	axe_axe_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/axe/axe_anger_01.vsnd",
+		]
+	}
+	Hero_Axe.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/axe/berserkers_call.vsnd",
+		]
+	}
+	Hero_Axe.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/axe/culling_blade_success.vsnd",
+		]
+	}
+	bane_bane_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/bane/bane_spawn_01.vsnd",
+		]
+	}
+	bane_bane_anger_10 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/bane/bane_anger_10.vsnd",
+		]
+	}
+	Hero_Bane.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/bane/nightmare_end.vsnd",
+		]
+	}
+	Hero_Bane.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.799805
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/bane/fiends_grip_cast.vsnd",
+		]
+	}
+	batrider_bat_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/batrider/bat_spawn_01.vsnd",
+		]
+	}
+	batrider_bat_anger_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/batrider/bat_anger_02.vsnd",
+		]
+	}
+	Hero_Batrider.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/batrider/batrider_flamebreak_cast.vsnd",
+		]
+	}
+	Hero_Batrider.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/batrider/batrider_flaming_lasso_start.vsnd",
+		]
+	}
+	beastmaster_beas_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/beastmaster/beas_spawn_01.vsnd",
+		]
+	}
+	beastmaster_beas_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/beastmaster/beas_anger_01.vsnd",
+		]
+	}
+	Hero_Beastmaster.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/beastmaster/call_of_the_wild_boar.vsnd",
+		]
+	}
+	Hero_Beastmaster.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/beastmaster/primal_roar.vsnd",
+		]
+	}
+	bloodseeker_blod_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/bloodseeker/blod_spawn_01.vsnd",
+		]
+	}
+	bloodseeker_blod_anger_06 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/bloodseeker/blod_anger_06.vsnd",
+		]
+	}
+	Hero_Bloodseeker.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/bloodseeker/rupture_cast.vsnd",
+		]
+	}
+	Hero_Bloodseeker.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/bloodseeker/rupture_cast.vsnd",
+		]
+	}
+	bounty_hunter_bount_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/bounty_hunter/bount_spawn_01.vsnd",
+		]
+	}
+	bounty_hunter_bount_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/bounty_hunter/bount_anger_04.vsnd",
+		]
+	}
+	Hero_BountyHunter.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/bounty_hunter/track.vsnd",
+		]
+	}
+	brewmaster_brew_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/brewmaster/brew_spawn_01.vsnd",
+		]
+	}
+	brewmaster_brew_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/brewmaster/brew_anger_01.vsnd",
+		]
+	}
+	Hero_Brewmaster.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/brewmaster/brawl_crit.vsnd",
+		]
+	}
+	bristleback_bristle_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/bristleback/bristle_spawn_01.vsnd",
+		]
+	}
+	bristleback_bristle_anger_09 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/bristleback/bristle_anger_09.vsnd",
+		]
+	}
+	Hero_Bristleback.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/bristlebog/goo_cast.vsnd",
+		]
+	}
+	broodmother_broo_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/broodmother/broo_spawn_01.vsnd",
+		]
+	}
+	broodmother_broo_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/broodmother/broo_anger_01.vsnd",
+		]
+	}
+	Hero_Broodmother.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/broodmother/web_cast.vsnd",
+		]
+	}
+	centaur_cent_spawn_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/centaur/cent_spawn_03.vsnd",
+		]
+	}
+	centaur_cent_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/centaur/cent_anger_03.vsnd",
+		]
+	}
+	Hero_Centaur.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/centaur/stampede_cast.vsnd",
+		]
+	}
+	Hero_Centaur.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/centaur/stampede_cast.vsnd",
+		]
+	}
+	chaos_knight_chaknight_spawn_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/chaos_knight/chaknight_spawn_02.vsnd",
+		]
+	}
+	chaos_knight_chaknight_anger_06 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/chaos_knight/chaknight_anger_06.vsnd",
+		]
+	}
+	Hero_ChaosKnight.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/chaos_knight/phantasm.vsnd",
+		]
+	}
+	chen_chen_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/chen/chen_spawn_01.vsnd",
+		]
+	}
+	chen_chen_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/chen/chen_anger_04.vsnd",
+		]
+	}
+	Hero_Chen.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/chen/penitence_impact.vsnd",
+		]
+	}
+	Hero_Chen.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/chen_pick.vsnd",
+		]
+	}
+	clinkz_clinkz_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/clinkz/clinkz_spawn_01.vsnd",
+		]
+	}
+	clinkz_clinkz_anger_08 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/clinkz/clinkz_anger_08.vsnd",
+		]
+	}
+	Hero_Clinkz.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/clinkz/windwalk.vsnd",
+		]
+	}
+	crystalmaiden_cm_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/crystalmaiden/cm_spawn_01.vsnd",
+		]
+	}
+	crystalmaiden_cm_anger_08 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/crystalmaiden/cm_anger_08.vsnd",
+		]
+	}
+	Hero_CrystalMaiden.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/crystal_maiden/crystal_nova.vsnd",
+		]
+	}
+	Hero_CrystalMaiden.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/crystal_maiden_pick.vsnd",
+		]
+	}
+	dark_seer_dkseer_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/dark_seer/dkseer_spawn_01.vsnd",
+		]
+	}
+	dark_seer_dkseer_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/dark_seer/dkseer_anger_01.vsnd",
+		]
+	}
+	Hero_DarkSeer.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/dark_seer/dota_dark_seer_surge.vsnd",
+		]
+	}
+	Hero_DarkSeer.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/dark_seer_pick.vsnd",
+		]
+	}
+	dark_willow_pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/dark_willow/sylph_spawn_03.vsnd",
+		]
+	}
+	dark_willow_ban = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/dark_willow/sylph_anger_06.vsnd",
+		]
+	}
+	Hero_DarkWillow.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/dark_willow/fear_cast.vsnd",
+		]
+	}
+	dazzle_dazz_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/dazzle/dazz_spawn_01.vsnd",
+		]
+	}
+	dazzle_dazz_anger_05 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/dazzle/dazz_anger_05.vsnd",
+		]
+	}
+	Hero_Dazzle.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/dazzle/shadow_wave.vsnd",
+		]
+	}
+	Hero_Dazzle.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/dazzle/weave.vsnd",
+		]
+	}
+	death_prophet_dpro_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/death_prophet/dpro_spawn_01.vsnd",
+		]
+	}
+	death_prophet_dpro_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/death_prophet/dpro_anger_01.vsnd",
+		]
+	}
+	Hero_DeathProphet.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/death_prophet/exorcism_cast.vsnd",
+		]
+	}
+	Hero_DeathProphet.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/death_prophet/exorcism_cast.vsnd",
+		]
+	}
+	disruptor_dis_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/disruptor/dis_spawn_01.vsnd",
+		]
+	}
+	disruptor_dis_anger_06 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/disruptor/dis_anger_06.vsnd",
+		]
+	}
+	Hero_Disruptor.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/disruptor/glimpse_end.vsnd",
+		]
+	}
+	Hero_Disruptor.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/disruptor_pick.vsnd",
+		]
+	}
+	doom_bringer_doom_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/doom_bringer/doom_spawn_01.vsnd",
+		]
+	}
+	doom_bringer_doom_anger_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/doom_bringer/doom_anger_02.vsnd",
+		]
+	}
+	Hero_DoomBringer.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/doom_bringer/devour.vsnd",
+		]
+	}
+	Hero_DoomBringer.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/doom_pick.vsnd",
+		]
+	}
+	dragon_knight_drag_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/dragon_knight/drag_spawn_01.vsnd",
+		]
+	}
+	dragon_knight_drag_anger_06 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/dragon_knight/drag_anger_06.vsnd",
+		]
+	}
+	Hero_DragonKnight.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/dragon_knight/dragonknight_elderdragon_form.vsnd",
+		]
+	}
+	Hero_DragonKnight.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/dragon_knight/dragonknight_elderdragon_form.vsnd",
+		]
+	}
+	drowranger_dro_spawn_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/drowranger/dro_spawn_03.vsnd",
+		]
+	}
+	drowranger_dro_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/drowranger/dro_anger_01.vsnd",
+		]
+	}
+	Hero_DrowRanger.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/drow_ranger/silence.vsnd",
+		]
+	}
+	earth_spirit_earthspi_spawn_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/earth_spirit/earthspi_spawn_02.vsnd",
+		]
+	}
+	earth_spirit_earthspi_anger_08 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/earth_spirit/earthspi_anger_08.vsnd",
+		]
+	}
+	Hero_EarthSpirit.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/earth_spirit/stone_remnant.vsnd",
+		]
+	}
+	earthshaker_erth_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/earthshaker/erth_spawn_01.vsnd",
+		]
+	}
+	earthshaker_erth_anger_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/earthshaker/erth_anger_02.vsnd",
+		]
+	}
+	Hero_Earthshaker.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.300000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/earthshaker/echo_slam.vsnd",
+		]
+	}
+	Hero_Earthshaker.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.799805
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/earthshaker/echo_slam.vsnd",
+		]
+	}
+	elder_titan_elder_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/elder_titan/elder_spawn_01.vsnd",
+		]
+	}
+	elder_titan_elder_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/elder_titan/elder_anger_03.vsnd",
+		]
+	}
+	Hero_ElderTitan.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/elder_titan/echo_stomp_cast.vsnd",
+		]
+	}
+	Hero_ElderTitan.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/elder_titan/earth_split_cast.vsnd",
+		]
+	}
+	ember_spirit_embr_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/ember_spirit/embr_spawn_01.vsnd",
+		]
+	}
+	ember_spirit_embr_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/ember_spirit/embr_anger_04.vsnd",
+		]
+	}
+	Hero_EmberSpirit.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ember_spirit/fire_remnant_stop.vsnd",
+		]
+	}
+	enchantress_ench_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/enchantress/ench_spawn_01.vsnd",
+		]
+	}
+	enchantress_ench_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/enchantress/ench_anger_03.vsnd",
+		]
+	}
+	Hero_Enchantress.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/enchantress/enchant_creep.vsnd",
+		]
+	}
+	enigma_enig_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/enigma/enig_spawn_01.vsnd",
+		]
+	}
+	enigma_enig_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/enigma/enig_anger_01.vsnd",
+		]
+	}
+	Hero_Enigma.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/enigma/malefice.vsnd",
+		]
+	}
+	Hero_Enigma.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/enigma_pick.vsnd",
+		]
+	}
+	faceless_void_face_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/faceless_void/face_spawn_01.vsnd",
+		]
+	}
+	faceless_void_face_anger_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/faceless_void/face_anger_02.vsnd",
+		]
+	}
+	Hero_FacelessVoid.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/faceless_void/chronosphere.vsnd",
+		]
+	}
+	Hero_FacelessVoid.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/faceless_void/chronosphere.vsnd",
+		]
+	}
+	furion_furi_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/furion/furi_spawn_01.vsnd",
+		]
+	}
+	furion_furi_anger_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/furion/furi_anger_02.vsnd",
+		]
+	}
+	Hero_Furion.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/furion/teleport_in.vsnd",
+		]
+	}
+	grimstroke_grimstroke_spawn_01_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/grimstroke/grimstroke_spawn_01_02.vsnd",
+		]
+	}
+	grimstroke_grimstroke_anger_07 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/grimstroke/grimstroke_anger_07.vsnd",
+		]
+	}
+	Hero_Grimstroke.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/grimstroke/soul_chain_cast.vsnd",
+		]
+	}
+	gyrocopter_gyro_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/gyrocopter/gyro_spawn_01.vsnd",
+		]
+	}
+	gyrocopter_gyro_anger_08 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/gyrocopter/gyro_anger_08.vsnd",
+		]
+	}
+	Hero_Gyrocopter.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/gyrocopter/call_down_cast.vsnd",
+		]
+	}
+	Hero_Gyrocopter.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/gyrocopter/call_down_cast.vsnd",
+		]
+	}
+	huskar_husk_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/huskar/husk_spawn_01.vsnd",
+		]
+	}
+	huskar_husk_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/huskar/husk_anger_03.vsnd",
+		]
+	}
+	Hero_Huskar.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/huskar/life_break.vsnd",
+		]
+	}
+	invoker_invo_spawn_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/invoker/invo_spawn_02.vsnd",
+		]
+	}
+	invoker_invo_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/invoker/invo_anger_04.vsnd",
+		]
+	}
+	Hero_Invoker.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/invoker/invoke.vsnd",
+		]
+	}
+	jakiro_jak_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/jakiro/jak_spawn_01.vsnd",
+		]
+	}
+	jakiro_jak_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/jakiro/jak_anger_04.vsnd",
+		]
+	}
+	Hero_Jakiro.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/jakiro/macropyre_cast.vsnd",
+		]
+	}
+	Hero_Jakiro.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/jakiro/macropyre_cast.vsnd",
+		]
+	}
+	juggernaut_jug_spawn_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/juggernaut/jug_spawn_03.vsnd",
+		]
+	}
+	juggernaut_jug_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/juggernaut/jug_anger_04.vsnd",
+		]
+	}
+	Hero_Juggernaut.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/juggernaut/healing_ward_cast.vsnd",
+		]
+	}
+	Hero_Juggernaut.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/juggernaut_pick.vsnd",
+		]
+	}
+	keeper_of_the_light_keep_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/keeper_of_the_light/keep_spawn_01.vsnd",
+		]
+	}
+	keeper_of_the_light_keep_anger_05 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/keeper_of_the_light/keep_anger_05.vsnd",
+		]
+	}
+	Hero_KeeperOfTheLight.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/keeper/spirit_form.vsnd",
+		]
+	}
+	Hero_KeeperOfTheLight.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/kotl_pick.vsnd",
+		]
+	}
+	kunkka_kunk_spawn_11 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/kunkka/kunk_spawn_11.vsnd",
+		]
+	}
+	kunkka_kunk_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/kunkka/kunk_anger_04.vsnd",
+		]
+	}
+	Hero_Kunkka.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/kunkka/ability_ghost_ship_bell.vsnd",
+		]
+	}
+	Hero_Kunkka.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.799805
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/kunkka/ability_ghost_ship.vsnd",
+		]
+	}
+	legion_commander_legcom_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/legion_commander/legcom_spawn_01.vsnd",
+		]
+	}
+	legion_commander_legcom_anger_07 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/legion_commander/legcom_anger_07.vsnd",
+		]
+	}
+	Hero_LegionCommander.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/legion_commander/duel_victory.vsnd",
+		]
+	}
+	Hero_LegionCommander.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/legion_commander_pick.vsnd",
+		]
+	}
+	leshrac_lesh_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/leshrac/lesh_spawn_01.vsnd",
+		]
+	}
+	leshrac_lesh_anger_06 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/leshrac/lesh_anger_06.vsnd",
+		]
+	}
+	Hero_Leshrac.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/leshrac/split_earth.vsnd",
+		]
+	}
+	Hero_Leshrac.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/leshrac/split_earth.vsnd",
+		]
+	}
+	lich_lich_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/lich/lich_spawn_01.vsnd",
+		]
+	}
+	lich_lich_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/lich/lich_anger_03.vsnd",
+		]
+	}
+	Hero_Lich.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/lich/chain_frost_cast.vsnd",
+		]
+	}
+	Hero_Lich.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/lich/chain_frost_cast.vsnd",
+		]
+	}
+	life_stealer_lifest_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/life_stealer/lifest_spawn_01.vsnd",
+		]
+	}
+	life_stealer_lifest_anger_05 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/life_stealer/lifest_anger_05.vsnd",
+		]
+	}
+	Hero_LifeStealer.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/lifestealer/consume.vsnd",
+		]
+	}
+	lina_lina_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/lina/lina_spawn_01.vsnd",
+		]
+	}
+	lina_lina_anger_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/lina/lina_anger_02.vsnd",
+		]
+	}
+	Hero_Lina.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/lina/dragonslave01.vsnd",
+		]
+	}
+	Hero_Lina.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/lina_pick.vsnd",
+		]
+	}
+	lion_lion_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/lion/lion_spawn_01.vsnd",
+		]
+	}
+	lion_lion_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/lion/lion_anger_03.vsnd",
+		]
+	}
+	Hero_Lion.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/lion/finger_of_death_impact.vsnd",
+		]
+	}
+	Hero_Lion.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/lion/finger_of_death.vsnd",
+		]
+	}
+	lone_druid_lone_druid_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/lone_druid/lone_druid_spawn_01.vsnd",
+		]
+	}
+	lone_druid_lone_druid_anger_10 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/lone_druid/lone_druid_anger_10.vsnd",
+		]
+	}
+	Hero_LoneDruid.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/lone_druid/battle_cry.vsnd",
+		]
+	}
+	luna_luna_spawn_01 = 
+	{
+		type = "dota_update_vo_switch"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/vo/luna/luna_spawn_01.vsnd",
+		]
+	}
+	luna_luna_anger_02 = 
+	{
+		type = "dota_update_vo_switch"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/vo/luna/luna_anger_02.vsnd",
+		]
+	}
+	Hero_Luna.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/luna/luna_lucentbeam_impact.vsnd",
+		]
+	}
+	Hero_Luna.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/luna/luna_eclipse_cast.vsnd",
+		]
+	}
+	lycan_lycan_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/lycan/lycan_spawn_01.vsnd",
+		]
+	}
+	lycan_lycan_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/lycan/lycan_anger_03.vsnd",
+		]
+	}
+	Hero_Lycan.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/lycan/howl.vsnd",
+		]
+	}
+	magnataur_magn_spawn_06 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/magnataur/magn_spawn_06.vsnd",
+		]
+	}
+	magnataur_magn_anger_07 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/magnataur/magn_anger_07.vsnd",
+		]
+	}
+	Hero_Magnataur.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/magnataur/empower_cast.vsnd",
+		]
+	}
+	Hero_Magnataur.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/magnataur_pick.vsnd",
+		]
+	}
+	mars_pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/mars/mars_spawn_01.vsnd",
+		]
+	}
+	mars_ban = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/mars/mars_anger_03.vsnd",
+		]
+	}
+	Hero_Mars.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/mars/enc/mars_pick.vsnd",
+		]
+	}
+	medusa_medus_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/medusa/medus_spawn_01.vsnd",
+		]
+	}
+	medusa_medus_anger_13 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/medusa/medus_anger_13.vsnd",
+		]
+	}
+	Hero_Medusa.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/medusa/snake_shoot.vsnd",
+		]
+	}
+	Hero_Medusa.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.799805
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/medusa/stonegaze.vsnd",
+		]
+	}
+	meepo_meepo_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/meepo/meepo_spawn_01.vsnd",
+		]
+	}
+	meepo_meepo_anger_12 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/meepo/meepo_anger_12.vsnd",
+		]
+	}
+	Hero_Meepo.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/meepo/poof_appear.vsnd",
+		]
+	}
+	mirana_mir_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/mirana/mir_spawn_01.vsnd",
+		]
+	}
+	mirana_mir_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/mirana/mir_anger_01.vsnd",
+		]
+	}
+	Hero_Mirana.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/mirana/starfall.vsnd",
+		]
+	}
+	monkey_king_monkey_spawn_17 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/monkey_king/monkey_spawn_17.vsnd",
+		]
+	}
+	monkey_king_monkey_anger_12 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/monkey_king/monkey_anger_12.vsnd",
+		]
+	}
+	Hero_MonkeyKing.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 75.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/monkey_king/spring_channel.vsnd",
+		]
+	}
+	morphling_mrph_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/morphling/mrph_spawn_01.vsnd",
+		]
+	}
+	morphling_mrph_anger_07 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/morphling/mrph_anger_07.vsnd",
+		]
+	}
+	Hero_Morphling.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/morphling/waveform.vsnd",
+		]
+	}
+	naga_siren_naga_spawn_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/naga_siren/naga_spawn_02.vsnd",
+		]
+	}
+	naga_siren_naga_anger_12 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/naga_siren/naga_anger_12.vsnd",
+		]
+	}
+	Hero_NagaSiren.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/naga_siren/riptide03.vsnd",
+		]
+	}
+	Hero_NagaSiren.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/naga_siren_pick.vsnd",
+		]
+	}
+	necrolyte_necr_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/necrolyte/necr_spawn_01.vsnd",
+		]
+	}
+	necrolyte_necr_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/necrolyte/necr_anger_01.vsnd",
+		]
+	}
+	Hero_Necrolyte.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/necrolyte/reapers_scythe.vsnd",
+		]
+	}
+	Hero_Necrolyte.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/necrolyte_pick.vsnd",
+		]
+	}
+	nevermore_nev_spawn_11 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/nevermore/nev_spawn_11.vsnd",
+		]
+	}
+	nevermore_nev_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/nevermore/nev_spawn_01.vsnd",
+		]
+	}
+	Hero_Nevermore.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/nevermore/shadowraze.vsnd",
+		]
+	}
+	Hero_Nevermore.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/nevermore/requiem_of_souls.vsnd",
+		]
+	}
+	night_stalker_nstalk_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/night_stalker/nstalk_spawn_01.vsnd",
+		]
+	}
+	night_stalker_nstalk_anger_07 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/night_stalker/nstalk_anger_07.vsnd",
+		]
+	}
+	Hero_NightStalker.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/nightstalker/dota_nightstalker_void.vsnd",
+		]
+	}
+	Hero_NightStalker.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/nightstalker/darkness.vsnd",
+		]
+	}
+	nyx_assassin_nyx_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/nyx_assassin/nyx_spawn_01.vsnd",
+		]
+	}
+	nyx_assassin_nyx_anger_07 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/nyx_assassin/nyx_anger_07.vsnd",
+		]
+	}
+	Hero_Nyx.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/nyx/vendetta.vsnd",
+		]
+	}
+	ogre_magi_ogmag_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/ogre_magi/ogmag_spawn_01.vsnd",
+		]
+	}
+	ogre_magi_ogmag_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/ogre_magi/ogmag_anger_04.vsnd",
+		]
+	}
+	Hero_OgreMagi.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/fireblast_cast.vsnd",
+		]
+	}
+	omniknight_omni_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/omniknight/omni_spawn_01.vsnd",
+		]
+	}
+	omniknight_omni_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/omniknight/omni_anger_04.vsnd",
+		]
+	}
+	Hero_Omniknight.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/omniknight/guardian_cast.vsnd",
+		]
+	}
+	Hero_Omniknight.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/omniknight/guardian_cast.vsnd",
+		]
+	}
+	oracle_orac_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/oracle/orac_spawn_01.vsnd",
+		]
+	}
+	oracle_orac_anger_08 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/oracle/orac_anger_08.vsnd",
+		]
+	}
+	Hero_Oracle.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/oracle/edict_cast.vsnd",
+		]
+	}
+	outworld_destroyer_odest_spawn_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/outworld_destroyer/odest_spawn_02.vsnd",
+		]
+	}
+	outworld_destroyer_odest_anger_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/outworld_destroyer/odest_anger_02.vsnd",
+		]
+	}
+	Hero_OD.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/obsidian_destroyer/sanity_eclipse.vsnd",
+		]
+	}
+	Hero_OD.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.799805
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/obsidian_destroyer/sanity_eclipse.vsnd",
+		]
+	}
+	pangolin_pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/pangolin/pangolin_move_02.vsnd",
+		]
+	}
+	pangolin_ban = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/pangolin/pangolin_anger_02.vsnd",
+		]
+	}
+	Hero_Pangolier.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/pangolier/gyro_start.vsnd",
+		]
+	}
+	phantom_assassin_phass_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/phantom_assassin/phass_spawn_01.vsnd",
+		]
+	}
+	phantom_assassin_phass_anger_08 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/phantom_assassin/phass_anger_08.vsnd",
+		]
+	}
+	Hero_PhantomAssassin.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/phantom_assassin/stifling_dagger_target.vsnd",
+		]
+	}
+	phantom_lancer_plance_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/phantom_lancer/plance_spawn_01.vsnd",
+		]
+	}
+	phantom_lancer_plance_anger_06 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/phantom_lancer/plance_anger_06.vsnd",
+		]
+	}
+	Hero_PhantomLancer.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/phantom_lancer/spirit_lance_cast.vsnd",
+		]
+	}
+	phoenix_phoenix_bird_respawn = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/phoenix/phoenix_bird_respawn.vsnd",
+		]
+	}
+	phoenix_phoenix_bird_moving01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/phoenix/phoenix_bird_moving01.vsnd",
+		]
+	}
+	Hero_Phoenix.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/phoenix/icarus_dive.vsnd",
+		]
+	}
+	Hero_Phoenix.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/phoenix/super_nova_explode.vsnd",
+		]
+	}
+	puck_puck_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/puck/puck_spawn_01.vsnd",
+		]
+	}
+	puck_puck_anger_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/puck/puck_anger_02.vsnd",
+		]
+	}
+	Hero_Puck.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/puck/waning_rift.vsnd",
+		]
+	}
+	Hero_Puck.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/puck/dream_coil.vsnd",
+		]
+	}
+	pudge_pud_spawn_10 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/pudge/pud_spawn_10.vsnd",
+		]
+	}
+	pudge_pud_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/pudge/pud_anger_01.vsnd",
+		]
+	}
+	Hero_Pudge.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/pudge/dismember_swing2.vsnd",
+		]
+	}
+	Hero_Pudge.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.799805
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/pudge_pick.vsnd",
+		]
+	}
+	pugna_pugna_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/pugna/pugna_spawn_01.vsnd",
+		]
+	}
+	pugna_pugna_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/pugna/pugna_anger_01.vsnd",
+		]
+	}
+	Hero_Pugna.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/pugna/netherblast_precast.vsnd",
+		]
+	}
+	queenofpain_pain_spawn_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/queenofpain/pain_spawn_04.vsnd",
+		]
+	}
+	queenofpain_pain_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/queenofpain/pain_anger_03.vsnd",
+		]
+	}
+	Hero_QueenOfPain.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/queenofpain/blink_in.vsnd",
+		]
+	}
+	Hero_QueenOfPain.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.799805
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/queenofpain/queenofpain_sonicwave.vsnd",
+		]
+	}
+	rattletrap_ratt_spawn_05 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/rattletrap/ratt_spawn_05.vsnd",
+		]
+	}
+	rattletrap_ratt_anger_06 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/rattletrap/ratt_anger_06.vsnd",
+		]
+	}
+	Hero_Rattletrap.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/rattletrap/hookshot_damage.vsnd",
+		]
+	}
+	razor_raz_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/razor/raz_spawn_01.vsnd",
+		]
+	}
+	razor_raz_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/razor/raz_anger_04.vsnd",
+		]
+	}
+	Hero_Razor.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/razor/storm_cast.vsnd",
+		]
+	}
+	Hero_Razor.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/razor/storm_cast.vsnd",
+		]
+	}
+	riki_riki_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/riki/riki_spawn_01.vsnd",
+		]
+	}
+	riki_riki_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/riki/riki_anger_04.vsnd",
+		]
+	}
+	Hero_Riki.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/riki/riki_smokescreen.vsnd",
+		]
+	}
+	rubick_rubick_spawn_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/rubick/rubick_spawn_04.vsnd",
+		]
+	}
+	rubick_rubick_anger_06 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/rubick/rubick_anger_06.vsnd",
+		]
+	}
+	Hero_Rubick.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/rubick/spell_steal_cast.vsnd",
+		]
+	}
+	sandking_skg_spawn_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/sandking/skg_spawn_02.vsnd",
+		]
+	}
+	sandking_skg_anger_06 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/sandking/skg_anger_06.vsnd",
+		]
+	}
+	Hero_Sandking.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/sand_king/sand_king_epicenter_spell.vsnd",
+		]
+	}
+	Hero_Sandking.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.599609
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/sand_king/sand_king_epicenter.vsnd",
+		]
+	}
+	shadow_demon_shadow_demon_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/shadow_demon/shadow_demon_spawn_01.vsnd",
+		]
+	}
+	shadow_demon_shadow_demon_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/shadow_demon/shadow_demon_anger_03.vsnd",
+		]
+	}
+	Hero_ShadowDemon.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/shadow_demon/soul_catcher_cast.vsnd",
+		]
+	}
+	shadowshaman_shad_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/shadowshaman/shad_spawn_01.vsnd",
+		]
+	}
+	shadowshaman_shad_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/shadowshaman/shad_anger_01.vsnd",
+		]
+	}
+	Hero_ShadowShaman.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/shadowshaman/serpent_ward.vsnd",
+		]
+	}
+	silencer_silen_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/silencer/silen_spawn_01.vsnd",
+		]
+	}
+	silencer_silen_anger_07 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/silencer/silen_anger_07.vsnd",
+		]
+	}
+	Hero_Silencer.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/silencer/global_silence_cast.vsnd",
+		]
+	}
+	Hero_Silencer.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/silencer/global_silence_cast.vsnd",
+		]
+	}
+	skeleton_king_wraith_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/skeleton_king/wraith_spawn_01.vsnd",
+		]
+	}
+	skeleton_king_wraith_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/skeleton_king/wraith_anger_04.vsnd",
+		]
+	}
+	Hero_SkeletonKing.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/skeleton_king/reincarnate.vsnd",
+		]
+	}
+	skywrath_mage_drag_spawn_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/skywrath_mage/drag_spawn_02.vsnd",
+		]
+	}
+	skywrath_mage_drag_anger_13 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/skywrath_mage/drag_anger_13.vsnd",
+		]
+	}
+	Hero_SkywrathMage.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/skywrath/mystic_flare_cast.vsnd",
+		]
+	}
+	Hero_SkywrathMage.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/skywrath/mystic_flare.vsnd",
+		]
+	}
+	slardar_slar_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/slardar/slar_spawn_01.vsnd",
+		]
+	}
+	slardar_slar_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/slardar/slar_anger_04.vsnd",
+		]
+	}
+	Hero_Slardar.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/slardar/slithereen_crush.vsnd",
+		]
+	}
+	slark_slark_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/slark/slark_spawn_01.vsnd",
+		]
+	}
+	slark_slark_anger_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/slark/slark_anger_02.vsnd",
+		]
+	}
+	Hero_Slark.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/slark/pounce_impact.vsnd",
+		]
+	}
+	sniper_snip_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/sniper/snip_spawn_01.vsnd",
+		]
+	}
+	sniper_snip_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/sniper/snip_anger_01.vsnd",
+		]
+	}
+	snapfire_snapfire_spawn_25 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/snapfire/snapfire_spawn_25.vsnd",
+		]
+	}
+	snapfire_snapfire_curse_07 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/snapfire/snapfire_curse_07.vsnd",
+		]
+	}
+	Hero_Snapfire.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/snapfire/shotgun_fire.vsnd",
+		]
+	}
+	Hero_Sniper.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/sniper/sniper_assassinate_load.vsnd",
+		]
+	}
+	Hero_Sniper.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.699707
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/sniper/sniper_assassinate.vsnd",
+		]
+	}
+	spectre_spec_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/spectre/spec_spawn_01.vsnd",
+		]
+	}
+	spectre_spec_anger_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/spectre/spec_anger_02.vsnd",
+		]
+	}
+	Hero_Spectre.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/spectre/haunt.vsnd",
+		]
+	}
+	Hero_Spectre.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.799805
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/spectre/haunt.vsnd",
+		]
+	}
+	spirit_breaker_spir_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_breaker/spir_spawn_01.vsnd",
+		]
+	}
+	spirit_breaker_spir_anger_05 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/spirit_breaker/spir_anger_05.vsnd",
+		]
+	}
+	Hero_SpiritBreaker.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/spirit_breaker/charge_cast.vsnd",
+		]
+	}
+	stormspirit_ss_spawn_09 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/stormspirit/ss_spawn_09.vsnd",
+		]
+	}
+	stormspirit_ss_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/stormspirit/ss_anger_03.vsnd",
+		]
+	}
+	Hero_StormSpirit.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/storm_spirit/ball_lightning.vsnd",
+		]
+	}
+	sven_sven_spawn_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/sven/sven_spawn_04.vsnd",
+		]
+	}
+	sven_sven_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/sven/sven_anger_03.vsnd",
+		]
+	}
+	Hero_Sven.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/sven/storm_bolt.vsnd",
+		]
+	}
+	techies_tech_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/techies/tech_spawn_01.vsnd",
+		]
+	}
+	techies_tech_anger_23 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/techies/tech_anger_23.vsnd",
+		]
+	}
+	Hero_Techies.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/techies/suicide.vsnd",
+		]
+	}
+	Hero_Techies.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/techies/suicide.vsnd",
+		]
+	}
+	templar_assassin_temp_spawn_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/templar_assassin/temp_spawn_02.vsnd",
+		]
+	}
+	templar_assassin_temp_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/templar_assassin/temp_anger_03.vsnd",
+		]
+	}
+	Hero_TemplarAssassin.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/templar_assassin/trap_spawn.vsnd",
+		]
+	}
+	terrorblade_terr_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/terrorblade/terr_spawn_01.vsnd",
+		]
+	}
+	terrorblade_terr_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/terrorblade/terr_anger_03.vsnd",
+		]
+	}
+	Hero_Terrorblade.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/terrorblade/sunder_target.vsnd",
+		]
+	}
+	Hero_Terrorblade.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/terrorblade/sunder_target.vsnd",
+		]
+	}
+	tidehunter_tide_spawn_09 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/tidehunter/tide_spawn_09.vsnd",
+		]
+	}
+	tidehunter_tide_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/tidehunter/tide_anger_04.vsnd",
+		]
+	}
+	Hero_Tidehunter.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/tidehunter/kraken_shell.vsnd",
+		]
+	}
+	Hero_Tidehunter.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.699707
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/tidehunter/tidehunter_ravage.vsnd",
+		]
+	}
+	shredder_timb_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/shredder/timb_spawn_01.vsnd",
+		]
+	}
+	shredder_timb_anger_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/shredder/timb_anger_02.vsnd",
+		]
+	}
+	Hero_Shredder.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/shredder/whirling_death_impact.vsnd",
+		]
+	}
+	tinker_tink_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/tinker/tink_spawn_01.vsnd",
+		]
+	}
+	tinker_tink_anger_10 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/tinker/tink_anger_10.vsnd",
+		]
+	}
+	Hero_Tinker.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/tinker/rearm_anim.vsnd",
+		]
+	}
+	Hero_Tinker.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/tinker_pick.vsnd",
+		]
+	}
+	tiny_tiny_spawn_09 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/tiny/tiny_spawn_09.vsnd",
+		]
+	}
+	tiny_tiny_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/tiny/tiny_anger_01.vsnd",
+		]
+	}
+	Hero_Tiny.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/tiny/tiny_avalanche.vsnd",
+		]
+	}
+	treant_treant_spawn_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/treant/treant_spawn_02.vsnd",
+		]
+	}
+	treant_treant_anger_11 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/treant/treant_anger_11.vsnd",
+		]
+	}
+	Hero_Treant.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/treant/living_armor.vsnd",
+		]
+	}
+	Hero_Treant.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/treant/overgrowth_cast.vsnd",
+		]
+	}
+	troll_warlord_troll_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/troll_warlord/troll_spawn_01.vsnd",
+		]
+	}
+	troll_warlord_troll_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/troll_warlord/troll_anger_03.vsnd",
+		]
+	}
+	Hero_TrollWarlord.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/troll_warlord/battle_trance_cast.vsnd",
+		]
+	}
+	tusk_tusk_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/tusk/tusk_spawn_01.vsnd",
+		]
+	}
+	tusk_tusk_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/tusk/tusk_anger_03.vsnd",
+		]
+	}
+	Hero_Tusk.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/tusk/punch_target.vsnd",
+		]
+	}
+	Hero_Tusk.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/tusk/punch_target.vsnd",
+		]
+	}
+	undying_undying_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/undying/undying_spawn_01.vsnd",
+		]
+	}
+	undying_undying_anger_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/undying/undying_anger_02.vsnd",
+		]
+	}
+	Hero_Undying.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/undying/flesh_golem_cast.vsnd",
+		]
+	}
+	Hero_Undying.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/undying/flesh_golem_cast.vsnd",
+		]
+	}
+	ursa_ursa_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/ursa/ursa_spawn_01.vsnd",
+		]
+	}
+	ursa_ursa_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/ursa/ursa_anger_04.vsnd",
+		]
+	}
+	Hero_Ursa.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ursa/ursa_overpower.vsnd",
+		]
+	}
+	vengefulspirit_vng_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/vengefulspirit/vng_spawn_01.vsnd",
+		]
+	}
+	vengefulspirit_vng_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/vengefulspirit/vng_anger_04.vsnd",
+		]
+	}
+	Hero_VengefulSpirit.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/vengeful_spirit/wave_of_terror.vsnd",
+		]
+	}
+	venomancer_venm_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/venomancer/venm_spawn_01.vsnd",
+		]
+	}
+	venomancer_venm_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/venomancer/venm_anger_01.vsnd",
+		]
+	}
+	Hero_Venomancer.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/venomancer/venomancer_poison_nova.vsnd",
+		]
+	}
+	Hero_Venomancer.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/venomancer/venomancer_poison_nova.vsnd",
+		]
+	}
+	viper_vipe_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/viper/vipe_spawn_01.vsnd",
+		]
+	}
+	viper_vipe_anger_06 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/viper/vipe_anger_06.vsnd",
+		]
+	}
+	Hero_Viper.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/viper/viper_strike_impact.vsnd",
+		]
+	}
+	visage_visa_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/visage/visa_spawn_01.vsnd",
+		]
+	}
+	visage_visa_anger_10 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/visage/visa_anger_10.vsnd",
+		]
+	}
+	Hero_Visage.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/visage/grave_chill_target.vsnd",
+		]
+	}
+	void_spirit_voidspir_spawn_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/void_spirit/voidspir_spawn_02.vsnd",
+		]
+	}
+	void_spirit_voidspir_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/void_spirit/voidspir_anger_03.vsnd",
+		]
+	}
+	Hero_VoidSpirit.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/void_spirit/remnant_target.vsnd",
+		]
+	}
+	warlock_warl_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/warlock/warl_spawn_01.vsnd",
+		]
+	}
+	warlock_warl_anger_04 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/warlock/warl_anger_04.vsnd",
+		]
+	}
+	Hero_Warlock.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/warlock/rain_of_chaos_buildup.vsnd",
+		]
+	}
+	Hero_Warlock.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/warlock/rain_of_chaos_buildup.vsnd",
+		]
+	}
+	weaver_weav_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/weaver/weav_spawn_01.vsnd",
+		]
+	}
+	weaver_weav_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/weaver/weav_anger_01.vsnd",
+		]
+	}
+	Hero_Weaver.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/weaver/swarm_cast.vsnd",
+		]
+	}
+	Hero_Weaver.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/weaver/time_lapse.vsnd",
+		]
+	}
+	windrunner_wind_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/windrunner/wind_spawn_01.vsnd",
+		]
+	}
+	windrunner_wind_anger_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/windrunner/wind_anger_01.vsnd",
+		]
+	}
+	Hero_Windrunner.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/windrunner/focus_fire.vsnd",
+		]
+	}
+	Hero_Windrunner.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.799805
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/windrunner/windrun.vsnd",
+		]
+	}
+	winter_wyvern_winwyv_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/winter_wyvern/winwyv_spawn_01.vsnd",
+		]
+	}
+	winter_wyvern_winwyv_anger_07 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/winter_wyvern/winwyv_anger_07.vsnd",
+		]
+	}
+	Hero_Winter_Wyvern.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/winter_wyvern/arctic_burn.vsnd",
+		]
+	}
+	Hero_Winter_Wyvern.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.799805
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/winter_wyvern/winters_curse_target.vsnd",
+		]
+	}
+	wisp_move03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/wisp/move03.vsnd",
+		]
+	}
+	wisp_shitty_crummy_wizard = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/wisp/shitty_crummy_wizard.vsnd",
+		]
+	}
+	Hero_Wisp.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/wisp/spirits_cast.vsnd",
+		]
+	}
+	witchdoctor_wdoc_spawn_02 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/witchdoctor/wdoc_spawn_02.vsnd",
+		]
+	}
+	witchdoctor_wdoc_anger_08 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/witchdoctor/wdoc_anger_08.vsnd",
+		]
+	}
+	Hero_Witchdoctor.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/witch_doctor/cask_cast.vsnd",
+		]
+	}
+	Hero_Witchdoctor.Projection = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/projection/witch_doctor_pick.vsnd",
+		]
+	}
+	zuus_zuus_spawn_01 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/zuus/zuus_spawn_01.vsnd",
+		]
+	}
+	zuus_zuus_anger_03 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 80.000000
+		event_type = 2.000000
+		limiter_on = 1.000000
+		limiter_match_type = 1.000000
+		limiter_max = 1.000000
+		limiter_match_entity = 1.000000
+		limiter_match_this = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/zuus/zuus_anger_03.vsnd",
+		]
+	}
+	Hero_Zuus.Pick = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/zuus/gods_wrath_target.vsnd",
+		]
+	}
+	Hero_Zuus.Projection = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/zuus/gods_wrath_cast.vsnd",
+		]
+	}
+}

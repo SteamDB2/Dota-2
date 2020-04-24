@@ -1,0 +1,1744 @@
+{
+	Greevil.PreAttack = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.799560
+		volume_rand_min = -0.199952
+		volume_rand_max = 0.199952
+		pitch = 1.050000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		distance_max = 1500.000000
+		event_type = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/creep/greevil/preattack01.vsnd",
+			"sounds/weapons/creep/greevil/preattack02.vsnd",
+			"sounds/weapons/creep/greevil/preattack03.vsnd",
+			"sounds/weapons/creep/greevil/preattack04.vsnd",
+			"sounds/weapons/creep/greevil/preattack05.vsnd",
+			"sounds/weapons/creep/greevil/preattack06.vsnd",
+			"sounds/weapons/creep/greevil/preattack07.vsnd",
+		]
+	}
+	Greevil.Attack = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.050000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		event_type = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/creep/greevil/attack01.vsnd",
+			"sounds/weapons/creep/greevil/attack02.vsnd",
+			"sounds/weapons/creep/greevil/attack03.vsnd",
+			"sounds/weapons/creep/greevil/attack04.vsnd",
+		]
+	}
+	Miniboss_Greevil.PreAttack = 
+	{
+		type = "dota_update_default"
+		volume = 0.500000
+		pitch = 0.850000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/creep/greevil/preattack01.vsnd",
+			"sounds/weapons/creep/greevil/preattack02.vsnd",
+			"sounds/weapons/creep/greevil/preattack03.vsnd",
+			"sounds/weapons/creep/greevil/preattack04.vsnd",
+			"sounds/weapons/creep/greevil/preattack05.vsnd",
+			"sounds/weapons/creep/greevil/preattack06.vsnd",
+			"sounds/weapons/creep/greevil/preattack07.vsnd",
+		]
+	}
+	Miniboss_Greevil.Attack = 
+	{
+		type = "dota_update_default"
+		volume = 0.500000
+		pitch = 0.950000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/creep/greevil/attack01.vsnd",
+			"sounds/weapons/creep/greevil/attack02.vsnd",
+			"sounds/weapons/creep/greevil/attack03.vsnd",
+			"sounds/weapons/creep/greevil/attack04.vsnd",
+		]
+	}
+	Greevil.BladeFuryStart = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/juggernaut/bladefury_start_loop.vsnd",
+		]
+	}
+	Greevil.BladeFuryStop = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/juggernaut/bladefury_stop.vsnd",
+		]
+	}
+	Greevil.BladeFury.Impact = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.150000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 72.000000
+		distance_max = 2500.000000
+		rand_delay_min = 0.000000
+		rand_delay_max = 0.100000
+		limiter_on = 1.000000
+		limiter_max = 3.000000
+		limiter_match_type = 0.000000
+		limiter_match_entity = 0.000000
+		limiter_match_substring = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/shared/small_blade/whoosh01.vsnd",
+			"sounds/weapons/hero/shared/small_blade/whoosh02.vsnd",
+			"sounds/weapons/hero/shared/small_blade/whoosh03.vsnd",
+			"sounds/weapons/hero/shared/small_blade/whoosh04.vsnd",
+		]
+	}
+	Greevil.Bloodlust.Cast = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 84.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/bloodlust_cast.vsnd",
+		]
+	}
+	Greevil.Bloodlust.Target = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 84.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/bloodlust_target.vsnd",
+		]
+	}
+	Greevil.Bloodlust.Target.FP = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 84.000000
+		mixgroup = "Weapons"
+		delay = 1.500000
+		spread_radius = 300.000000
+		distance_max = 2500.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/bloodlust_target_fp.vsnd",
+		]
+	}
+	Greevil.ColdSnap.Cast = 
+	{
+		type = "dota_update_default"
+		volume = 0.500000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/faceless_void/time_walk.vsnd",
+		]
+	}
+	Greevil.ColdSnap = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/invoker/cold_snap.vsnd",
+		]
+	}
+	Greevil.ColdSnap.Freeze = 
+	{
+		type = "dota_update_default"
+		volume = 0.500000
+		pitch = 1.250000
+		soundlevel = 78.000000
+		mixgroup = "Weapons"
+		spread_radius = 150.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/lich/attack.vsnd",
+		]
+	}
+	Greevil.Decrepify = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/pugna/decrepify.vsnd",
+		]
+	}
+	Greevil.Diabolic_Edict_lp = 
+	{
+		type = "dota_update_default"
+		volume = 0.500000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		volume_fade_out = 1.000000
+		spread_radius = 500.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/leshrac/diabolic_edict_lp.vsnd",
+		]
+	}
+	Greevil.Diabolic_Edict = 
+	{
+		type = "dota_update_default"
+		volume = 0.499878
+		volume_rand_min = -0.099976
+		volume_rand_max = 0.099976
+		pitch = 1.300000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 150.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/leshrac/diabolic_edict01.vsnd",
+			"sounds/weapons/hero/leshrac/diabolic_edict02.vsnd",
+			"sounds/weapons/hero/leshrac/diabolic_edict03.vsnd",
+			"sounds/weapons/hero/leshrac/diabolic_edict04.vsnd",
+			"sounds/weapons/hero/leshrac/diabolic_edict05.vsnd",
+			"sounds/weapons/hero/leshrac/diabolic_edict06.vsnd",
+		]
+	}
+	Greevil.Earthshock = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 84.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ursa/ursa_earthshock.vsnd",
+		]
+	}
+	Greevil.EchoSlam = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 84.000000
+		mixgroup = "Weapons"
+		spread_radius = 600.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/earthshaker/echo_slam.vsnd",
+		]
+	}
+	Greevil.EchoSlamEcho = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.300000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 84.000000
+		distance_max = 4500.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/earthshaker/echo01.vsnd",
+			"sounds/weapons/hero/earthshaker/echo02.vsnd",
+			"sounds/weapons/hero/earthshaker/echo03.vsnd",
+		]
+	}
+	Greevil.EchoSlamSmall = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 84.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/earthshaker/echo_slam_small.vsnd",
+		]
+	}
+	Greevil.FatalBonds = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/warlock/fatal_bonds_cast.vsnd",
+		]
+	}
+	Greevil.FatalBondsDamage = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.399780
+		volume_rand_min = -0.099975
+		volume_rand_max = 0.099975
+		pitch = 1.250000
+		soundlevel = 69.000000
+		rand_delay_min = 0.000000
+		rand_delay_max = 0.150000
+		limiter_on = 1.000000
+		limiter_event_name = "FatalBondsDamage"
+		limiter_max = 2.000000
+		limiter_match_type = 0.000000
+		limiter_match_entity = 0.000000
+		limiter_match_substring = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/warlock/fatal_bonds_damage.vsnd",
+		]
+	}
+	Greevil.FleshGolem.Cast = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 600.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/undying/flesh_golem_cast.vsnd",
+		]
+	}
+	Greevil.FleshGolem.Aura = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/undying/soul_rip_cast.vsnd",
+		]
+	}
+	Greevil.FleshGolem.End = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/undying/soul_rip_cast.vsnd",
+		]
+	}
+	Greevil.IceWall.Cast = 
+	{
+		type = "dota_update_default"
+		volume = 0.599609
+		pitch = 0.850000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 900.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ancient_apparition/cold_feet.vsnd",
+		]
+	}
+	Greevil.IceWall.Slow = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.399780
+		volume_rand_min = -0.099975
+		volume_rand_max = 0.099975
+		pitch = 1.250000
+		soundlevel = 75.000000
+		distance_max = 2500.000000
+		event_type = 3.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/invoker/ice_wall_slow01.vsnd",
+			"sounds/weapons/hero/invoker/ice_wall_slow02.vsnd",
+			"sounds/weapons/hero/invoker/ice_wall_slow03.vsnd",
+			"sounds/weapons/hero/invoker/ice_wall_slow04.vsnd",
+			"sounds/weapons/hero/invoker/ice_wall_slow05.vsnd",
+			"sounds/weapons/hero/invoker/ice_wall_slow06.vsnd",
+		]
+	}
+	Greevil.LagunaBlade = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 84.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/lina/lagunablade.vsnd",
+		]
+	}
+	Greevil.LagunaBladeImpact = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 84.000000
+		mixgroup = "Weapons"
+		spread_radius = 150.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/lina/lagunablade_impact.vsnd",
+		]
+	}
+	Greevil.LeechSeed.Cast = 
+	{
+		type = "dota_update_default"
+		volume = 0.500000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/treant/leech_seed_cast.vsnd",
+		]
+	}
+	Greevil.LeechSeed.Target = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/treant/leech_seed_target.vsnd",
+		]
+	}
+	Greevil.LeechSeed.Tick = 
+	{
+		type = "dota_update_default"
+		volume = 0.299926
+		volume_rand_min = -0.099975
+		volume_rand_max = 0.099975
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/treant/leech_seed_tick.vsnd",
+		]
+	}
+	Greevil.MagicMissile = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/vengeful_spirit/magic_missile1.vsnd",
+			"sounds/weapons/hero/vengeful_spirit/magic_missile2.vsnd",
+			"sounds/weapons/hero/vengeful_spirit/magic_missile3.vsnd",
+			"sounds/weapons/hero/vengeful_spirit/magic_missile4.vsnd",
+		]
+	}
+	Greevil.MagicMissileImpact = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/vengeful_spirit/magic_missile_impact.vsnd",
+		]
+	}
+	Greevil.Maledict_Cast = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/witch_doctor/maledict_cast.vsnd",
+		]
+	}
+	Greevil.Maledict_CastFail = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		event_type = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/witch_doctor/maledict_fail.vsnd",
+		]
+	}
+	Greevil.Maledict_Loop = 
+	{
+		type = "dota_update_default"
+		volume = 0.599609
+		pitch = 1.250000
+		soundlevel = 81.000000
+		volume_fade_out = 0.500000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/witch_doctor/maledict_loop.vsnd",
+		]
+	}
+	Greevil.Maledict_Tick = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/witch_doctor/maledict_tick.vsnd",
+		]
+	}
+	Greevil.NaturesAttendantsCast = 
+	{
+		type = "dota_update_default"
+		volume = 0.500000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/enchantress/natures_attendants.vsnd",
+		]
+	}
+	Greevil.Strike.Start = 
+	{
+		type = "dota_update_default"
+		volume = 0.500000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 150.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/antimage/blink_out.vsnd",
+		]
+	}
+	Greevil.Strike.End = 
+	{
+		type = "dota_update_default"
+		volume = 0.500000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 150.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/antimage/blink_in.vsnd",
+		]
+	}
+	Greevil.PoisonNova = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/venomancer/venomancer_poison_nova.vsnd",
+		]
+	}
+	Greevil.PoisonNovaImpact = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 78.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/venomancer/venomancer_venomous_gale_impact1.vsnd",
+			"sounds/weapons/hero/venomancer/venomancer_venomous_gale_impact2.vsnd",
+			"sounds/weapons/hero/venomancer/venomancer_venomous_gale_impact3.vsnd",
+		]
+	}
+	Greevil.Purification = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/omniknight/purification.vsnd",
+		]
+	}
+	Greevil.ShadowStrike = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/queenofpain/queenofpain_shadowstrike.vsnd",
+		]
+	}
+	Greevil.Shadow_Wave = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/dazzle/shadow_wave.vsnd",
+		]
+	}
+	Greevil.AttackHookExtend = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		event_type = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/pudge/hook_throw.vsnd",
+		]
+	}
+	Greevil.AttackHookImpact = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/pudge/hook_impact.vsnd",
+		]
+	}
+	Greevil.AttackHookRetract = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		event_type = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/pudge/hook_throw.vsnd",
+		]
+	}
+	Greevil.AttackHookRetractStop = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		event_type = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/pudge/hook_retract_stop.vsnd",
+		]
+	}
+	Greevil.Rot = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 75.000000
+		mixgroup = "Weapons"
+		volume_fade_in = 0.250000
+		volume_fade_out = 0.250000
+		volume_falloff_min = 10.000000
+		volume_falloff_max = 1500.000000
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/pudge/rot.vsnd",
+		]
+	}
+	Greevil.Black_Hole = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 2000.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/enigma/black_hole_loop.vsnd",
+		]
+	}
+	Greevil.Black_Hole.Stop = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.250000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 1000.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/enigma/black_hole_stop.vsnd",
+		]
+	}
+	Item.GreevilWhistle = 
+	{
+		type = "dota_update_default"
+		volume = 0.699707
+		pitch = 1.000000
+		soundlevel = 84.000000
+		mixgroup = "Weapons"
+		volume_fade_out = 0.500000
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/items/greevil_whistle.vsnd",
+		]
+	}
+	Item.GreevilWhistle.Return = 
+	{
+		type = "dota_update_default"
+		volume = 0.699707
+		pitch = 1.000000
+		soundlevel = 84.000000
+		mixgroup = "Weapons"
+		volume_fade_out = 0.500000
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/items/greevil_whistle_return.vsnd",
+		]
+	}
+	Greevil.Toggle = 
+	{
+		type = "dota_update_default"
+		volume = 0.500000
+		pitch = 1.250000
+		soundlevel = 84.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ogre_magi/bloodlust_cast.vsnd",
+		]
+	}
+	Greevil.Transformed = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 0.900000
+		soundlevel = 84.000000
+		distance_max = 1500.000000
+		event_type = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/creep/greevil/preattack01.vsnd",
+			"sounds/weapons/creep/greevil/preattack02.vsnd",
+			"sounds/weapons/creep/greevil/preattack06.vsnd",
+			"sounds/weapons/creep/greevil/preattack07.vsnd",
+		]
+	}
+	Miniboss_Greevil.Death = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 0.950000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/creep/greevil/death01.vsnd",
+			"sounds/weapons/creep/greevil/death02.vsnd",
+			"sounds/weapons/creep/greevil/death03.vsnd",
+			"sounds/weapons/creep/greevil/death04.vsnd",
+			"sounds/weapons/creep/greevil/death05.vsnd",
+		]
+	}
+	FrostivusGameStart.DireSide = 
+	{
+		type = "dota_gamestart_horn"
+		position = 
+		[
+			5545.060059,
+			4998.540039,
+			1494.000000,
+		]
+		vsnd_files = 
+		[
+			"sounds/music/stingers/greevil_stingers/greevil_game_start.vsnd",
+		]
+	}
+	FrostivusGameStart.RadiantSide = 
+	{
+		type = "dota_gamestart_horn"
+		position = 
+		[
+			-5791.229980,
+			-5426.020020,
+			1494.000000,
+		]
+		vsnd_files = 
+		[
+			"sounds/music/stingers/greevil_stingers/greevil_game_start.vsnd",
+		]
+	}
+	UnitMovement.OnIce.Skates = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		mixgroup = "Physics"
+		volume_move_vol = 0.300000
+		volume_move_vel = 300.000000
+		volume_move_filter_vel = 1.000000
+		volume_falloff_min = 10.000000
+		volume_falloff_max = 1500.000000
+		vsnd_files = 
+		[
+			"sounds/physics/movement/hero/shared/skate_loop01.vsnd",
+			"sounds/physics/movement/hero/shared/skate_loop02.vsnd",
+		]
+	}
+	UnitMovement.OnIce.NoSkates = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 75.000000
+		mixgroup = "Physics"
+		volume_move_vol = 0.300000
+		volume_move_vel = 300.000000
+		volume_move_filter_vel = 1.000000
+		volume_falloff_min = 10.000000
+		volume_falloff_max = 1250.000000
+		vsnd_files = 
+		[
+			"sounds/physics/movement/hero/shared/no_skates01.vsnd",
+			"sounds/physics/movement/hero/shared/no_skates02.vsnd",
+		]
+	}
+	LootGreevil.Skates = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 84.000000
+		distance_max = 2500.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/physics/footsteps/creeps/neutral/greevil/skate01.vsnd",
+			"sounds/physics/footsteps/creeps/neutral/greevil/skate02.vsnd",
+			"sounds/physics/footsteps/creeps/neutral/greevil/skate03.vsnd",
+		]
+	}
+	LootGreevil.Hum = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 84.000000
+		distance_max = 2500.000000
+		event_type = 2.000000
+		vsnd_files = 
+		[
+			"sounds/physics/footsteps/creeps/neutral/greevil/hum01.vsnd",
+			"sounds/physics/footsteps/creeps/neutral/greevil/hum02.vsnd",
+			"sounds/physics/footsteps/creeps/neutral/greevil/hum03.vsnd",
+			"sounds/physics/footsteps/creeps/neutral/greevil/hum04.vsnd",
+			"sounds/physics/footsteps/creeps/neutral/greevil/hum05.vsnd",
+			"sounds/physics/footsteps/creeps/neutral/greevil/hum06.vsnd",
+			"sounds/physics/footsteps/creeps/neutral/greevil/hum07.vsnd",
+			"sounds/physics/footsteps/creeps/neutral/greevil/hum08.vsnd",
+		]
+	}
+	Frostivus.Item.Campfire.Cast = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/doom_bringer/idle_loop.vsnd",
+		]
+	}
+	Frostivus.Item.Snowball.Cast = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.799805
+		pitch = 1.150000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		event_type = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/phantom_lancer/preattack01.vsnd",
+		]
+	}
+	Frostivus.Item.Snowball.Target = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.150000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		event_type = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/crystal_maiden/impact01.vsnd",
+			"sounds/weapons/hero/crystal_maiden/impact02.vsnd",
+			"sounds/weapons/hero/crystal_maiden/impact03.vsnd",
+		]
+	}
+	Frostivus.Item.Coal.Cast = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.150000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		event_type = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/warlock/demon_preattack.vsnd",
+		]
+	}
+	Frostivus.Item.Coal.Target = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.150000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		event_type = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/warlock/attack3.vsnd",
+		]
+	}
+	Frostivus.PointScored.Team = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.399902
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/misc/greevil_point_team.vsnd",
+		]
+	}
+	Frostivus.PointScored.Enemy = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.399902
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/misc/greevil_point_enemy.vsnd",
+		]
+	}
+	FrostivusConsumable.Snowball.Cast = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.799805
+		pitch = 1.150000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		event_type = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/phantom_lancer/preattack01.vsnd",
+		]
+	}
+	FrostivusConsumable.Snowball.Target = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 84.000000
+		distance_max = 2500.000000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/misc/snowball_target.vsnd",
+		]
+	}
+	FrostivusConsumable.Snowman.Spawn = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 78.000000
+		distance_max = 2500.000000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/misc/snowman_spawn.vsnd",
+		]
+	}
+	FrostivusConsumable.Snowman.Destroyed = 
+	{
+		type = "dota_update_default"
+		volume = 0.700000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		pitch = 0.550000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 600.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/lich/impact01.vsnd",
+			"sounds/weapons/hero/lich/impact02.vsnd",
+		]
+	}
+	FrostivusConsumable.Tree.Target = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/misc/tree_transform.vsnd",
+		]
+	}
+	FrostivusConsumable.Fireworks.Cast = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		volume_fade_out = 0.750000
+		vsnd_files = 
+		[
+			"sounds/misc/firework_cast.vsnd",
+		]
+	}
+	FrostivusConsumable.Fireworks.Explode = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		pitch = 1.000000
+		soundlevel = 84.000000
+		mixgroup = "Weapons"
+		spread_radius = 1200.000000
+		vsnd_files = 
+		[
+			"sounds/misc/firework_explode.vsnd",
+		]
+	}
+	SeasonalConsumable.Dragon.Spawn = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 78.000000
+		distance_max = 2500.000000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/misc/ny_dragon_spawn.vsnd",
+		]
+	}
+	SeasonalConsumable.Dragon.Destroyed = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 78.000000
+		distance_max = 2000.000000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/misc/ny_dragon_end.vsnd",
+		]
+	}
+	SeasonalConsumable.Balloon.Spawn = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 78.000000
+		distance_max = 2500.000000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/misc/consumable_balloon_spawn.vsnd",
+		]
+	}
+	SeasonalConsumable.Balloon.Bounce = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		distance_max = 2000.000000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/misc/consumable_balloon_impact.vsnd",
+		]
+	}
+	SeasonalConsumable.Balloon.Pop = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 78.000000
+		distance_max = 2500.000000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/misc/consumable_balloon_pop.vsnd",
+		]
+	}
+	SeasonalConsumable.Firecrackers.Explode = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/misc/ny_firecracker_explode.vsnd",
+		]
+	}
+	SeasonalConsumable.NewBloomTree.Target = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/misc/ny_tree_transform.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Balloon.Spawn = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 75.000000
+		distance_max = 2500.000000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/misc/ti9_balloon_spawn.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Balloon.Bounce = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		distance_max = 2000.000000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/misc/ti9_balloon_impact.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Balloon.Pop = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/misc/ti9_balloon_pop.vsnd",
+		]
+	}
+	TI9_ConsumableInstrument.Drum.Loop = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Ambient"
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		volume_fade_out = 1.000000
+		vsnd_files = 
+		[
+			"sounds/misc/drum_spawn_lp.vsnd",
+		]
+	}
+	TI9_ConsumableInstrument.Drum.Hit = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Weapons"
+		volume_fade_out = 0.500000
+		vsnd_files = 
+		[
+			"sounds/misc/drum_hit01.vsnd",
+			"sounds/misc/drum_hit02.vsnd",
+			"sounds/misc/drum_hit03.vsnd",
+			"sounds/misc/drum_hit04.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.Dig = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		pitch = 1.400000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		volume_fade_out = 0.750000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/nyx/burrow_in.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.Stun = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		pitch = 1.500000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/techies/stasis_trap.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedBabyRoshan = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		volume_falloff_min = 300000.000000
+		volume_falloff_max = 300000.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/stinger_loot_04.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedTreasure = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ui/menu/trophy_levelup.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedLoot_0 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ui/menu/trophy_levelup.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedLoot_1 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ui/menu/trophy_levelup.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedLoot_2 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ui/menu/trophy_levelup.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedLoot_3 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ui/menu/trophy_levelup.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedLoot_4 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ui/menu/trophy_levelup.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedLoot_5 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ui/menu/trophy_levelup.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedLoot_6 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ui/menu/trophy_levelup.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedLoot_7 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ui/menu/trophy_levelup.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedLoot_8 = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ui/menu/trophy_levelup.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedSquirrel = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/misc/soundboard/greevil_laugh01.vsnd",
+			"sounds/misc/soundboard/greevil_laugh02.vsnd",
+			"sounds/misc/soundboard/greevil_laugh03.vsnd",
+			"sounds/misc/soundboard/greevil_laugh04.vsnd",
+			"sounds/misc/soundboard/greevil_laugh05.vsnd",
+			"sounds/misc/soundboard/greevil_laugh06.vsnd",
+			"sounds/misc/soundboard/greevil_laugh07.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedSkeleton = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ui/inventory/bone_drop_02.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedSpiders = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		delay = 1.000000
+		vsnd_files = 
+		[
+			"sounds/misc/ti9_found_spiders.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedFrog = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/physics/footsteps/common/wade5.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedTurtle = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/physics/footsteps/common/wade5.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedDancingSkeleton = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ambient/diretide/hwn_coffin_skeleton.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.RevealedGhost = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.500000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/ambient/soundscapes/diretide/diretide_spirit_vx_03.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.GhostAttack = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 0.500000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/death_prophet/exorcism_impact01.vsnd",
+			"sounds/weapons/hero/death_prophet/exorcism_impact02.vsnd",
+			"sounds/weapons/hero/death_prophet/exorcism_impact03.vsnd",
+			"sounds/weapons/hero/death_prophet/exorcism_impact04.vsnd",
+			"sounds/weapons/hero/death_prophet/exorcism_impact05.vsnd",
+			"sounds/weapons/hero/death_prophet/exorcism_impact06.vsnd",
+			"sounds/weapons/hero/death_prophet/exorcism_impact07.vsnd",
+			"sounds/weapons/hero/death_prophet/exorcism_impact08.vsnd",
+			"sounds/weapons/hero/death_prophet/exorcism_impact09.vsnd",
+			"sounds/weapons/hero/death_prophet/exorcism_impact10.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.PudglingGreeting = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.300000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/vo/pudge/pud_cast_01.mp3",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.PudglingRot = 
+	{
+		type = "dota_src1_3d"
+		volume = 0.400000
+		pitch = 1.150000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/pudge/rot.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Shovel.PudglingFart = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 0.800000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/pudge/arc_taunt_finale.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Monkey.ProjectileImpact = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 78.000000
+		distance_max = 2000.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/misc/ti9_monkey_impact.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Monkey.ProjectileThrow = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		soundlevel = 78.000000
+		distance_max = 2000.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/misc/ti9_monkey_throw.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Monkey.AngryMonkey = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/misc/ti9_monkey_mad.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Monkey.HappyMonkey = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		delay = 0.200000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/misc/ti9_monkey_happy.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Monkey.Spawn = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/misc/ti9_monkey_spawn.vsnd",
+		]
+	}
+	SeasonalConsumable.TI9.Banner.Spawn = 
+	{
+		type = "dota_src1_3d"
+		volume = 1.000000
+		pitch = 0.600000
+		soundlevel = 81.000000
+		distance_max = 2500.000000
+		mixgroup = "Ambient"
+		vsnd_files = 
+		[
+			"sounds/items/ward_activate.vsnd",
+		]
+	}
+}

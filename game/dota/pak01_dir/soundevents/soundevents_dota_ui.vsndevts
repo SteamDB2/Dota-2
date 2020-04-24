@@ -1,0 +1,1841 @@
+{
+	focus_change = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/menu/shortwhoosh.vsnd",
+		]
+	}
+	activation = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/menu/shortwhoosh.vsnd",
+		]
+	}
+	activation_change_fail = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/menu/shortwhoosh.vsnd",
+		]
+	}
+	ui_rollover_lg = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 0.800000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_rollover_lg_01.vsnd",
+		]
+	}
+	ui_rollover_md_up = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_rollover_md_up_01.vsnd",
+		]
+	}
+	ui_rollover_md_down = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_rollover_md_down_01.vsnd",
+		]
+	}
+	ui_topmenu_select = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 0.850000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_weighty_topmenu_01.vsnd",
+		]
+	}
+	ui_topmenu_swt = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 0.600000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_topmenu_select_03.vsnd",
+		]
+	}
+	ui_generic_button_click = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.800000
+		block_time = 0.250000
+		block_name = "ui_generic_button_click"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_generic_button_click_01.vsnd",
+		]
+	}
+	ui_custom_lobby_dialog_slide = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.550000
+		block_time = 0.250000
+		block_name = "ui_custom_lobby_dialog_slide"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_custom_lobby_dialog_01.vsnd",
+		]
+	}
+	ui_custom_lobby_dialog = 
+	{
+		type = "dota_ui_start_multi"
+		soundevent_01 = "ui_custom_lobby_dialog_slide"
+		soundevent_02 = "ui_select_md"
+		use_01 = 1.000000
+		use_02 = 1.000000
+	}
+	ui_custom_lobby_dialog_cancel = 
+	{
+		type = "dota_ui_start_multi"
+		soundevent_01 = "ui_menu_fadeout"
+		soundevent_02 = "ui_select_md"
+		use_01 = 1.000000
+		use_02 = 1.000000
+	}
+	ui_custom_lobby_quit_slide = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.600000
+		block_time = 0.250000
+		block_name = "ui_custom_lobby_quit_slide"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_cancel_custom_lobby_01.vsnd",
+		]
+	}
+	ui_custom_lobby_quit = 
+	{
+		type = "dota_ui_start_multi"
+		soundevent_01 = "ui_custom_lobby_quit_slide"
+		soundevent_02 = "ui_select_md"
+		use_01 = 1.000000
+		use_02 = 1.000000
+	}
+	ui_custom_lobby_drawer_slide_in = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.600000
+		block_time = 0.250000
+		block_name = "ui_custom_lobby_drawer_slide_in"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_custom_lobby_drawer_slide_in_01.vsnd",
+		]
+	}
+	ui_custom_lobby_drawer_slide_out = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.600000
+		block_time = 0.250000
+		block_name = "ui_custom_lobby_drawer_slide_out"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_custom_lobby_drawer_slide_out_01.vsnd",
+		]
+	}
+	ui_rollover_sm = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_rollover_sm_01.vsnd",
+			"sounds/ui/panorama/panorama_rollover_sm_02.vsnd",
+			"sounds/ui/panorama/panorama_rollover_sm_01.vsnd",
+			"sounds/ui/panorama/panorama_rollover_sm_02.vsnd",
+		]
+	}
+	ui_select_md = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_select_md_01.vsnd",
+		]
+	}
+	ui_learn_select = 
+	{
+		type = "dota_ui_start_multi"
+		soundevent_01 = "ui_select_md"
+		soundevent_02 = "ui_select_blue"
+		use_01 = 1.000000
+		use_02 = 1.000000
+	}
+	ui_select_blue = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_misc_click_01.vsnd",
+		]
+	}
+	ui_select_arrow = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_misc_click_02.vsnd",
+		]
+	}
+	ui_rollover_logo = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 0.850000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_logo_rollover_01.vsnd",
+			"sounds/ui/panorama/panorama_logo_rollover_01.vsnd",
+			"sounds/ui/panorama/panorama_logo_rollover_01.vsnd",
+			"sounds/ui/panorama/panorama_logo_rollover_02.vsnd",
+		]
+	}
+	ui_rolloff_logo = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 0.800000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_logo_rolloff_01.vsnd",
+			"sounds/ui/panorama/panorama_logo_rolloff_01.vsnd",
+			"sounds/ui/panorama/panorama_logo_rolloff_01.vsnd",
+			"sounds/ui/panorama/panorama_logo_rolloff_02.vsnd",
+		]
+	}
+	ui_rollover_today = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 0.650000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_today_rollover_01.vsnd",
+		]
+	}
+	ui_rolloff_today = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 0.250000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_today_rolloff_01.vsnd",
+		]
+	}
+	ui_menu_activate_open = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_menu_activate_open_01.vsnd",
+		]
+	}
+	ui_menu_activate_close = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_menu_activate_close_01.vsnd",
+		]
+	}
+	ui_rollover_micro = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 1.000000
+		block_time = 0.700000
+		block_name = "ui_rollover_micro"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_rollover_micro_01.vsnd",
+		]
+	}
+	ui_topmenu_activate = 
+	{
+		type = "dota_ui_start_multi"
+		soundevent_01 = "ui_topmenu_select"
+		soundevent_02 = "ui_topmenu_swt"
+		use_01 = 1.000000
+		use_02 = 1.000000
+	}
+	ui_hero_select_slide = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.800000
+		block_time = 0.250000
+		block_name = "ui_hero_select_slide"
+		block_time2 = 0.750000
+		block_name2 = "ui_hero_select_slide_late"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_hero_select_slide_01.vsnd",
+		]
+	}
+	ui_hero_select_slide_late = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.750000
+		block_time = 0.100000
+		block_name = "ui_hero_select_slide_late"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_hero_slide_late_01.vsnd",
+		]
+	}
+	ui_hero_hat_select = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.600000
+		block_time = 0.150000
+		block_name = "ui_hero_hat_select"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_hero_hat_select.vsnd",
+		]
+	}
+	ui_hero_transition = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 1.000000
+		block_time = 1.000000
+		block_name = "ui_hero_transition"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_hero_transition_01.vsnd",
+			"sounds/ui/panorama/panorama_hero_transition_02.vsnd",
+			"sounds/ui/panorama/panorama_hero_transition_01.vsnd",
+			"sounds/ui/panorama/panorama_hero_transition_02.vsnd",
+			"sounds/ui/panorama/panorama_hero_transition_01.vsnd",
+			"sounds/ui/panorama/panorama_hero_transition_02.vsnd",
+		]
+	}
+	ui_settings_slide_in = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.600000
+		block_time = 0.500000
+		block_name = "ui_settings_slide_in"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_settings_slide_in_01.vsnd",
+		]
+	}
+	ui_settings_multi = 
+	{
+		type = "dota_ui_start_multi"
+		soundevent_01 = "ui_settings_slide_in"
+		soundevent_02 = "ui_select_md"
+		use_01 = 1.000000
+		use_02 = 1.000000
+	}
+	ui_settings_slide_out = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.600000
+		block_time = 0.500000
+		block_name = "ui_settings_slide_out"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_settings_slide_out_01.vsnd",
+		]
+	}
+	ui_settings_out_multi = 
+	{
+		type = "dota_ui_start_multi"
+		soundevent_01 = "ui_settings_slide_out"
+		soundevent_02 = "ui_select_md"
+		use_01 = 1.000000
+		use_02 = 1.000000
+	}
+	ui_friends_slide_in = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.300000
+		block_time = 0.500000
+		block_name = "ui_friends_slide_in"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_friends_slide_in_01.vsnd",
+			"sounds/ui/panorama/panorama_friends_slide_out_01.vsnd",
+			"sounds/ui/panorama/panorama_friends_slide_in_01.vsnd",
+			"sounds/ui/panorama/panorama_friends_slide_out_01.vsnd",
+			"sounds/ui/panorama/panorama_friends_slide_in_01.vsnd",
+			"sounds/ui/panorama/panorama_friends_slide_out_01.vsnd",
+		]
+	}
+	ui_find_match_slide_in = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.700000
+		block_time = 0.750000
+		block_name = "ui_find_match_slide_in"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_find_match_slide_in_01.vsnd",
+		]
+	}
+	ui_find_match_slide_out = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.700000
+		block_time = 0.750000
+		block_name = "ui_find_match_slide_out"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_find_match_slide_out_01.vsnd",
+		]
+	}
+	ui_player_beacon_appear = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.500000
+		block_time = 1.000000
+		block_name = "panorama_player_radar_appear_01"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_player_radar_appear_01.vsnd",
+		]
+	}
+	ui_find_match_change_options = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.700000
+		block_time = 0.500000
+		block_name = "ui_find_match_change_options"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_find_match_change_options_01.vsnd",
+		]
+	}
+	ui_find_match_find = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.600000
+		block_time = 0.500000
+		block_name = "ui_find_match_find"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_find_match_find_01.vsnd",
+		]
+	}
+	ui_find_match_cancel = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.600000
+		block_time = 0.500000
+		block_name = "ui_find_match_cancel"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_find_match_cancel_01.vsnd",
+		]
+	}
+	ui.matchmaking_find = 
+	{
+		type = "dota_ui_start_multi"
+		soundevent_01 = "ui_find_match_find"
+		soundevent_02 = "ui_select_md"
+		use_01 = 1.000000
+		use_02 = 1.000000
+	}
+	ui.matchmaking_cancel = 
+	{
+		type = "dota_ui_start_multi"
+		soundevent_01 = "ui_find_match_cancel"
+		soundevent_02 = "ui_select_md"
+		use_01 = 1.000000
+		use_02 = 1.000000
+	}
+	ui_goto_player_page = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.650000
+		block_time = 0.750000
+		block_name = "ui_goto_player_page"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_goto_player_page_01.vsnd",
+		]
+	}
+	ui_chat_slide_in = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.300000
+		block_time = 0.250000
+		block_name = "ui_chat_slide_in"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_chat_slide_in_01.vsnd",
+		]
+	}
+	ui_chat_slide_out = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.300000
+		block_time = 0.250000
+		block_name = "ui_chat_slide_out"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_chat_slide_out_01.vsnd",
+		]
+	}
+	ui_chat_msg_send = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.400000
+		block_time = 0.750000
+		block_name = "ui_chat_msg_send"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_chat_message_send_01.vsnd",
+		]
+	}
+	ui_chat_msg_rec = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.500000
+		block_time = 0.750000
+		block_name = "ui_chat_msg_rec"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_chat_message_rec_01.vsnd",
+		]
+	}
+	ui_quit_button_click = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.500000
+		block_time = 0.700000
+		block_name = "ui_quit_button_click"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_quit_doto_click_01.vsnd",
+		]
+	}
+	ui_menu_fadeout = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.500000
+		block_time = 0.700000
+		block_name = "ui_menu_fadeout"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_quit_popup_fadeout_01.vsnd",
+		]
+	}
+	ui_quit_menu_fadeout = 
+	{
+		type = "dota_ui_start_multi"
+		soundevent_01 = "ui_menu_fadeout"
+		soundevent_02 = "ui_select_md"
+		use_01 = 1.000000
+		use_02 = 1.000000
+	}
+	ui.menu_quit = 
+	{
+		type = "dota_ui_start_multi"
+		soundevent_01 = "ui_quit_button_click"
+		use_01 = 1.000000
+	}
+	ui_team_select_pick_team = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.800000
+		block_time = 0.250000
+		block_name = "ui_team_select_pick_team"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_generic_button_click_01.vsnd",
+		]
+	}
+	ui_team_select_pick_team_failed = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.500000
+		block_time = 0.700000
+		block_name = "ui_team_select_pick_team_failed"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_quit_doto_click_01.vsnd",
+		]
+	}
+	ui_team_select_auto_assign = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.600000
+		block_time = 0.250000
+		block_name = "ui_team_select_auto_assign"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_custom_lobby_drawer_slide_in_01.vsnd",
+		]
+	}
+	ui_team_select_shuffle = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.600000
+		block_time = 0.250000
+		block_name = "ui_team_select_shuffle"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_custom_lobby_drawer_slide_out_01.vsnd",
+		]
+	}
+	ui_team_select_lock_and_start = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.550000
+		block_time = 0.250000
+		block_name = "ui_team_select_lock_and_start"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_custom_lobby_dialog_01.vsnd",
+		]
+	}
+	ui_team_select_cancel_and_lock = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.600000
+		block_time = 0.250000
+		block_name = "ui_team_select_cancel_and_lock"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_cancel_custom_lobby_01.vsnd",
+		]
+	}
+	ui_match_accept_click = 
+	{
+		type = "dota_ui_start_multi"
+		soundevent_01 = "ui_select_md"
+		soundevent_02 = "ui.menu_quit"
+		use_01 = 1.000000
+		use_02 = 1.000000
+	}
+	ui_match_decline_click = 
+	{
+		type = "dota_ui_start_multi"
+		soundevent_01 = "ui_select_md"
+		soundevent_02 = "ui.menu_quit"
+		use_01 = 1.000000
+		use_02 = 1.000000
+	}
+	ui_learn_mode_popup = 
+	{
+		type = "dota_ui_limit_time"
+		pitch = 1.000000
+		volume = 0.600000
+		block_time = 0.250000
+		block_name = "ui_learn_mode_popup"
+		vsnd_files = 
+		[
+			"sounds/ui/panorama/panorama_cancel_custom_lobby_01.vsnd",
+		]
+	}
+	ui.comp_coins_tick = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/comp_coin.vsnd",
+		]
+	}
+	General.CompendiumLevelUpMinor = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/comp_lvl_up_minor.vsnd",
+		]
+	}
+	General.CompendiumLevelUp = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/comp_lvl_up.vsnd",
+		]
+	}
+	arc_warden_debut_takeover_vo = 
+	{
+		type = "dota_update_vo_switch"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/vo/arc_warden/arcwar_battlebegins_03.vsnd",
+		]
+	}
+	arc_warden_debut_takeover_sfx = 
+	{
+		type = "dota_update_default"
+		volume = 0.700000
+		mixgroup = "Weapons"
+		volume_fade_out = 0.100000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/arc_warden/flux_target.vsnd",
+		]
+	}
+	arc_warden_debut_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.599609
+		pitch = 1.000000
+		event_type = 3.000000
+		vsnd_files = 
+		[
+			"sounds/music/stingers/dota2_music_stinger_004.vsnd",
+		]
+	}
+	underlord_debut_takeover_vo = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/vo/abyssal_underlord/abys_kill_04.vsnd",
+		]
+	}
+	underlord_debut_takeover_sfx = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		mixgroup = "Stingers"
+		volume_fade_out = 0.100000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/underlord/reveal.vsnd",
+		]
+	}
+	underlord_debut_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.700000
+		pitch = 1.000000
+		event_type = 3.000000
+		vsnd_files = 
+		[
+			"sounds/music/stingers/reveal_stinger01.vsnd",
+		]
+	}
+	monkeyking_debut_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.800000
+		pitch = 1.000000
+		event_type = 3.000000
+		vsnd_files = 
+		[
+			"sounds/music/stingers/mk_takeover_stinger.vsnd",
+		]
+	}
+	jug_arcana_debut_takeover_vo = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/vo/juggernaut/jugsc_arc_taunt_04.vsnd",
+		]
+	}
+	jug_arcana_debut_takeover_sfx = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		mixgroup = "Weapons"
+		volume_fade_out = 0.100000
+		vsnd_files = 
+		[
+			"sounds/ambient/jug_arc_takeover.vsnd",
+		]
+	}
+	jug_arcana_debut_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		mixgroup = "Stingers"
+		event_type = 3.000000
+		vsnd_files = 
+		[
+			"sounds/music/stingers/jug_arc_takeover.vsnd",
+		]
+	}
+	dueling_fates_main_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/dueling_fates_takeover.vsnd",
+		]
+	}
+	dueling_fates_armadillo_sfx = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		mixgroup = "Ambient"
+		volume_fade_out = 0.100000
+		vsnd_files = 
+		[
+			"sounds/ambient/dueling_fates_sfx_2.vsnd",
+		]
+	}
+	dueling_fates_fairy_sfx = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		mixgroup = "Ambient"
+		event_type = 3.000000
+		volume_fade_out = 0.100000
+		vsnd_files = 
+		[
+			"sounds/ambient/dueling_fates_sfx_1.vsnd",
+		]
+	}
+	dueling_fates_armadillo_vo = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/vo/pangolin/pangolin_spawn_01.vsnd",
+		]
+	}
+	dueling_fates_fairy_vo = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.500000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/vo/dark_willow/sylph_spawn_06.vsnd",
+		]
+	}
+	pudge_arcana_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.600000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/pudge_takeover_sfx_stinger.vsnd",
+		]
+	}
+	grimstroke_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/enc/grimstroke_takeover.vsnd",
+		]
+	}
+	grimstroke_takeover_vo = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		mixgroup = "Weapons"
+		vsnd_files = 
+		[
+			"sounds/vo/grimstroke/grimstroke_spawn_11.vsnd",
+		]
+	}
+	rubick_arc_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.800000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/enc/rubick_arc_takeover.vsnd",
+		]
+	}
+	rubick_arc_takeover_vo = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/vo/rubick/rub_arc_move_21.vsnd",
+		]
+	}
+	mars_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.800000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/enc/mars_takeover.vsnd",
+		]
+	}
+	mars_takeover_sfx1 = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.800000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/enc/mars_takeover_sfx.vsnd",
+		]
+	}
+	mars_takeover_sfx2 = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.500000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/mars/shield_bash.vsnd",
+		]
+	}
+	mars_takeover_vo = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/vo/mars/mars_hero_intro_04.vsnd",
+		]
+	}
+	earthshaker_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/earthshaker/enc/arcana_takeover_stinger.vsnd",
+		]
+	}
+	earthshaker_takeover_sfx = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/earthshaker/enc/echo_slam_arcana.vsnd",
+		]
+	}
+	earthshaker_takeover_vo = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.600000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/vo/earthshaker/earth_arcana_respawn_09.vsnd",
+		]
+	}
+	kidvoker_takeover_start_vo = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.500000
+		mixgroup = "Stingers"
+		delay = 0.000000
+		volume_fade_in = 0.300000
+		vsnd_files = 
+		[
+			"sounds/vo/invoker/kidvo_la_intro_02.vsnd",
+		]
+	}
+	kidvoker_takeover_vo = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.700000
+		mixgroup = "Stingers"
+		delay = 0.000000
+		vsnd_files = 
+		[
+			"sounds/vo/invoker/kidvo_la_intro_04.vsnd",
+		]
+	}
+	kidvoker_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.800000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		delay = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/enc/invoker_kid_takeover_stinger.vsnd",
+		]
+	}
+	kidvoker_takeover_sfx = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		delay = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/enc/invoker_kid_takeover_sfx.vsnd",
+		]
+	}
+	ui.death_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		event_type = 3.000000
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/death_default.vsnd",
+		]
+	}
+	ui.match_discarded_message = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		volume = 0.500000
+		vsnd_files = 
+		[
+			"sounds/ui/menu/replay_dn_start.vsnd",
+		]
+	}
+	ui.weekend_tourney_ready_up = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		event_type = 3.000000
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/triumphant_bong.vsnd",
+		]
+	}
+	ui.weekend_tournament_team_icon_stamp = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		volume = 0.600000
+		vsnd_files = 
+		[
+			"sounds/ui/menu/filter_open.vsnd",
+		]
+	}
+	ui.weekend_tournament_winner_screen = 
+	{
+		type = "dota_src1_2d"
+		pitch = 1.000000
+		volume = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/tourney_trophy.vsnd",
+		]
+	}
+	dota_vr.teleport_go = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.500000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		vsnd_files = 
+		[
+			"sounds/ui/vr/teleport_go_01.vsnd",
+		]
+	}
+	dota_vr.teleport_ray_start = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.500000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		vsnd_files = 
+		[
+			"sounds/ui/vr/teleport_ray_start_01.vsnd",
+		]
+	}
+	dota_vr.teleport_ray_loop = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.500000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		vsnd_files = 
+		[
+			"sounds/ui/vr/teleport_ray_loop_01.vsnd",
+		]
+	}
+	dota_vr.teleport_latch = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.500000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		vsnd_files = 
+		[
+			"sounds/ui/vr/teleport_ray_good_area_01.vsnd",
+		]
+	}
+	dota_vr.teleport_ray_reject = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.500000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		vsnd_files = 
+		[
+			"sounds/ui/vr/teleport_ray_bad_area_01.vsnd",
+		]
+	}
+	dota_vr.map_portal = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.250000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		vsnd_files = 
+		[
+			"sounds/ui/portal_disappear.vsnd",
+		]
+	}
+	dota_vr.stinger.lobby_arrival = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.500000
+		vsnd_files = 
+		[
+			"sounds/music/valve_dota_001/stingers/respawn.vsnd",
+		]
+	}
+	scan_minimap.activate = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.900000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/scan.vsnd",
+		]
+	}
+	minimap_radar.cycle = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/scan_cycle.vsnd",
+		]
+	}
+	minimap_radar.target = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		mixgroup = "Ping"
+		vsnd_files = 
+		[
+			"sounds/ui/scan_enemy.vsnd",
+		]
+	}
+	notification.teammate.death = 
+	{
+		type = "dota_src1_2d"
+		pitch = 1.000000
+		volume = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/notification_team_death.vsnd",
+		]
+	}
+	notification.teammate.kill = 
+	{
+		type = "dota_src1_2d"
+		pitch = 1.000000
+		volume = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/notification_team_kill.vsnd",
+		]
+	}
+	notification.self.death = 
+	{
+		type = "dota_src1_2d"
+		pitch = 1.000000
+		volume = 0.000000
+		vsnd_files = 
+		[
+			"sounds/null.vsnd",
+		]
+	}
+	notification.self.kill = 
+	{
+		type = "dota_src1_2d"
+		pitch = 1.000000
+		volume = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/null.vsnd",
+		]
+	}
+	versus_screen.top = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.700000
+		pitch = 1.000000
+		event_type = 3.000000
+		vsnd_files = 
+		[
+			"sounds/music/stingers/versus_top.vsnd",
+		]
+	}
+	versus_screen.end_swipe = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		event_type = 3.000000
+		vsnd_files = 
+		[
+			"sounds/music/stingers/versus_end_swipe.vsnd",
+		]
+	}
+	versus_screen.towers_callout = 
+	{
+		type = "dota_src1_2d"
+		pitch = 0.800000
+		volume = 0.800000
+		vsnd_files = 
+		[
+			"sounds/ui/tower_callout.vsnd",
+		]
+	}
+	versus_screen.towers_nopass = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.200000
+		pitch = 1.200000
+		limiter_on = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/deny_mana.vsnd",
+		]
+	}
+	oh.hello.io = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		mixgroup = "UI"
+		vsnd_files = 
+		[
+			"sounds/vo/wisp/move01.vsnd",
+			"sounds/vo/wisp/move02.vsnd",
+			"sounds/vo/wisp/move03.vsnd",
+			"sounds/vo/wisp/move04.vsnd",
+		]
+	}
+	UI.SharkShip = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		mixgroup = "Ultimates"
+		volume_fade_in = 1.000000
+		volume_fade_out = 2.000000
+		spread_radius = 900.000000
+		use_entity_position = 0.000000
+		volume_use_FOW = 1.000000
+		volume_FOW_radius = 300.000000
+		volume_FOW_filter_vel = 0.600000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/kunkka/shark_ship.vsnd",
+		]
+	}
+	UI.RankUpFanfare = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.700000
+		pitch = 1.000000
+		limiter_on = 0.000000
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/arcana_loot.vsnd",
+		]
+	}
+	ui.ready_check.popup = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/ui/ready_check_popup.vsnd",
+		]
+	}
+	ui.ready_check.yes = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/ready_check_yes.vsnd",
+		]
+	}
+	ui.ready_check.no = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/ready_check_fail.vsnd",
+		]
+	}
+	Relic.Highlight = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/select_unit.vsnd",
+		]
+	}
+	Relic.Duplicate = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/ui_click_simple_01.vsnd",
+		]
+	}
+	Relic.Received = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/ui_message_popup_fast_01.vsnd",
+		]
+	}
+	Shards.Count = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.600000
+		pitch = 1.000000
+		limiter_on = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/shard_count.vsnd",
+		]
+	}
+	Shards.Stop = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.300000
+		pitch = 1.000000
+		limiter_on = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/shard_count_stop.vsnd",
+		]
+	}
+	Shards.Stop.Increase = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.500000
+		pitch = 1.200000
+		limiter_on = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/coins.vsnd",
+		]
+	}
+	HeroBadgeProgressRow.ShowRow = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.300000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/ui_button_mouseover_01.vsnd",
+		]
+	}
+	HeroBadgeLevelUpReward.ShowReward = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.400000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/ui_teammate_bought_bling.vsnd",
+		]
+	}
+	SingleRelic.Show = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.400000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/ui_findmatch_found_01.vsnd",
+		]
+	}
+	SingleRelicProgress = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.400000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/ui_button_click_01.vsnd",
+		]
+	}
+	HeroBadge.Levelup = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.500000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/stinger_loot_07.vsnd",
+		]
+	}
+	XP.Count = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		limiter_on = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/xp_count.vsnd",
+		]
+	}
+	PlusPopup.welcome = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.900000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/stinger_loot_06.vsnd",
+		]
+	}
+	PlusPopup.expired = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.500000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/music/stingers/stinger02.vsnd",
+		]
+	}
+	Plus.shards_tick = 
+	{
+		type = "dota_limit_speakers_ui"
+		volume = 0.250000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/shard_tick.vsnd",
+		]
+	}
+	Plus.shards_tally = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.800000
+		pitch = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/shards_tally.vsnd",
+		]
+	}
+	ui_explosion = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		mixgroup = "NoDuck"
+		spread_radius = 1200.000000
+		distance_max = 15000.000000
+		soundevent_layer2 = "Hero_Techies.Debris"
+		soundevent_layer2_on = 1.000000
+		soundevent_layer3 = "QuickDuck.HalfSecond"
+		soundevent_layer3_on = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/techies/suicide.vsnd",
+		]
+	}
+	ui_flare_fire = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 450.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/rattletrap/flare_fire.vsnd",
+		]
+	}
+	ui_flare_explode = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		pitch = 1.000000
+		soundlevel = 84.000000
+		mixgroup = "Weapons"
+		spread_radius = 1500.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/rattletrap/flare_explode.vsnd",
+		]
+	}
+	ui_swap = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		mixgroup = "Ultimates"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/vengeful_spirit/nether_swap.vsnd",
+		]
+	}
+	ui_wounded_start = 
+	{
+		type = "dota_update_default"
+		volume = 0.699707
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		pitch = 1.000000
+		soundlevel = 81.000000
+		mixgroup = "Weapons"
+		spread_radius = 300.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ursa/ursa_overpower.vsnd",
+		]
+	}
+	ui_wounded_attack = 
+	{
+		type = "dota_update_default"
+		volume = 1.000000
+		pitch_rand_min = -0.050000
+		pitch_rand_max = 0.050000
+		pitch = 1.000000
+		soundlevel = 78.000000
+		mixgroup = "BaseAttacks"
+		spread_radius = 150.000000
+		distance_max = 2500.000000
+		soundevent_layer2 = "Hero_Ursa.Attack.Post"
+		soundevent_layer2_on = 1.000000
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/ursa/ursa_attack_01.vsnd",
+			"sounds/weapons/hero/ursa/ursa_attack_02.vsnd",
+			"sounds/weapons/hero/ursa/ursa_attack_03.vsnd",
+		]
+	}
+	ui_treasure_map = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		event_type = 0.000000
+		memory_type = 0.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds\ui\spin_music_end.vsnd",
+		]
+	}
+	versus_screen.whoosh = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		event_type = 3.000000
+		vsnd_files = 
+		[
+			"sounds/music/stingers/versus_end_swipe.vsnd",
+		]
+	}
+	versus_screen.radiant = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.750000
+		pitch = 1.000000
+		event_type = 3.000000
+		vsnd_files = 
+		[
+			"sounds/music/stingers/stinger03.vsnd",
+		]
+	}
+	versus_screen.dire = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.750000
+		pitch = 1.000000
+		event_type = 3.000000
+		vsnd_files = 
+		[
+			"sounds/music/stingers/stinger06.vsnd",
+		]
+	}
+	contest_upvote = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 0.500000
+		vsnd_files = 
+		[
+			"sounds/ui/inventory/inv_ticket.vsnd",
+		]
+	}
+	contest_downvote = 
+	{
+		type = "dota_limit_speakers_ui"
+		pitch = 1.000000
+		memory_type = 0.000000
+		volume = 1.000000
+		vsnd_files = 
+		[
+			"sounds/ui/inventory/inv_delete.vsnd",
+		]
+	}
+	outlanders_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"/ui/stingers/enc/outlanders_takeover.vsnd",
+		]
+	}
+	void_spirit_takeover_vo = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/vo/void_spirit/voidspir_spawn_11_03.wav",
+		]
+	}
+	void_spirit_debut_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/enc/void_spirit_takeover.vsnd",
+		]
+	}
+	void_spirit_takeover_sfx = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/enc/void_spirit_takeover_sfx.vsnd",
+		]
+	}
+	snapfire_takeover_vo = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/vo/snapfire/snapfire_spawn_26.wav",
+		]
+	}
+	snapfire_takeover_vo_end = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.660000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/vo/snapfire/snapfire_spawn_02.wav",
+		]
+	}
+	snapfire_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/enc/snapfire_takeover.vsnd",
+		]
+	}
+	snapfire_takeover_sfx = 
+	{
+		type = "dota_src1_2d"
+		volume = 0.750000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/weapons/hero/snapfire/shotgun_fire.vsnd",
+		]
+	}
+	om_arcana_takeover_stinger = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		pitch = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/ui/stingers/enc/om_arcana_takeover.vsnd",
+		]
+	}
+	om_arcana_takeover_vo = 
+	{
+		type = "dota_src1_2d"
+		volume = 1.000000
+		mixgroup = "Stingers"
+		vsnd_files = 
+		[
+			"sounds/vo/ogre_magi/ogm_arc_spawn_09_02.wav",
+		]
+	}
+}

@@ -1,0 +1,685 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/post_game_progress.vcss_c" />
+	</styles>
+
+	<scripts>
+		<include src="s2r://panorama/scripts/util.vjs_c" />
+		<include src="s2r://panorama/scripts/sequence_actions.vjs_c" />
+		<include src="s2r://panorama/scripts/post_game_progress.vjs_c" />
+	</scripts>
+
+	<snippets>
+
+		<!-- MVP Voting Progress -->
+
+		<snippet name="MVPVotingProgress">
+			<Panel class="ProgressScreen" >
+				<DOTAPostGameMVPVote id="PostGameMVPVote" />
+			</Panel>
+		</snippet>
+		
+		<!-- Hero Badge Progress Screen -->
+
+		<snippet name="HeroBadgeProgress">
+			<Panel class="ProgressScreen" onactivate="StartSkippingAhead()">
+
+				<Panel class="PlusBackground" />
+
+				<Panel id="HeroBadgeProgressMain">
+					<DOTAScenePanel id="HeroBadgeHeroModel" particleonly="false" antialias="true" />
+
+					<Panel id="HeroBadgeProgressCenter">
+						<Panel class="HeroProgressTitle">
+							<Panel class="HeroProgressPlusIcon" />
+							<Label text="#DOTA_PlusPostGame_HeroProgress" />
+						</Panel>
+
+						<Panel id="HeroBadgeLevelProgressSection">
+							<Label class="HeroBadgeProgressLevelProgressTitle" text="#DOTA_PlusPostGame_LevelProgress" />
+							<Label class="HeroBadgeLevelProgressXP" text="#DOTA_Plus_XPProgress" />
+						</Panel>
+
+						<Panel id="HeroBadgeLevelProgressContainer">
+							<ProgressBar id="HeroBadgeLevelProgress" min="0" max="1000" />
+						</Panel>
+
+						<Label class="HeroBadgeProgressCurrentLevel" text="#DOTA_PlusPostGame_CurrentLevel" />
+
+						<Panel id="HeroBadgeProgressCore">
+							<Panel id="HeroBadgeProgressXPGrid">
+								<Panel id="HeroBadgeProgressRows">
+
+								</Panel>
+								<Panel id="TotalsRow" class="HeroBadgeProgressRow">
+									<Label class="HeroBadgeProgressRowType" text="#DOTA_PlusPostGame_Total" />
+									<Label class="HeroBadgeProgressRowValue" text="#DOTA_PlusPostGame_XPValue" />
+								</Panel>
+							</Panel>
+						</Panel>
+					</Panel>
+
+					<Panel id="HeroRelicsProgressCenter">
+						<Panel class="HeroProgressTitle">
+							<Panel class="HeroProgressPlusIcon" />
+							<Label text="#DOTA_PlusPostGame_RelicsProgress" />
+						</Panel>
+						<Panel id="HeroRelicsProgressList">
+						</Panel>
+					</Panel>
+
+					<DOTAHeroBadge id="HeroBadgeProgressHeroBadge" badgestyle="icon" />
+				</Panel>
+				<Panel id="HeroBadgeLevelUpPanel" >
+					<DOTAScenePanel id="LevelUpRankScene" map="scenes/hero_level_icon" camera="shot_camera" renderdeferred="true" deferredalpha="true" antialias="true" hittest="false" particleonly="false" />
+					<Label id="LevelUpTitle" text="#DOTA_PlusPostGame_LevelUp" />
+					<Label id="LevelUpValue" text="#DOTA_PlusPostGame_CurrentLevel" />
+
+					<Panel id="HeroBadgeProgressRewards">
+						<Panel id="HeroBadgeProgressRewardsList" />
+						<TextButton id="RewardsFinishedButton" class="PopupButton" text="#DOTA_Continue" />
+					</Panel>
+				</Panel>
+			</Panel>
+		</snippet>
+
+		<snippet name="HeroBadgeProgressRow">
+			<Panel class="HeroBadgeProgressRow">
+				<Label class="HeroBadgeProgressRowType" text="{s:xp_type}" />
+				<Label class="HeroBadgeProgressRowValue" text="#DOTA_PlusPostGame_XPValue" />
+			</Panel>
+		</snippet>
+
+		<snippet name="HeroBadgeProgressRow_Challenge">
+			<Panel class="HeroBadgeProgressRow HeroBadgeProgressRow_Challenge">
+				<Panel class="HeroBadgeProgressRowChallengeDetails">
+					<Label class="HeroBadgeProgressRowType" text="{s:xp_type}" />
+					<Panel class="HeroBadgeProgressRowChallengeDetailsBottom">
+						<Panel class="HeroBadgeProgressRowChallengeStars">
+							<Panel class="HeroBadgeProgressRowChallengeStar Star1" />
+							<Panel class="HeroBadgeProgressRowChallengeStar Star2" />
+							<Panel class="HeroBadgeProgressRowChallengeStar Star3" />
+						</Panel>
+						<Label class="HeroBadgeProgressRowChallengeName" text="{s:challenge_name}" html="true" />
+					</Panel>
+				</Panel>
+				<Label class="HeroBadgeProgressRowValue" text="#DOTA_PlusPostGame_XPValue" />
+			</Panel>
+		</snippet>
+
+		<snippet name="HeroBadgeProgressRow_ShardReward">
+			<Panel class="HeroBadgeProgressRow ShardReward">
+				<Label class="HeroBadgeProgressRowType" text="{s:reward_type}" />
+				<Label class="HeroBadgeProgressRowValue" text="#DOTA_PlusPostGame_ShardValue" />
+				<Panel class="DotaPlusCurrencyIcon" />
+			</Panel>
+		</snippet>
+
+		<snippet name="HeroBadgeLevelUpRewardTier">
+			<Panel class="HeroBadgeLevelUpRewardTier HeroBadgeLevelUpReward">
+				<Panel class="HeroBadgeLevelUpRewardImage PlusHeroBadgeIcon" />
+				<Label class="HeroBadgeLevelUpRewardValue" text="#DOTA_PlusRewards_TierName" />
+				<Panel class="HeroBadgeLevelUpRewardLine" />
+				<Label class="HeroBadgeLevelUpRewardTitle" text="#DOTA_PlusRewards_HeroBadge" />
+			</Panel>
+		</snippet>
+
+		<snippet name="HeroBadgeLevelUpRewardChatWheel">
+			<Panel class="HeroBadgeLevelUpRewardChatWheel HeroBadgeLevelUpReward">
+				<Panel id="Icon" class="HeroBadgeLevelUpRewardImage DotaPlusChatWheelIcon" acceptsfocus="true" />
+				<Label class="HeroBadgeLevelUpRewardValue" text="&quot;{s:all_chat_prefix}{s:chat_wheel_message}&quot;" />
+				<Panel class="HeroBadgeLevelUpRewardLine" />
+				<Label class="HeroBadgeLevelUpRewardTitle" text="#DOTA_PlusRewards_HeroChatWheel" />
+			</Panel>
+		</snippet>
+
+		<snippet name="HeroBadgeLevelUpRewardCurrency">
+			<Panel class="HeroBadgeLevelUpRewardCurrency HeroBadgeLevelUpReward">
+				<Panel class="HeroBadgeLevelUpRewardImage DotaPlusCurrencyIcon" />
+				<Label class="HeroBadgeLevelUpRewardValue" text="{d:currency_amount}" />
+				<Panel class="HeroBadgeLevelUpRewardLine" />
+				<Label class="HeroBadgeLevelUpRewardTitle" text="#DOTA_Plus_Currency" />
+			</Panel>
+		</snippet>
+
+		<snippet name="SingleRelicProgress">
+			<Panel class="SingleRelicProgress">
+				<Panel class="SingleRelicImageContainer">
+					<DOTAHeroRelicImage id="SingleRelicImage" />
+				</Panel>
+				<Panel class="SingleRelicProgressDetails">
+					<Panel class="SingleRelicProgressValues">
+						<Label class="SingleRelicCurrentProgress" text="{d:current_progress}" />
+						<Label class="SingleRelicIncrementAmount" text="+{d:increment}" />
+					</Panel>
+
+					<Panel class="SingleRelicProgressLine" />
+					<Label class="SingleRelicName" text="{g:dota_gem_name:relic_type}" />
+				</Panel>
+			</Panel>
+		</snippet>
+
+		<snippet name="BattlePassTip">
+			<Panel class="BattlePassTip">
+				<DOTAAvatarImage id="Avatar" />
+				<Panel class="TipCountContainer">
+					<Panel class="TipToken First" />
+					<Panel class="TipToken Second" />
+					<Panel class="TipToken Third" />
+				</Panel>
+			</Panel>
+		</snippet>
+		
+		<snippet name="BattlePassAction">
+			<Panel class="BattlePassAction">
+				<Image id="ConsumableImage" />	
+				<Panel class="ActionDescription">
+					<Label class="ActionCount" text="{d:action_quantity}x" />
+					<Label class="ActionPoints" text="{d:action_points}" />	
+				</Panel>
+			</Panel>
+		</snippet>
+		
+		<snippet name="BattlePassXPCircle">
+			<Panel class="BattlePassXPCircle">
+				<Panel class="XPGlow" />
+				<Panel class="XPCircle">
+					<Label id="PTS"/>
+					<Label class="PointsLabel" text="{d:xp_circle_points}"/>
+				</Panel>
+			</Panel>
+		</snippet>
+
+		<!-- BattlePoints Progress Screen -->
+
+		<snippet name="BattlePassProgress" >
+			<Panel class="ProgressScreen" onactivate="StartSkippingAhead()" >
+
+				<Panel class="BattlePassBackground">
+					<Panel class="BattlePassBackgroundImage" />					
+				</Panel>
+
+				<Panel id="BattlePassProgressMain" hittest="false">
+
+					<DOTAEventLevelShield id="BattlePassLevelShield" />
+
+					<Panel id="BattlePassProgressCenter">
+						<Panel class="BattlePassProgressTitle">
+							<Panel class="BattlePassLogo" />
+							<Panel class="BattlePassProgressTitleGlowContainer">
+								<Label class="BattlePassProgressTitleText Glow" text="#DOTA_BattlePassPostGame_Progress" />
+								<Label class="BattlePassProgressTitleText" text="#DOTA_BattlePassPostGame_Progress" />
+							</Panel>
+						</Panel>
+
+						<Panel id="BattleLevelProgressContainer">
+							<Panel class="BattleShieldSpacer" />
+							<Panel class="ProgressBarContainer" >
+								<ProgressBarWithMiddle id="BattleLevelProgress" min="0" max="1000" />
+								<Panel id="BattleLevelProgressSection">
+									<Label class="BattlePassProgressLevelProgressTitle" text="#DOTA_BattlePassPostGame_LevelProgress" />
+									<Label class="BattlePassLevelProgressBP" text="#DOTA_BattlePass_BPProgress" />
+								</Panel>
+							</Panel>
+							<Panel class="BattlePassPointsTotalContainer">
+								<Label class="BattlePassPointsTotalTitle" text="#DOTA_BattlePassPostGame_Total" />
+								<Panel class="BattlePassPointsTotalGlowContainer">
+									<Label class="BattlePassPointsTotal Glow" text="+{d:total_points_gained}" />
+									<Label class="BattlePassPointsTotal" text="+{d:total_points_gained}" />
+								</Panel>
+							</Panel>
+						</Panel>
+					</Panel>
+					
+					<Panel id="BattlePassProgressCore">
+
+						<Panel id="BattlePassEventGameProgress" class="BattlePassProgressTypeContainer">
+							<Label class="ProgressTypeTitle" text="#DOTA_BattlePassPostGame_EventGameProgress_2019" />
+							<Panel class="BattlePassProgressTypeDetails">
+								<Panel class="EventGame_Margin">
+									<Panel class="EventGame_Win">
+										<Label class="EventGame_Label_Title" text="#DOTA_BattlePassPostGame_EventGame_Win" />
+										<Label class="EventGame_Label_Progress" text="#DOTA_BattlePassPostGame_EventGame_WinPoints" />
+									</Panel>
+									<Panel class="EventGame_WinBonus">
+										<Label class="EventGame_Label_Title" text="#DOTA_BattlePassPostGame_EventGame_WinBonus" />
+										<Label class="EventGame_Label_Progress" text="#DOTA_BattlePassPostGame_EventGame_WinBonusPoints" />
+									</Panel>
+									<Panel class="EventGame_Loss">
+										<Label class="EventGame_Label_Title" text="#DOTA_BattlePassPostGame_EventGame_Loss" />
+										<Label class="EventGame_Label_Progress" text="#DOTA_BattlePassPostGame_EventGame_LossPoints" />
+									</Panel>
+									<Panel class="EventGame_Treasure">
+										<Label class="EventGame_Label_Title" text="#DOTA_BattlePassPostGame_EventGame_Treasure" />
+										<Label class="EventGame_Label_Progress" text="#DOTA_BattlePassPostGame_EventGame_TreasurePoints" />
+									</Panel>
+								</Panel>
+								<Panel class="EventGame_Progress">
+									<Label text="#DOTA_BattlePassPostGame_EventGame_WeeklyCap" class="EventGame_Progress_Cap" />
+									<ProgressBarWithMiddle id="EventGameWeeklyProgress" class="EventGame_Progress_Bar" />
+									<Label text="#DOTA_BattlePassPostGame_EventGame_WeeklyProgress" class="WeeklyChallengeProgressLabel" />
+								</Panel>
+							</Panel>
+							<Panel id="XPCircleContainer" />
+						</Panel>
+
+						<Panel id="BattlePassCavernCrawlProgress" class="BattlePassProgressTypeContainer">
+							<Panel class="CavernCrawlTitleContainer">
+								<Panel class="CavernCrawlLogo" />
+								<Label class="ProgressTypeTitle" text="#DOTA_BattlePassPostGame_CavernCrawlProgress" />
+							</Panel>
+							<Panel class="BattlePassProgressTypeDetails">
+								<Panel class="CavernCrawlMap">
+									<Panel class="MapImage" />
+									<DOTAHeroMovie id="CavernCrawlHero" class="BattlePassProgressHeroMovie" scaling="none" />
+								</Panel>
+								<Panel class="ProgressCompletedContainer">
+									<Label class="ProgressCompleted Glow" text="#DOTA_BattlePassPostGame_Complete" />
+									<Label class="ProgressCompleted" text="#DOTA_BattlePassPostGame_Complete" />
+								</Panel>
+							</Panel>
+							<Panel id="XPCircleContainer" />
+						</Panel>
+
+						<Panel id="BattlePassWagerProgress" class="BattlePassProgressTypeContainer" >
+							<Label class="ProgressTypeTitle" text="#DOTA_BattlePassPostGame_WagerProgress" />
+							<Panel class="BattlePassProgressTypeDetails">
+								<Panel class="WagerContainer Wager" >
+									<Panel>
+										<Panel class="WagerToken"/>
+										<Label class="TeamWagerTokenLabel" text="{i:wager_amount}"/>
+									</Panel>
+									<Label class="TeamWagerTokenCount" text="x {i:wager_conversion_ratio}"/>
+								</Panel>
+								<Panel class="WagerContainer TeamWager250" >
+									<Panel>
+										<Panel class="TeamWagerToken"/>
+										<Label class="TeamWagerTokenLabel" text="250"/>
+									</Panel>
+									<Label class="TeamWagerTokenCount" text="x {i:wager_count_250}"/>
+								</Panel>
+								<Panel class="WagerContainer TeamWager500" >
+									<Panel>
+										<Panel class="TeamWagerToken"/>
+										<Label class="TeamWagerTokenLabel" text="500"/>
+									</Panel>
+									<Label class="TeamWagerTokenCount" text="x {i:wager_count_500}"/>
+								</Panel>
+								<Panel class="WagerContainer TeamWager1000" >
+									<Panel>
+										<Panel class="TeamWagerToken"/>
+										<Label class="TeamWagerTokenLabel" text="1000"/>
+									</Panel>
+									<Label class="TeamWagerTokenCount" text="x {i:wager_count_1000}"/>
+								</Panel>
+							</Panel>
+							<Panel id="XPCircleContainer" />
+						</Panel>
+
+						<Panel id="BattlePassTipsProgress" class="BattlePassProgressTypeContainer">
+							<Label class="ProgressTypeTitle" text="#DOTA_BattlePassPostGame_TipProgress" />
+							<Panel class="BattlePassProgressTypeDetails">
+								<Panel class="TotalTipContainer">
+									<Panel class="TipToken"	/>
+									<Label class="TotalTipCount" text="x {i:total_tip_count}"/>
+								</Panel>
+								<Panel class="TipBottomSection">
+									<Panel class="TipListContainer">
+										<Panel id="TipContainer">
+											<!-- Filled in by js -->
+										</Panel>
+										<Panel id="TipContainer2">
+											<!-- Filled in by js -->
+										</Panel>								
+									</Panel>									
+								</Panel>
+							</Panel>
+							<Panel id="XPCircleContainer" />
+						</Panel>
+						
+						<Panel id="BattlePassActionsGrantedProgress" class="BattlePassProgressTypeContainer">
+							<Label class="ProgressTypeTitle" text="#DOTA_BattlePassPostGame_ActionProgress" />
+							<Panel class="BattlePassProgressTypeDetails">
+								<Panel class="ActionOuterContainer">
+									<Panel id="ActionContainer">
+											<!-- Filled in by js -->					
+									</Panel>									
+								</Panel>
+							</Panel>
+							<Panel id="XPCircleContainer" />
+						</Panel>
+						
+
+						<Panel id="BattlePassDailyChallengeProgress" class="BattlePassProgressTypeContainer">
+							<Label class="ProgressTypeTitle" text="#DOTA_BattlePassPostGame_DailyChallengeProgress" />
+							<Panel class="BattlePassProgressTypeDetails">
+								<DOTAHeroMovie id="DailyChallengeHeroMovie" class="BattlePassProgressHeroMovie" scaling="none" />
+								<Panel class="ProgressCompletedContainer">
+									<Label class="ProgressCompleted Glow" text="#DOTA_BattlePassPostGame_Complete" />
+									<Label class="ProgressCompleted" text="#DOTA_BattlePassPostGame_Complete" />
+								</Panel>
+							</Panel>
+							<Panel id="XPCircleContainer" />
+						</Panel>
+
+						<Panel id="BattlePassWeeklyChallengeProgress" class="BattlePassProgressTypeContainer">
+							<Label class="ProgressTypeTitle" text="#DOTA_BattlePassPostGame_WeeklyChallengeProgress" />
+							<Panel class="BattlePassProgressTypeDetails">
+								<Panel class="WeeklyChallengeContainer">
+									<Panel class="WeeklyChallengeInfo">
+										<Label class="WeeklyChallengeDesc" text="#DOTA_Challenge_MultiGame"/>
+										<Label class="WeeklyChallengeDesc" text="{s:weekly_challenge_description}" html="true" />
+										<ProgressBarWithMiddle id="WeeklyChallengeProgress" class="WeeklyChallengeProgress"/>
+										<Label text="#DOTA_BattlePassPostGame_WeeklyChallenge_Progress" class="WeeklyChallengeProgressLabel" html="true"/>
+										<Panel class="WeeklyChallengeIncrementGlowContainer">
+											<Label class="WeeklyChallengeIncrementText Glow" text="#DOTA_BattlePassPostGame_WeeklyChallenge_Increment" />
+											<Label class="WeeklyChallengeIncrementText" text="#DOTA_BattlePassPostGame_WeeklyChallenge_Increment" />
+										</Panel>
+									</Panel>
+								</Panel>
+								<Panel class="ProgressCompletedContainer">
+									<Label class="ProgressCompleted Glow" text="#DOTA_BattlePassPostGame_Complete" />
+									<Label class="ProgressCompleted" text="#DOTA_BattlePassPostGame_Complete" />
+								</Panel>
+							</Panel>
+							<Panel id="XPCircleContainer" />
+						</Panel>
+							
+						<Panel id="BattlePassProgressBPGrid">
+							<Panel id="BattlePassProgressRows">
+
+							</Panel>
+							<Panel id="BattlePassTotalsRow" class="BattlePassProgressRow">
+								<Label class="BattlePassProgressRowType" text="#DOTA_BattlePassPostGame_Total" />
+								<Label class="BattlePassProgressRowValue" text="#DOTA_BattlePassPostGame_BPValue" />
+							</Panel>
+						</Panel>
+					</Panel>
+				</Panel>
+				
+			</Panel>
+		</snippet>
+
+		<snippet name="BattlePassProgressRow">
+			<Panel class="BattlePassProgressRow">
+				<Label class="BattlePassProgressRowType" text="{s:bp_type}" />
+				<Label class="BattlePassProgressRowValue" text="#DOTA_BattlePassPostGame_BPValue" />
+			</Panel>
+		</snippet>
+
+		<snippet name="BattlePassProgressRow_Challenge">
+			<Panel class="BattlePassProgressRow BattlePassProgressRow_Challenge">
+				<Panel class="BattlePassProgressRowChallengeDetails">
+					<Label class="BattlePassProgressRowType" text="{s:bp_type}" />
+				</Panel>
+				<Label class="BattlePassProgressRowValue" text="#DOTA_BattlePassPostGame_BPValue" />
+			</Panel>
+		</snippet>
+
+		<snippet name="BattleLevelUpRewardTier">
+			<Panel class="BattleLevelUpRewardTier HeroBadgeLevelUpReward">
+				<Panel class="BattleLevelUpRewardImage PlusHeroBadgeIcon" />
+				<Label class="BattleLevelUpRewardValue" text="#DOTA_PlusRewards_TierName" />
+				<Panel class="BattleLevelUpRewardLine" />
+				<Label class="BattleLevelUpRewardTitle" text="#DOTA_PlusRewards_HeroBadge" />
+			</Panel>
+		</snippet>
+
+		<!-- Cavern Crawl Progress -->
+		
+		<snippet name="CavernCrawlProgress">
+			<Panel class="ProgressScreen" onactivate="StartSkippingAhead()" >
+				<DOTACavernCrawlPostGameProgress id="CavernCrawl" />
+			</Panel>
+		</snippet>
+		
+		<!-- Rubick Arcana Progress -->
+		
+		<snippet name="RubickArcanaProgress">
+			<Panel class="ProgressScreen" onactivate="StartSkippingAhead()">
+
+				<Panel class="RubickArcanaBackground" />
+
+				<Panel id="RubickArcanaProgressMain">
+					<DOTAScenePanel id="RubickArcanaModel" unit="npc_dota_hero_rubick" particleonly="false" antialias="true" />
+					<DOTARubickArcanaProgress id="RubickArcanaProgress" />
+				</Panel>
+			</Panel>
+		</snippet>
+
+
+		<snippet name="EventPointsProgress" >
+			<Panel class="ProgressScreen" onactivate="StartSkippingAhead()" >
+
+				<Panel class="EventPointsBackground">
+					<Panel class="EventPointsBackgroundImage" />					
+				</Panel>
+
+				<Panel id="EventPointsProgressMain" hittest="false">
+
+					<DOTAEventLevelShield id="EventPointsLevelShield" />
+
+					<Panel id="EventPointsProgressCenter">
+						<Panel class="EventPointsProgressTitle">
+							<Panel class="EventPointsProgressTitleGlowContainer">
+								<Label class="EventPointsProgressTitleText Glow" text="#DOTA_EventPointsPostGame_Progress" />
+								<Label class="EventPointsProgressTitleText" text="#DOTA_EventPointsPostGame_Progress" />
+							</Panel>
+						</Panel>
+
+						<Panel id="EventPointsLevelProgressContainer">
+							<Panel class="EventPointsShieldSpacer" />
+							<Panel class="ProgressBarContainer" >
+								<ProgressBarWithMiddle id="BattleLevelProgress" min="0" max="1000" />
+								<Panel id="EventPointsLevelProgressSection">
+									<Label class="EventPointsProgressLevelProgressTitle" text="#DOTA_BattlePassPostGame_LevelProgress" />
+									<Label class="EventPointsLevelProgressBP" text="#DOTA_BattlePass_BPProgress" />
+								</Panel>
+							</Panel>
+							<Panel class="EventPointsPointsTotalContainer">
+								<Label class="EventPointsPointsTotalTitle" text="#DOTA_BattlePassPostGame_Total" />
+								<Panel class="EventPointsPointsTotalGlowContainer">
+									<Label class="EventPointsPointsTotal Glow" text="+{d:total_points_gained}" />
+									<Label class="EventPointsPointsTotal" text="+{d:total_points_gained}" />
+								</Panel>
+							</Panel>
+						</Panel>
+					</Panel>
+					
+					<Panel id="EventPointsProgressCore">
+						<Panel id="EventPointsProgressBPGrid">
+							<Panel id="EventPointsProgressRows">
+								<Panel id="EventPointsWonGameRow" class="EventPointsProgressRow">
+									<Label class="EventPointsProgressRowType" text="#DOTA_EventPointsPostGame_WonGame" />
+									<Label class="EventPointsProgressRowValue" text="{d:total_points_gained}" />
+								</Panel>
+							</Panel>
+							<!--<Panel id="EventPointsTotalsRow" class="EventPointsProgressRow">
+								<Label class="EventPointsProgressRowType" text="#DOTA_BattlePassPostGame_Total" />
+								<Label class="EventPointsProgressRowValue" text="#DOTA_BattlePassPostGame_BPValue" />
+							</Panel>-->
+						</Panel>
+					</Panel>
+				</Panel>
+				
+			</Panel>
+		</snippet>
+		
+		<snippet name="Frostivus2018Progress" >
+			<Panel class="ProgressScreen" onactivate="StartSkippingAhead()" >
+
+				<Panel class="Frostivus2018Background">
+					<Panel class="Frostivus2018BackgroundImage" />					
+				</Panel>
+
+				<Panel id="Frostivus2018ProgressMain" hittest="false">
+
+					<DOTAEventLevelShield id="Frostivus2018LevelShield" />
+
+					<Panel id="Frostivus2018ProgressCenter">
+						<Panel class="Frostivus2018ProgressTitle">
+							<Panel class="Frostivus2018ProgressTitleGlowContainer">
+								<Label class="Frostivus2018ProgressTitleText Glow" text="#DOTA_Frostivus2018PostGame_Progress" />
+								<Label class="Frostivus2018ProgressTitleText" text="#DOTA_Frostivus2018PostGame_Progress" />
+							</Panel>
+						</Panel>
+
+						<Panel id="Frostivus2018LevelProgressContainer">
+							<Panel class="Frostivus2018ShieldSpacer" />
+							<Panel class="ProgressBarContainer" >
+								<ProgressBarWithMiddle id="BattleLevelProgress" min="0" max="1000" />
+								<Panel id="Frostivus2018LevelProgressSection">
+									<Label class="Frostivus2018ProgressLevelProgressTitle" text="#DOTA_BattlePassPostGame_LevelProgress" />
+									<Label class="Frostivus2018LevelProgressBP" text="#DOTA_BattlePass_BPProgress" />
+								</Panel>
+							</Panel>
+							<Panel class="Frostivus2018PointsTotalContainer">
+								<Label class="Frostivus2018PointsTotalTitle" text="#DOTA_BattlePassPostGame_Total" />
+								<Panel class="Frostivus2018PointsTotalGlowContainer">
+									<Label class="Frostivus2018PointsTotal Glow" text="+{d:total_points_gained}" />
+									<Label class="Frostivus2018PointsTotal" text="+{d:total_points_gained}" />
+								</Panel>
+							</Panel>
+						</Panel>
+					</Panel>
+					
+					<Panel id="Frostivus2018ProgressCore">
+						<Panel id="Frostivus2018ProgressBPGrid">
+							<!--<Panel id="Frostivus2018ProgressRows">
+							</Panel>
+							<Panel id="Frostivus2018TotalsRow" class="Frostivus2018ProgressRow">
+								<Label class="Frostivus2018ProgressRowType" text="#DOTA_BattlePassPostGame_Total" />
+								<Label class="Frostivus2018ProgressRowValue" text="#DOTA_BattlePassPostGame_BPValue" />
+							</Panel>-->
+						</Panel>
+					</Panel>
+				</Panel>
+				
+			</Panel>
+		</snippet>
+
+		<snippet name="CoachRating">
+			<Panel class="ProgressScreen CoachRating">
+				<Panel class="CoachRatingMain">
+					<Panel class="CoachRatingBackground" />
+					<Panel class="CoachRatingContents">
+						<Label class="CoachRatingTitle" text="#DOTA_CoachRating" />
+						<Label class="CoachRatingQuestion" text="#DOTA_CoachRating_Experience" />
+						<Panel class="CoachDetails">
+							<DOTACoachRatingBadge id="CoachRatingBadge" />
+							<DOTAAvatarImage id="CoachAvatarImage" />
+							<Panel class="CoachInfo">
+								<Label class="CoachUserName" text="{s:coach_player_name}" />
+								<Label class="CoachSubtitle" text="#DOTA_Coach" />
+							</Panel>
+							<Panel class="FillWidth" />
+							<Label class="CoachTimeRemaining" text="#DOTA_Trivia_TimeRemaining" />
+							<Panel class="CoachTimeRemainingProgress">
+								<CircularProgressBar id="CoachTimeRemainingProgressBar" />
+								<Panel class="CoachTimeRemainingProgressBarOverlay" />
+								<Label class="CoachTimeRemainingProgressText" text="{d:countdown_seconds}" />
+							</Panel>
+						</Panel>
+						<Panel class="CoachRatingButtons">
+							<Button id="GoodRatingButton" class="CoachRatingButton">
+								<Panel class="CoachRatingButtonIcon" />
+								<Panel class="CoachRatingButtonText">
+									<Label class="CoachRatingButtonTitle" text="#DOTA_CoachRating_Good_Title" />
+									<Label class="CoachRatingButtonSubtitle" text="#DOTA_CoachRating_Good_Desc" />
+								</Panel>
+							</Button>
+							<Button id="BadRatingButton" class="CoachRatingButton">
+								<Panel class="CoachRatingButtonIcon" />
+								<Panel class="CoachRatingButtonText">
+									<Label class="CoachRatingButtonTitle" text="#DOTA_CoachRating_Bad_Title" />
+									<Label class="CoachRatingButtonSubtitle" text="#DOTA_CoachRating_Bad_Desc" />
+								</Panel>
+							</Button>
+						</Panel>
+						<Button id="AbusiveRatingButton">
+							<Panel class="AbusiveRatingButtonCenter">
+								<Panel class="AbusiveRatingButtonIcon" />
+								<Label text="#DOTA_CoachRating_Report" />
+							</Panel>
+						</Button>
+					</Panel>
+				</Panel>
+			</Panel>
+		</snippet>
+
+		<snippet name="PlayerMatchSurvey">
+			<Panel class="ProgressScreen PlayerMatchSurvey">
+				<Panel class="PlayerMatchSurveyMain">
+					<Panel class="PlayerMatchSurveyBackground" />
+					<Panel class="PlayerMatchSurveyContents">
+						<Label class="PlayerMatchSurveyTitle" text="#DOTA_PlayerMatchSurvey_Title" />
+						<Label class="PlayerMatchSurveyQuestion" text="#DOTA_PlayerMatchSurvey_Desc" />
+
+						<!-- Look for flag values in EPlayerMatchSurveyFlag  -->
+						<Panel class="PlayerMatchSurveyButtons">
+							<Panel id="GoodRatingContainer" class="PlayerMatchSurveyRatingContainer">
+								<Panel class="PopupButton PlayerMatchSurveyHeader">
+									<Panel class="PositiveIcon" />
+									<Label class="" text="#DOTA_PlayerMatchSurvey_Positive_Title" />
+								</Panel>
+								<TextButton class="PopupButton PlayerMatchSurveyButton Positive" text="#DOTA_PlayerMatchSurvey_Positive_Teamwork" rating_flag="1"/>
+								<TextButton class="PopupButton PlayerMatchSurveyButton Positive" text="#DOTA_PlayerMatchSurvey_Positive_MatchBalance" rating_flag="2"/>
+								<TextButton class="PopupButton PlayerMatchSurveyButton Positive" text="#DOTA_PlayerMatchSurvey_Positive_TeamBehavior" rating_flag="3"/>
+								<TextButton class="PopupButton PlayerMatchSurveyButton Positive" text="#DOTA_PlayerMatchSurvey_Positive_IndividualPerformance" rating_flag="4"/>
+								<TextButton class="PopupButton PlayerMatchSurveyButton Positive" text="#DOTA_PlayerMatchSurvey_Positive_HeroChoice" rating_flag="5"/>
+								<TextButton class="PopupButton PlayerMatchSurveyButton Positive" text="#DOTA_PlayerMatchSurvey_Positive_Comeback" rating_flag="6"/>
+							</Panel>
+
+							<Panel id="BadRatingContainer" class="PlayerMatchSurveyRatingContainer">
+								<Panel class="PopupButton PlayerMatchSurveyHeader">
+									<Panel class="NegativeIcon" />
+									<Label class="" text="#DOTA_PlayerMatchSurvey_Negative_Title" />
+								</Panel>
+								<TextButton class="PopupButton PlayerMatchSurveyButton Negative" text="#DOTA_PlayerMatchSurvey_Negative_Teamwork" rating_flag="1"/>
+								<TextButton class="PopupButton PlayerMatchSurveyButton Negative" text="#DOTA_PlayerMatchSurvey_Negative_MatchBalance" rating_flag="2"/>
+								<TextButton class="PopupButton PlayerMatchSurveyButton Negative" text="#DOTA_PlayerMatchSurvey_Negative_TeamBehavior" rating_flag="3"/>
+								<TextButton class="PopupButton PlayerMatchSurveyButton Negative" text="#DOTA_PlayerMatchSurvey_Negative_IndividualPerformance" rating_flag="4"/>
+								<TextButton class="PopupButton PlayerMatchSurveyButton Negative" text="#DOTA_PlayerMatchSurvey_Negative_HeroChoice" rating_flag="5"/>
+								<TextButton class="PopupButton PlayerMatchSurveyButton Negative" text="#DOTA_PlayerMatchSurvey_Negative_Smurf" rating_flag="7"/>
+							</Panel>
+						</Panel>
+
+						<Panel class="PlayerMatchSurveyFooter">
+							<Button id="SkipButton">
+								<Panel class="SkipButtonCenter">
+									<Label text="#DOTA_PlayerMatchSurvey_Skip" />
+								</Panel>
+							</Button>
+
+							<Label class="PlayerMatchSurveySubmitted" text="#DOTA_PlayerMatchSurvey_Submitted" />
+						</Panel>
+					</Panel>
+				</Panel>
+			</Panel>
+		</snippet>
+		
+	</snippets>
+
+	<DOTAPostGameProgress hittest="false">
+
+		<Panel id="ProgressScreens" hittest="false" />
+
+		<Panel id="DebugControls">
+			<TextButton class="PopupButton" text="MVP Voting" onactivate="TestMVPVotingProgress()" />
+			<TextButton class="PopupButton" text="Player Match Survey" onactivate="TestAnimatePlayerMatchSurvey()" />
+			<TextButton class="PopupButton" text="Coach Rating" onactivate="TestAnimateCoachRating()" />
+			<TextButton class="PopupButton" text="Hero Badge" onactivate="TestAnimateHeroBadgeLevel()" />
+			<TextButton class="PopupButton" text="Battle Points" onactivate="TestAnimateBattlePass()" />
+			<TextButton class="PopupButton" text="Cavern" onactivate="TestAnimateCavernCrawl()" />
+			<TextButton class="PopupButton" text="Rubick Arcana" onactivate="TestAnimateRubickArcanaProgress()" />
+			<TextButton class="PopupButton" text="Frostivus" onactivate="TestAnimateFrostivusProgress()" />
+			<TextButton class="PopupButton" text="Event Points" onactivate="TestAnimateEventPointsProgress()" />
+			<Panel class="FillWidth" />
+			<TextButton class="PopupButton Blue" text="Reset" onactivate="ResetScreens()" />
+			<TextButton class="PopupButton Blue" text="Hide" onactivate="HideProgress()" />
+		</Panel>-->
+
+	</DOTAPostGameProgress>
+
+</root>

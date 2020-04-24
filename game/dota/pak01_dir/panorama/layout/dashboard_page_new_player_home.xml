@@ -1,0 +1,41 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/dashboard_page_shared.vcss_c" />
+		<include src="s2r://panorama/styles/dashboard_page_new_player_home.vcss_c" />
+	</styles>
+
+	<snippets>
+
+		<snippet name="ScenarioCategory">
+			<Panel class="ScenarioCategory">
+				<Label class="ScenarioCategoryName" text="{s:category_name}" />
+				<Panel id="ScenarioCategoryMissions" />
+			</Panel>
+		</snippet>
+		
+		<snippet name="WelcomeMission">
+			<Panel class="WelcomeMission">
+				<Panel class="MissionContents">
+					<Label class="MissionTitle" text="{s:mission_title}" />
+					<Label class="MissionSubtitle" text="{s:mission_subtitle}" html="true" />
+				</Panel>
+				<Panel class="MissionStars">
+					<Panel class="MissionStar" />
+					<Panel class="MissionStar" />
+					<Panel class="MissionStar" />
+				</Panel>
+			</Panel>
+		</snippet>
+	</snippets>
+		
+	<scripts>
+		<include src="s2r://panorama/scripts/dashboard_page_new_player_home.vjs_c" />
+	</scripts>
+
+	<DOTANewPlayerHomePage class="DashboardPage">
+		<Panel id="MainContents">
+			<Panel id="ScenarioCategories" />
+		</Panel>
+	</DOTANewPlayerHomePage>
+</root>

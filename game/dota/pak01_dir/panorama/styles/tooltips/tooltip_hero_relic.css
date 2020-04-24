@@ -1,0 +1,62 @@
+
+#Contents
+{
+	flow-children: down;
+	padding: 0px;
+}
+
+#Header
+{
+	flow-children: right;
+	background-color: black;
+	width: 500px;
+}
+
+#HeroImage
+{
+	width: 71px;
+	height: 40px;
+}
+
+#HeroName
+{
+	vertical-align: middle;
+	margin-left: 12px;
+	margin-top: 2px;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #ccc;
+	letter-spacing: 2px;
+}
+
+
+#MainContents
+{
+	flow-children: right;
+	padding: 4px;
+}
+
+#Details
+{
+	flow-children: down;
+	vertical-align: middle;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+#RelicValue
+{
+	letter-spacing: 2px;
+	font-size: 48px;
+	color: white;
+}
+
+#RelicName
+{
+	text-transform: uppercase;
+	color: #999;
+	font-size: 24px;
+	letter-spacing: 2px;
+	margin-top: -8px;
+	width: 320px;
+}

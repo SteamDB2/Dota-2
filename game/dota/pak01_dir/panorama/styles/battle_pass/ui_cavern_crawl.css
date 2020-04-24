@@ -1,0 +1,1209 @@
+/* styles for the game end quests popup */
+
+DOTACavernCrawl
+{
+	width: 100%;
+    height: 100%;
+	vertical-align: center;
+	horizontal-align: center;
+
+	border: 0px;
+	padding: 0px;
+}
+
+#CampaignVignette {
+	background-color: blue;
+	background-image: none;
+}
+
+
+.Waiting
+{
+	flow-children: down;
+	width: 100%;
+    height: 100%;
+}
+
+DOTACavernCrawl.Loaded .Waiting
+{
+    visibility: collapse;
+}
+
+.FailedToLoad
+{
+    visibility: collapse;
+	letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: accentColorBright;
+    vertical-align: center;
+    horizontal-align: center;
+}
+
+DOTACavernCrawl.ErrorLoading .FailedToLoad 
+{
+    visibility: visible;
+}
+
+#CampaignVignette {
+	opacity: 1;
+}
+
+.CavernCrawl
+{
+	width: 1390px;
+	height: 100%;
+	horizontal-align: center;
+    opacity: 0;
+	transition-property: opacity;
+	transition-duration: 2.4s;
+}
+
+DOTATooltipCavernCrawl .CavernCrawl
+{
+	width: 1208px;
+}
+
+DOTAPopupCavernCrawl .CavernCrawl
+{
+	transition-duration: 1.0s;
+}
+
+DOTACavernCrawl.Loaded .CavernCrawl
+{
+    opacity: 1;
+}
+
+.LeftColumn
+{
+	width: 230px;
+	flow-children: down;
+	margin: 4px;
+	z-index: 3;
+
+	transition-property: opacity;
+	transition-duration: 0.6s;
+	opacity: 1;
+}
+
+.ZoomedIn .LeftColumn
+{
+	opacity: 0;
+}
+
+.TitleContainer
+{
+	horizontal-align: center;
+}
+
+.TitleContainer Label
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	vertical-align: center;
+	color: white;
+	text-overflow: shrink;
+}
+
+.Title
+{
+	font-size: 50px;
+	margin-top: 12px;
+}
+
+.TitleSecondary
+{
+	font-size: 30px;
+	margin-top: -20px;
+}
+
+.CavernCrawlLogo
+{
+	width: 128px;
+	height: 128px;
+	horizontal-align: center;
+	vertical-align: center;
+	margin-right: 8px;
+	wash-color: accentColorBright;
+
+	background-image: bp_cavern_crawl_logo;
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+#JungleLogo {
+	width: 210px;
+	height: 150px;
+	background-size: 100%;
+	background-image: url("s2r://panorama/images/cavern/jungle_exp_logo_png.vtex");
+	img-shadow: none;
+	/*margin-bottom: -5px;*/
+	margin-top: 0px;
+}
+
+
+.Language_russian #JungleLogo, .Language_russian .ModalLogo {
+	background-image: url("s2r://panorama/images/cavern/loc/jungle_exp_logo_russian_png.vtex");
+}
+
+.Language_schinese #JungleLogo, .Language_schinese .ModalLogo {
+	background-image: url("s2r://panorama/images/cavern/loc/jungle_exp_logo_schinese_png.vtex");
+}
+
+.HowToPlay
+{
+	width: 100%;
+	height: 40px;
+	/*background-image: url("s2r://panorama/images/cavern/tutorial_btn_png.vtex");*/
+	background-size: 100%;
+	/*height: 46px;*/
+	/*margin-left: 8px;*/
+	/*margin-right: 8px;*/
+	/*horizontal-align: center;*/
+	/*margin-bottom: 10px;*/
+	border-radius: 3px;
+	background-color: #DBBB48;
+	box-shadow: 3px 3px #917617;
+}
+
+.HowToPlay Label {
+	color: #ffffff;
+	font-weight: black;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	horizontal-align: center;
+	margin-top: 10px;
+	letter-spacing: 1px;
+
+	color: #FFFFFF;
+
+	text-shadow: 2px 2px 0px #5C4B0E;
+}
+
+.HowToPlay:hover {
+	brightness: 1.2;
+}
+
+.HowToPlay:active {
+	brightness: 0.8;
+}
+
+
+
+
+/* Inventory */
+.RightColumn
+{
+	width: 250px;
+	flow-children: down;
+	horizontal-align: right;
+	margin: 4px;
+	z-index: 3;
+}
+
+#Inventory
+{
+	width: 190px;
+	height: 176px;
+	horizontal-align: right;
+}
+
+.InventoryTitleContainer
+{
+	width: 182px;
+	horizontal-align: right;
+	flow-children: right;
+	margin-top: 4px;
+}
+
+.InventoryTitleContainer .InfoIcon
+{
+	vertical-align: center;
+	margin-top: 9px;
+	width: 13px;
+	height: 13px;
+	wash-color: #dbbc48;
+}
+
+.InventoryTitle
+{
+	font-size: 14px;
+	font-weight: black;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	horizontal-align: center;
+	margin-top: 10px;
+	color: #dbbc48;
+}
+
+
+/* Point Rewards Remaining */
+.RewardsRemaining
+{
+	margin-right: 0px;
+	padding: 10px 4px 8px 4px;
+	flow-children: down;
+	horizontal-align: right;
+
+	transition-property: opacity;
+	transition-duration: 0.6s;
+	opacity: 1;
+
+	background-color: black;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	border: 5px solid #DBBB48;
+	box-shadow: 3px 3px 0px #917617;
+	border-radius: 3px;
+	color: #ffffff;
+}
+
+.ZoomedIn .RewardsRemaining
+{
+    opacity: 0.0;
+}
+
+DOTACavernCrawlPostGameProgress .RewardsRemaining
+{
+	visibility: collapse;
+} 
+
+.RewardsRemainingTitle
+{
+//	horizontal-align: center;
+	text-transform: uppercase;
+	color: #DBBB48;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: black;
+	margin-bottom: 2px;
+}
+
+.RewardsRemainingRow
+{
+	flow-children: right;
+}
+
+.Spacer
+{
+	height: 12px;
+}
+
+.RewardsRemainingName
+{
+	font-weight: semi-bold;
+	width: 150px;
+	font-size: 15px;
+	margin-top: 5px;
+	color: #D8C994;
+}
+
+.BattlePassLogo
+{
+	width: 24px;
+	height: 24px;
+	background-image: bp_logo_small;
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	vertical-align: center;
+	wash-color: accentColor;
+}
+
+.DotaPlusLogo
+{
+	width: 20px;
+	height: 24px;
+	margin-left:2px;
+	margin-right:2px;
+	background-image: dotaPlusLogoSmall;
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	vertical-align: center;
+}
+
+.RewardsRemainingValue
+{
+	font-size: 15px;
+	width: 70px;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 5px;
+	color: #DBBB48;
+	margin-top: 5px;
+}
+
+.RewardsTotal
+{
+	color: grey;
+	color: #DBBB48;
+}
+
+/* Map Zoom */
+
+.MapZoomContainer
+{
+    width: fill-parent-flow( 1.0 );
+    height: 100%;
+}
+
+#MapZoom
+{
+    width: 100%;
+    height: 100%;
+	opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
+    overflow: clip;
+}
+
+.ZoomInControl 
+{
+    width: 50%;
+    height: 50%;
+
+	transition-property: background-color, border;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.1s;
+}
+
+.ZoomInControl .Search
+{
+	//background-image: url("s2r://panorama/images/control_icons/icon_search_png.vtex");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	width: 32px;
+	height: 32px;
+
+	wash-color: #A6ADB4;
+
+	margin: 8px;
+
+	opacity: 0;
+
+	transition-property: opacity;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.1s;
+}
+
+.ZoomInControl.North .Search { vertical-align: top; }
+.ZoomInControl.South .Search { vertical-align: bottom; }
+.ZoomInControl.East .Search { horizontal-align: left; }
+.ZoomInControl.West .Search { horizontal-align: right; }
+
+
+.ZoomInControl:hover
+{
+    //background-color: #FF000006;
+    //border: 1px solid #FF000020;
+    //opacity: 0.5;
+}
+
+.ZoomInControl:hover .Search
+{
+	opacity: 1;
+}
+
+DOTACavernCrawl.ZoomedIn .ZoomInControl 
+{
+    visibility: collapse;
+}
+
+.FlareShooting .ZoomInControl 
+{
+    visibility: collapse;
+}
+
+.ZoomInControl.North 
+{
+    vertical-align: top;
+	width: 100%;
+}
+
+.ZoomInControl.South 
+{
+    vertical-align: bottom;
+}
+
+.ZoomInControl.West
+{
+    horizontal-align: left;
+}
+
+.ZoomInControl.East
+{
+    horizontal-align: right;
+}
+
+.ZoomInControl:active
+{
+    sound: "ui_friends_slide_in";
+}
+
+#UltraRarePreview
+{
+	width: 250px;
+	height: 200px;
+	horizontal-align: right;
+}
+
+.ZoomedIn #UltraRarePreview
+{
+	visibility: collapse;
+}
+
+DOTACavernCrawlPostGameProgress #UltraRarePreview
+{
+	visibility: collapse;
+} 
+
+DOTAPopupCavernCrawl #UltraRarePreview
+{
+	visibility: collapse;
+}
+
+.CrawlInstructions
+{
+    font-size: 14px;
+    vertical-align: bottom;
+    horizontal-align: center;
+    margin-bottom: 0px;
+    color: #ffffff22;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    opacity: 1.0;
+
+    transition-property: opacity, transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+DOTACavernCrawl.ZoomedIn .Zoom.CrawlInstructions 
+{
+    opacity: 0.0;
+}
+
+DOTATooltipCavernCrawl DOTACavernCrawl .CrawlInstructions
+{
+	visibility: collapse;
+}
+	
+.Claim.CrawlInstructions
+{
+	background-color: black;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
+	opacity: 0.0;
+}
+
+DOTACavernCrawl.ZoomedIn .Claim.CrawlInstructions 
+{
+//    opacity: 1.0;
+}
+				 
+/* Multiply these sizes by 2 */
+#CavernCrawlMap
+{
+	width: 4000px;
+	height: 3072px;
+    overflow: noclip;
+
+	transition-property: transform, position;
+	transition-delay: 0.0s;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.5s;
+    transform: scaleX( 0.5 ) scaleY( 0.5 );
+
+    vertical-align: center;
+    horizontal-align: center;
+}
+
+/* Map Overview */
+#MapOverview
+{
+	width: 164px;
+//	height: 220px;
+	x: 1200px;
+	y: 520px;
+
+	flow-children: down;
+	background-color: #000000C0;
+
+	opacity: 0;
+
+	transition-property: position, opacity;
+	transition-delay: 0.0s;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.0s, 0.5s;
+}
+
+#MapImage
+{
+	width: 164px;
+	height: 164px;
+
+	background-image: url("s2r://panorama/images/cavern/cavern_map_tiny_psd.vtex");
+	background-position: 50% 5%;
+	background-size: 110% 110%;
+	background-repeat: no-repeat;
+
+    opacity: 0.7;
+}
+
+.ZoomedIn #MapOverview
+{
+	opacity: 1;
+
+	transition-property: opacity;
+	transition-delay: 0.0s;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.5s;
+}
+
+
+.ZoomSection0 #MapOverview
+{
+	x: 1200px;
+	y: 520px;
+}
+
+.ZoomSection1 #MapOverview
+{
+	x: 1200px;
+	y: 520px;
+}
+
+.ZoomSection2 #MapOverview
+{
+	x: 1200px;
+	y: 520px;
+}
+
+.MapSectionHighlight
+{
+	background-color: accentColor;
+	opacity: 0.3;
+	border: 1px solid accentColorBright;
+
+	width: 82px;
+	height: 93px;
+
+	transition-property: position, height;
+	transition-delay: 0.0s;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.5s;
+}
+
+.ZoomSection0 .MapSectionHighlight,
+.MapHighlightButton.Quad0
+{
+	x: 41px;
+	y: 0px;
+}
+
+.ZoomSection1 .MapSectionHighlight,
+.MapHighlightButton.Quad1
+{
+	x: 0px;
+	y: 93px;
+	height: 71px;
+}
+
+.ZoomSection2 .MapSectionHighlight,
+.MapHighlightButton.Quad2
+{
+	x: 82px;
+	y: 93px;
+	height: 71px;
+}
+
+.MapHighlightButton
+{
+	width: 82px;
+	height: 82px;
+
+	opacity: 1;
+}
+
+.MapHighlightButton.Quad0
+{
+	height: 93px;
+}
+
+.MapHighlightButton.Quad1,
+.MapHighlightButton.Quad2
+{
+	height: 71px;
+}
+
+.MapHighlightButton:active
+{
+    sound: "ui_friends_slide_in";
+}
+
+.MapHighlightButton:hover 
+{
+    background-color: accentColor;
+	opacity: 0.08;
+}
+
+.FullMapButton
+{
+	width: 164px;
+	height: 32px;
+	margin-top: 10px;
+	padding-top: 6px;
+	border: 1px solid #777777;
+}
+
+.FullMapButton:hover
+{
+	border: 1px solid #AAAAAA;
+}
+
+.FullMapButton Label:hover
+{
+	color: white;
+}
+
+.FullMapButton Label
+{
+	width: 164px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 14px;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-top: 2px;
+}
+
+.FullMapButton:active
+{
+	border: 1px solid white;
+    sound: "ui_friends_slide_in";
+}
+
+.FullMapButton Label:active
+{
+	color: white;
+}
+
+/* Instructions Panel */
+
+.Instructions
+{
+	background-color: black;
+	width: 1390px;
+	height: 100%;
+	opacity: 0;
+ 	horizontal-align: center;
+	background-image: url("s2r://panorama/images/cavern/jungle/modal_bg_jpg.vtex");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	box-shadow: 5px 5px 100px #000000;
+	flow-children: down;
+
+    transition-property: opacity;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.ShowInstructions .Instructions
+{
+	opacity: 1;
+}
+
+.Instructions .CloseButton
+{
+	width: 36px;
+	height: 36px;
+	background-size: 36px 36px;
+	horizontal-align: right;
+	margin: 20px 20px 0 0;
+	z-index: 10;
+}
+
+.InstructionsContainer
+{
+	flow-children: down;
+	horizontal-align: center;
+	vertical-align: top;
+}
+
+.BottomContainer
+{
+	flow-children: right;
+	margin-top: 20px;
+}
+
+.CavernDescription
+{
+	width: 655px;
+	overflow: clip scroll;
+	text-overflow: shrink;
+	font-size: 20px;
+	text-align: center;
+	color: #D8C994;
+	font-weight: semi-bold;
+	horizontal-align: center;
+	line-height: 22px;
+}
+
+.TurboDescription {
+	font-size: 15px;
+	font-weight: medium;
+	color: #cbcbcb;
+	max-width: 600px;
+	margin-top: 10px;
+	text-align: left;
+	text-align: center;
+	horizontal-align: center;
+
+}
+
+.LeftContainer {
+	width: 100%;
+	height: 400px;
+	vertical-align: top;
+}
+
+.RightContainer {
+	width: 100%;
+	height: 500px;
+	flow-children: right;
+}
+
+.TutorialContainer {
+	flow-children: right;
+	/*background-color: gradient( linear, 0% 0%, 0% 100%, from( #201539 ), to( #0F1426 ) );*/
+	width: 100%;
+	height: 100%;
+	padding: 0px 190px;
+	/*border-left: 1px solid darkColor;*/
+	horizontal-align: center;
+}
+
+.Tutorial {
+	width: 33%;
+	height: 350px;
+	flow-children: down;
+	horizontal-align: center;
+	text-align: center;
+}
+
+.TutorialText {
+	width: 350px;
+	flow-children: down;
+	vertical-align: top;
+	text-align: center;
+	horizontal-align: center;
+}
+
+.ModalLogo
+{
+	width: 280px;
+	height: 210px;
+	background-image: url("s2r://panorama/images/cavern/jungle_exp_logo_png.vtex");
+	background-size: 100%;
+	vertical-align: top;
+	horizontal-align: center;
+}
+
+.TutorialLabel {
+	horizontal-align: center;
+	text-transform: uppercase;
+	vertical-align: bottom;
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 2px;
+	color: #ffffff90;
+	margin-bottom: 0px;
+}
+
+
+.MiddleItem {
+	margin: 0 100px;
+}
+
+
+.TutorialImg {
+	height: 183px;
+	width: 184px;
+	horizontal-align: center;
+	vertical-align: top;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.TutorialOne {
+	background-image: url("s2r://panorama/images/cavern/tutorial_1_png.vtex");
+}
+
+.TutorialTwo {
+	background-image: url("s2r://panorama/images/cavern/tutorial_2_png.vtex");
+}
+
+.TutorialThree {
+	background-image: url("s2r://panorama/images/cavern/tutorial_3_png.vtex");
+}
+
+.Tutorial_Title {
+	font-size: 22px;
+	font-weight: bold;
+	color: #E0D7BA;
+	text-shadow: 3px 3px #000000;
+	margin-bottom: 3px;
+	text-align: center;
+	horizontal-align: center;
+}
+
+.Tutorial_Desc {
+	font-size: 18px;
+	color: #dedede;
+	font-weight: light;
+	text-align: center;
+	/*line-height: 20px;*/
+}
+
+/* Legend */
+
+#MapLegendContainer
+{
+	flow-children: down;
+	width: 500px;
+}
+		   
+.MapLegendButton
+{
+	width: 100%;
+	/*margin-left: 8px;*/
+	/*margin-right: 8px;*/
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 14px;
+	padding-right: 14px;
+	margin-top: 5px;
+	z-index: 11;
+
+	height: 40px;
+	background-color: #142023;
+	/*box-shadow: 3px 3px 0px #1F3235;*/
+	border-radius: 2px;
+
+	transition-property: background-color;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.1s;
+}
+
+.MapLegendButton:active
+{
+	background-color: #333333;
+}
+
+.MapLegendButton:hover 
+{
+	brightness: 1.3;
+}
+
+.MapLegendLabel
+{
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	vertical-align: center;
+	/*margin-top: 3px;*/
+	letter-spacing: 2px;
+	color: #dddddd;
+}
+
+.MapLegendArrow
+{
+	width: 12px;
+	height: 12px;
+	horizontal-align: right;
+	vertical-align: center;
+	background-image: url("s2r://panorama/images/control_icons/arrow_solid_down_png.vtex");
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	wash-color: #dddddd;
+}
+
+.ShowLegend .MapLegendArrow
+{
+	background-image: url("s2r://panorama/images/control_icons/arrow_solid_up_png.vtex");
+}
+
+.Legend
+{
+	width: 400px;
+	height: 0px;
+	flow-children: down;
+	overflow: noclip;
+	border-radius: 3px;
+	background-color: #111B1D;
+	box-shadow: 0px 0px 25px #000000;
+	opacity: 0;
+	z-index: 10;
+
+	transition-property: opacity, height;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.ShowLegend .Legend
+{
+	height: fit-children;
+	opacity: 1;
+
+
+	transition-property: opacity, height;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.LegendRow
+{
+	padding-left: 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+
+	flow-children: right;
+	/*height: 50px;*/
+	width: 100%;
+}
+
+.Even {
+	background-color: #142023;
+}
+
+.LegendRow:hover {
+	brightness: 1.5;
+	background-color: #142023;
+}
+
+
+.LegendRow.UltraRare
+{
+		/*background-color: gradient( linear, 0% 0%, 0% 100%, from( darkColor ), to( #222222 ) );*/
+}
+
+.LegendIcon
+{
+	margin-right: 15px;
+	width: height-percentage( 100% );
+	height: 55%;
+	margin-top: 7px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	horizontal-align: right;
+}
+
+.LegendIcon.CaveIn
+{
+	background-image: url("s2r://panorama/images/cavern/icon_cave_in_png.vtex");
+}
+
+.LegendIcon.Lock
+{
+	background-image: url("s2r://panorama/images/cavern/icon_lock_png.vtex");
+}
+
+.LegendIcon.CustomChallenge
+{
+	background-image: url("s2r://panorama/images/cavern/icon_custom_challenge_png.vtex");
+}
+
+.LegendIcon.TreasureMap
+{
+	background-image: url("s2r://panorama/images/cavern/icon_map_png.vtex");
+}
+
+.LegendIcon.CullingBlade
+{
+	background-image: url("s2r://panorama/images/cavern/icon_cullingblade_png.vtex");
+	background-size: 125%;
+}
+
+.LegendIcon.Key
+{
+	background-image: url("s2r://panorama/images/cavern/icon_key_png.vtex");
+	background-size: 125%;
+}
+
+.LegendIcon.Treasure
+{
+	background-image: url("s2r://panorama/images/cavern/icon_chest_big_png.vtex");
+	background-size: 125%;
+}
+
+.LegendIcon.SmallTreasure
+{
+	background-image: url("s2r://panorama/images/cavern/icon_chest_small_png.vtex");
+	background-size: 125%;
+}
+
+.LegendIcon.LargeTreasure
+{
+	background-image: url("s2r://panorama/images/cavern/icon_chest_big_png.vtex");
+	background-size: 125%;
+}
+
+.LegendIcon.Flare
+{
+	background-image: url("s2r://panorama/images/cavern/icon_flare_png.vtex");
+	background-size: 125%;
+	background-position: 50% 30%;
+}
+
+.LegendIcon.Swap
+{
+	background-image: url("s2r://panorama/images/cavern/icon_swap_png.vtex");
+	background-size: 125%;
+	background-position: 50% 40%;
+}
+
+.LegendIcon.Style
+{
+	margin-top: 0px;
+	vertical-align: center;
+	background-image: url("s2r://panorama/images/cavern/idols_dazzle_head_png.vtex");
+	background-size: 100%;
+}
+
+.LegendIcon.UltraRare
+{
+	background-image: url("s2r://panorama/images/cavern/icon_rosh_png.vtex");
+	background-size: 125%;
+}
+
+.LegendTitle
+{
+	font-size: 16px;
+	/*text-transform: uppercase;*/
+	color: #dedede;
+	margin-bottom: -3px;
+	font-weight: normal;
+	letter-spacing: 0px;
+}
+
+.LegendDescription
+{
+	font-size: 15px;
+	color: #929292;
+	text-overflow: clip;
+	/*height: 40px;*/
+	font-weight: light;
+}
+
+/* Ultra Rare Reward Preview */
+
+#UltraRareRewardPreviewContainer
+{
+	width: 300px;
+	horizontal-align: right;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+	flow-children: down;
+	vertical-align: bottom;
+	margin-bottom: 20px;
+	margin-right: 100px;
+}
+
+.ZoomedIn #UltraRareRewardPreviewContainer
+{
+    opacity: 0.0;
+}
+
+DOTACavernCrawlPostGameProgress #UltraRareRewardPreviewContainer
+{
+	visibility: collapse;
+} 
+
+#UltraRareRewardPreviewContainer:hover #UltraRareReward
+{
+	brightness: 1.2;
+	wash-color: white;
+}
+
+#UltraRareReward
+{
+	width: 400px;
+	height: 400px;
+	wash-color: #C6E2EB;
+	transition-property: brightness, wash-color;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
+}
+
+.UltraRareDescContainer
+{
+	flow-children:right;
+	margin-top: -75px;
+}
+
+.UltraRareDescription
+{
+	width: 250px;
+	font-size: 16px;
+	horizontal-align: center;
+}
+
+#UltraRareRewardPreviewContainer .InspectIcon
+{		 
+	width: 24px;
+	height: 24px;
+	wash-color: grey;
+	vertical-align: top;
+	margin-top: 0px;
+}
+
+DOTAPopupCavernCrawl #UltraRareRewardPreviewContainer .InspectIcon
+{
+	visibility: collapse;
+}
+
+
+#RewardDescription {
+	horizontal-align: left;
+	width: 250px;
+	height: 300px;
+	vertical-align: bottom;
+	flow-children: down;
+	margin-left: 100px;
+}
+
+#RewardTag {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: medium;
+	letter-spacing: 1.5px;
+	background-color: blue;
+	padding: 4px 2px 2px 8px;
+	margin-bottom: 10px;
+	color: #ffffff;
+	background-color: gradient( linear, 0% 0%, 100% 100%, from( accentColor ), to( darkColor ) );
+}
+
+#RewardTitle {
+	font-weight: bold;
+	font-size: 16px;
+	color: #D8C994;
+	margin-bottom: 5px;
+}
+
+#RewardDesc {
+	font-size: 16px;
+	color: #E4E4E4;
+	font-weight: light;
+
+}

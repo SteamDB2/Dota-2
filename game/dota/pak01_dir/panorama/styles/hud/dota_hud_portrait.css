@@ -1,0 +1,108 @@
+DOTAPortrait
+{
+	tooltip-position: top;
+	tooltip-body-position: 0% 50%;
+}
+
+.Hidden
+{
+	visibility: collapse;
+}
+
+.PortraitButton
+{
+	background-size: 100%;
+	background-position: 50%;
+	vertical-align: bottom;
+	wash-color: #dddddd;
+}
+
+.PortraitButton:hover
+{
+	wash-color: #ffffff;
+}
+
+.PortraitButton:active
+{
+	wash-color: #999999;
+}
+
+#InspectButton
+{
+	background-image: url("s2r://panorama/images/hud/reborn/icon_inspect_psd.vtex");
+	width: 22px;
+	height: 22px;
+	margin-bottom: 16px;
+	margin-left: 64px;
+	horizontal-align: left;
+	visibility: visible;
+	box-shadow: fill #00000055 0px 0px 16px 2px;
+
+	wash-color: #fff;
+	transition-property: brightness, wash-color, opacity, box-shadow;
+	transition-duration: .2s;
+	opacity: 0;
+}
+
+#HeroViewButton
+{
+	background-image: url("s2r://panorama/images/hud/heroview_icon_png.vtex");
+    width: 26px;
+    height: 26px;
+    margin-bottom: 14px;
+    margin-left: 34px;
+	horizontal-align: left;
+    wash-color: #fff;
+    transition-property: brightness, wash-color, opacity, box-shadow;
+    transition-duration: .2s;
+    opacity: 0;
+    box-shadow: fill #00000055 0px 0px 16px 2px;
+}
+
+#PortraitContainer #HeroViewButton:hover
+{
+    brightness: 3;
+    wash-color: white;
+}
+
+#PortraitContainer #HeroViewButton:active
+{
+    brightness: 3;
+    background-image: url("s2r://panorama/images/hud/reborn/icon_heroview_active_psd.vtex");
+}
+
+.UnitDead #HeroViewButton
+{
+	opacity: 0;
+}
+
+#PortraitContainer #InspectButton:hover
+{
+	brightness: 3;
+}
+
+#PortraitContainer #InspectButton:active
+{
+    brightness: 3;
+    background-image: url("s2r://panorama/images/hud/reborn/icon_inspect_active_psd.vtex");
+}
+
+#PortraitContainer:hover .PortraitButton
+{
+    opacity: 1;
+}
+
+.PortraitButton
+{
+    background-size: 100%;
+    background-position: 50%;
+    vertical-align: bottom;
+    opacity: 0.7;
+    brightness: 0.72;
+}
+
+.QueryUnit #HeroViewButton,
+.QueryUnit #InspectButton
+{
+    visibility: collapse;
+}

@@ -1,0 +1,543 @@
+
+#RubickArcanaProgressButton
+{
+	vertical-align: bottom;
+	margin-left: 160px;
+	margin-bottom: 40px;
+
+	width: 260px;
+	height: 260px;
+
+	context-menu-body-position: 50% 100%;
+
+	background-color: gradient( radial, 50% 50%, 0% 0%, 50% 50%, from( #31fc96 ), to( transparent ) );
+	background-color: transparent;
+
+	/*animation-name: GlowyButton;*/
+	animation-duration: 1.0s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes 'GlowyButton'
+{
+	0%		{ background-color: gradient( radial, 50% 50%, 0% 0%, 50% 50%, from( #20a562 ), to( transparent ) ); }
+	100%	{ background-color: gradient( radial, 50% 50%, 0% 0%, 50% 50%, from( #31fc96 ), to( transparent ) ); }
+}
+
+#RubickArcanaProgressButton Label
+{
+	vertical-align: middle;
+	horizontal-align: center;
+	font-size: 20px;
+	color: rgb(209, 245, 218);
+	text-shadow: 2px 0px 8px 10 rgb(9, 54, 24);
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+
+	transition-property: color, text-shadow;
+	transition-duration: .24s;
+	transition-timing-function: ease-in-out;
+}
+
+#RubickArcanaProgressButton:hover #RubickCube
+{
+	brightness: 2.0;
+	hue-rotation: -90deg;
+}
+
+#RubickArcanaProgressButton:active #RubickCube
+{
+	brightness: 1.5;
+}
+
+#RubickArcanaProgressButton:hover Label
+{
+	color: rgb(255, 255, 255);
+	text-shadow: 0px 0px 14px 1 rgb(233, 194, 65);
+}
+
+#RubickArcanaProgressButton:active Label
+{
+	color: rgb(23, 116, 0);
+	transition-duration: .1s;
+}
+
+#RubickCube
+{
+	width: 100%;
+	height: 100%;
+	margin-left: 12px;
+	hue-rotation: 30deg;
+
+	transition-property: brightness, hue-rotation;
+	transition-duration: .24s;
+	transition-timing-function: ease-in-out;
+	opacity-mask: url("s2r://panorama/images/masks/softedge_circle_sharp_png.vtex");
+}
+
+// Earthshaker Arcana
+
+#EarthshakerArcanaProgressButton
+{
+	vertical-align: bottom;
+	margin-left: 80px;
+	margin-bottom: 100px;
+
+	width: 180px;
+	height: 180px;
+	background-size: 100%,100%;
+
+	context-menu-body-position: 50% 100%;
+
+	background-color: gradient( radial, 50% 50%, 0% 0%, 50% 50%, from( #54efff ), to( transparent ) );
+	background-color: transparent;
+
+	/*animation-name: GlowyButton;*/
+	animation-duration: 1.0s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+#PreGame #EarthshakerArcanaProgressButton
+{
+	visibility: collapse;
+}
+
+.EarthshakerArcanaProgressButtonMask
+{
+	width: 100%;
+	height: 100%;
+	background-size: 100%,100%;
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_earthshaker/earthshaker_arcana_progress_matte_psd.vtex");
+	opacity: 1;
+
+	transition-property: opacity;
+	transition-duration: 0.75s;
+	transition-timing-function: ease-in-out;
+}
+
+.ContextMenuActive .EarthshakerArcanaProgressButtonMask
+{
+	opacity: 0;
+}
+
+
+@keyframes 'GlowyButton'
+{
+	0%		{ background-color: gradient( radial, 50% 50%, 0% 0%, 50% 50%, from( #54efff ), to( transparent ) ); }
+	100%	{ background-color: gradient( radial, 50% 50%, 0% 0%, 50% 50%, from( #54efff ), to( transparent ) ); }
+}
+
+#EarthshakerArcanaProgressButton
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_earthshaker/earthshaker_arcana_progress_1_psd.vtex");
+}
+
+#EarthshakerArcanaProgressButton.ArcanaScoreBucket50
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_earthshaker/earthshaker_arcana_progress_2_psd.vtex");
+}
+
+#EarthshakerArcanaProgressButton.ArcanaScoreBucket100 
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_earthshaker/earthshaker_arcana_progress_3_psd.vtex");
+}
+
+#EarthshakerArcanaProgressButton.ArcanaScoreBucket150
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_earthshaker/earthshaker_arcana_progress_3_psd.vtex");
+}
+
+#EarthshakerArcanaProgressButton.ArcanaScoreBucket200 
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_earthshaker/earthshaker_arcana_progress_4_psd.vtex");
+}
+
+#EarthshakerArcanaProgressButton.ArcanaScoreBucket250 
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_earthshaker/earthshaker_arcana_progress_4_psd.vtex");
+}
+
+#EarthshakerArcanaProgressButton.ArcanaScoreBucket300 
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_earthshaker/earthshaker_arcana_progress_5_psd.vtex");
+}
+
+#EarthshakerArcanaProgressButton.ArcanaScoreBucket350
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_earthshaker/earthshaker_arcana_progress_5_psd.vtex");
+}
+
+#EarthshakerArcanaProgressButton.ArcanaScoreBucket400
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_earthshaker/earthshaker_arcana_progress_6_psd.vtex");
+}
+
+#EarthshakerArcanaProgressButton.ArcanaScoreBucket450
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_earthshaker/earthshaker_arcana_progress_6_psd.vtex");
+}
+
+#EarthshakerArcanaProgressButton.ArcanaScoreBucket500
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_earthshaker/earthshaker_arcana_progress_7_psd.vtex");
+}
+
+#EarthshakerArcanaProgressButton .EarthshakerButtonLabel
+{
+	vertical-align: top;
+	margin-top: 55px;
+	horizontal-align: center;
+	font-size: 12px;
+	color: #54efff;
+	text-shadow: 2px 0px 8px 10 rgb(0, 54, 54);
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	text-align: center;
+	opacity: 1;
+	z-index: 3;
+    visibility: collapse;
+
+	transition-property: color, text-shadow, opacity;
+	transition-duration: .24s;
+	transition-timing-function: ease-in-out;
+}
+
+#EarthshakerArcanaProgressButton .PointsEarned {
+	vertical-align: bottom;
+	horizontal-align: center;
+	font-size: 36px;
+	color: #ffffff;
+	text-shadow: 2px 0px 8px 5 #1d4b5b;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	opacity: 1;
+	z-index: 3;
+
+	transition-property: color, text-shadow, opacity;
+	transition-duration: .24s;
+	transition-timing-function: ease-in-out;
+}
+
+.EarthshakerLearnMore {
+	font-size: 12px;
+	font-weight: light;
+	vertical-align: bottom;
+	horizontal-align: center;
+	margin-bottom: -10px;
+	letter-spacing: 0.5px;
+	border-bottom: 1px solid #99999960;
+	z-index: 3;
+	visibility: collapse;
+
+	transition-property: color, text-shadow, opacity;
+	transition-duration: .24s;
+	transition-timing-function: ease-in-out;
+}
+
+#EarthshakerProgress_Default {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+
+	transition-property: opacity;
+	transition-duration: .24s;
+	transition-timing-function: ease-in-out;
+}
+
+.Hide {
+	visibility: visible;
+	vertical-align: center;
+	/*margin-top: 50px;*/
+	border-bottom: 0px solid;
+	width: 100px;
+
+	font-size: 18px;
+	color: #ffffff;
+	text-shadow: 2px 0px 8px 15 rgba(0,0,0,0.1);
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	text-align: center;
+	opacity: 1;
+	z-index: 3;
+
+	transition-property: color, text-shadow, opacity;
+	transition-duration: .24s;
+	transition-timing-function: ease-in-out;
+}
+
+
+.LearnMore:hover Label {
+	color: #ffffff;
+}
+
+.ContextMenuActive #EarthshakerArcanaProgressButton Label
+{
+	opacity: 1;
+}
+
+.ContextMenuActive #EarthshakerProgress_Default
+{
+	opacity: 1;
+}
+
+.ContextMenuActive .Hide
+ {
+	 visibility: collapse;
+ }
+
+
+#EarthshakerArcanaProgressButton:hover
+{
+	/*brightness: 2.0;*/
+}
+
+#EarthshakerArcanaProgressButton:hover Label
+{
+	color: rgb(255, 255, 255);
+	text-shadow: 0px 0px 14px 1 rgba(233, 188, 100, 0.4);
+}
+
+#EarthshakerArcanaProgressButton:active Label
+{
+	color: rgb(116, 116, 0);
+	transition-duration: .1s;
+}
+
+.EarthshakerArcanaProgressButtonMask {
+	z-index: 1;
+}
+
+
+/* Ogre Magi Arcana */
+
+#OgreMagiArcanaProgressButton
+{
+	vertical-align: bottom;
+	margin-left: 100px;
+	margin-bottom: 80px;
+	width: 200px;
+	height: 200px;
+	background-size: 100%,100%;
+	context-menu-body-position: 50% 100%;
+	background-color: gradient( radial, 50% 50%, 0% 0%, 50% 50%, from( #54efff ), to( transparent ) );
+	background-color: transparent;
+	/*animation-name: OgreMagiGlowyButton;*/
+	animation-duration: 1.0s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+#PreGame #OgreMagiArcanaProgressButton
+{
+	visibility: collapse;
+}
+
+.OgreMagiArcanaProgressButtonMask
+{
+	width: 100%;
+	height: 100%;
+	background-size: 100%,100%;
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_earthshaker/earthshaker_arcana_progress_matte_psd.vtex");
+	opacity: 1;
+	transition-property: opacity;
+	transition-duration: 0.75s;
+	transition-timing-function: ease-in-out;
+}
+
+.ContextMenuActive .OgreMagiArcanaProgressButtonMask
+{
+	opacity: 0;
+}
+
+@keyframes 'OgreMagiGlowyButton'
+{
+	0%
+	{
+		background-color: gradient( radial, 50% 50%, 0% 0%, 50% 50%, from( #54efff ), to( transparent ) );
+	}
+
+	100%
+	{
+		background-color: gradient( radial, 50% 50%, 0% 0%, 50% 50%, from( #54efff ), to( transparent ) );
+	}
+}
+
+#OgreMagiArcanaProgressButton
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_ogre_magi/ogre_magi_arcana_progress_1_png.vtex");
+}
+
+#OgreMagiArcanaProgressButton.ArcanaScoreBucket100
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_ogre_magi/ogre_magi_arcana_progress_2_png.vtex");
+}
+
+#OgreMagiArcanaProgressButton.ArcanaScoreBucket200
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_ogre_magi/ogre_magi_arcana_progress_3_png.vtex");
+}
+
+#OgreMagiArcanaProgressButton.ArcanaScoreBucket300
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_ogre_magi/ogre_magi_arcana_progress_4_png.vtex");
+}
+
+#OgreMagiArcanaProgressButton.ArcanaScoreBucket400
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_ogre_magi/ogre_magi_arcana_progress_5_png.vtex");
+}
+
+#OgreMagiArcanaProgressButton.ArcanaScoreBucket500
+{
+	background-image: url("s2r://panorama/images/leaf_pages/debut_arcana_ogre_magi/ogre_magi_arcana_progress_6_png.vtex");
+}
+
+#OgreMagiArcanaProgressButton .OgreMagiButtonLabel
+{
+	vertical-align: top;
+	margin-top: 40px;
+	horizontal-align: center;
+	font-size: 18px;
+	color: #FDD045;
+	text-shadow: 2px 0px 8px 10 #492D1F;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	text-align: center;
+	opacity: 1;
+	z-index: 3;
+	//visibility: collapse;
+	transition-property: color, text-shadow, opacity;
+	transition-duration: .24s;
+	transition-timing-function: ease-in-out;
+	width: 70%;
+}
+
+#OgreMagiArcanaProgressButton .PointsEarned
+{
+	vertical-align: center;
+	horizontal-align: center;
+	font-size: 36px;
+	color: #ffffff;
+	text-shadow: 0px 0px 8px 1 rgba(232, 166, 53, 0.801);
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	opacity: 1;
+	z-index: 3;
+	transition-property: color, text-shadow, opacity;
+	transition-duration: .24s;
+	transition-timing-function: ease-in-out;
+}
+
+.OgreMagiLearnMore
+{
+	font-size: 12px;
+	font-weight: light;
+	vertical-align: bottom;
+	horizontal-align: center;
+	margin-bottom: 30px;
+	letter-spacing: 0.5px;
+	border-bottom: 1px solid #492D1F;
+	z-index: 3;
+	visibility: collapse;
+}
+
+#OgreMagiProgress_Default
+{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: .24s;
+	transition-timing-function: ease-in-out;
+}
+
+.OgreMagiLearnMore
+{
+	visibility: visible;
+	vertical-align: center;
+	border-bottom: 0px solid;
+	width: 70%;
+	font-size: 18px;
+	color: #ffffff;
+	text-shadow: 2px 0px 8px 15 rgba(0,0,0,0.1);
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	text-align: center;
+	opacity: 1;
+	z-index: 3;
+	transition-property: color, text-shadow, opacity;
+	transition-duration: .24s;
+	transition-timing-function: ease-in-out;
+}
+
+.OgreMagiLearnMore:hover Label
+{
+	color: #ffffff;
+}
+
+.ContextMenuActive #OgreMagiArcanaProgressButton Label
+{
+	opacity: 1;
+}
+
+.ContextMenuActive #OgreMagiProgress_Default
+{
+	opacity: 1;
+}
+
+.ContextMenuActive .OgreMagiLearnMore
+{
+	visibility: collapse;
+}
+
+#OgreMagiArcanaProgressButton:hover
+{
+	/*brightness: 2.0;*/
+}
+
+#OgreMagiArcanaProgressButton:hover Label
+{
+	color: rgb(255, 255, 255);
+	text-shadow: 0px 0px 14px 1 rgba(233, 188, 100);
+}
+
+#OgreMagiArcanaProgressButton:active Label
+{
+	color: rgba(232, 166, 53, 0.801);
+	transition-duration: .1s;
+}
+
+.OgreMagiArcanaProgressButtonMask
+{
+	z-index: 1;
+}
+
+
+
+
+/* Inside the Inspect Panel */
+
+DOTAHUDInspect #RubickArcanaProgressButton
+{
+	margin: 0px;
+	margin-bottom: 20px;
+	ui-scale: 90%;
+}

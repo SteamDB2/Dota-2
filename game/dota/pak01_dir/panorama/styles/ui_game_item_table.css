@@ -1,0 +1,132 @@
+DOTAGameItemTable
+{
+	width: fit-children;
+	height: 100%;
+    flow-children: right;
+}
+
+.ColumnTitle
+{
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 20px;
+	color: #ccc;
+}
+
+/* ------------------------------------------------------------------------- */
+
+#ShopContents
+{
+	flow-children: right;
+}
+
+.ShopItemsCategory
+{
+	flow-children: down;
+	margin-right: 12px;
+}
+
+.ShopItemsSections
+{
+	flow-children: right-wrap;
+	max-width: 600px;
+	background-color: #0009;
+	height: 749px;
+	padding-top: 3px;
+}
+
+.AspectRatio4x3 .ShopItemsSections
+{
+	max-width: 400px;
+}
+
+.SmallItemIcons .ShopItemsSections
+{
+	max-width: 400px;
+}
+
+.ShopItemSection
+{
+	flow-children: down;
+	padding-left: 6px;
+	max-width: 250px;
+	margin-bottom: 6px;
+}
+
+.AspectRatio4x3 .ShopItemSection
+{
+	max-width: 200px;
+}
+
+.SmallItemIcons .ShopItemSection
+{
+	max-width: 200px;
+}
+
+.ShopItemSectionName
+{
+	text-transform: uppercase;
+	color: #999;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+
+.ShopItemSection #ShopItemSectionItemList
+{
+	flow-children: right-wrap;
+}
+
+.ShopItemSection DOTAShopItem
+{
+	width: 52px;
+	height: width-percentage( 72.7% );
+	margin: 0px 6px 6px 0px;
+
+	box-shadow: 0px 0px 4px black;
+
+	brightness: 0.93;
+	saturation: 0.9;
+
+	transition-property: box-shadow, saturation, brightness;
+	transition-duration: 0.2s;
+}
+
+.AspectRatio4x3 .ShopItemSection DOTAShopItem
+{
+	width: 40px;
+}
+
+.SmallItemIcons .ShopItemSection DOTAShopItem
+{
+	width: 40px;
+}
+
+.ShopItemSection DOTAShopItem:hover
+{
+	brightness: 1.5;
+	saturation: 1.0;
+}
+
+.ShopItemSection DOTAShopItem:active
+{
+	brightness: 2.0;
+	saturation: 1.0;
+}
+
+.HighlightItemsMatchingName .ShopItemSection DOTAShopItem:not(.Highlighted)
+{
+	brightness: 0.1;
+	saturation: 0.1;
+}
+
+.ShopItemSection DOTAShopItem.Highlighted
+{
+	box-shadow: 0px 0px 8px aqua;
+}
+
+#GlossaryPage_items .ShopItemSection DOTAShopItem.Selected
+{
+	box-shadow: 0px 0px 8px gold;
+}

@@ -1,0 +1,978 @@
+!pRequest->m_bUsedAsContext
+!pRequestBase->m_bUsedAsContext
+"
+"%s"
+"%s" = "%s"
+#base
+#base is NULL
+#empty#
+#include
+#include is NULL
+#int#
+$@CFioReadOnlyFile::FS_fread
+$ORIGIN
+%
+%-120s
+%-120s - %s
+%-20s "%s" %s%s
+%-20s %s
+%d_%d_%d_%d_%d.tmp
+%f %f %f %f
+%f elapsed w/o i/o
+%hd
+%hu
+%i %i %i %i
+%lg
+%lld
+%ls [wstring, len = %d]
+%s %20s %30s = %8.2fms (call count = %d)
+%s%d
+%s%s%s crc=0x%x metadatasz=%d
+%s,
+%s, %s, %s
+%s.360%s
+%s/
+%s/%llu
+%s/%llu.vpk
+%s: file too large
+%s: request %llu has op %d
+%s: string format requested %d chars
+%s_%03d.vpk
+%u
+( def. "%s" )
+(*%s*),
+(Unique   ): [%s]\%s
+(vpk)
+*.*
+- %u
+---------------
+---FS%s:  %s %s (%.3f)
+---FS%s:  close %s %p %i (%.3f)
+---FS%s:  read %s %i %p (%.3f)
+---FS%s:  write %s %i %p
+-disable_auto_vpk_loading
+-fake_workshop_dir
+-log_opened_files
+-noasync
+-onethreadpool
+...
+../public/ordered_constructor.h
+../public/tier0/tslist.h
+../public/tier1/utlblockmemory.h
+../public/tier1/utlfixedmemory.h
+../public/tier1/utllinkedlist.h
+../public/tier1/utlrbtree.h
+../public/tier1/utlsymbol.h
+../public/tier2/fileutils.h
+./
+.360
+.\
+.bsp
+.zip
+/content/
+0:Off, 1:All (for tracking accumulated duplicate read times), >1:Microsecond threashold
+0:Off, 1:Always, 2:Not during load
+0:Off, 1:Any, 2:Sync only
+0:Off, 1:Warn main thread, 2:Warn other threads
+0x%016llX
+0x%p
+10CStdioFile
+10ConCommand
+10IAppSystem
+11CFileHandle
+11CRefCountedI20CRefCountServiceBaseILb0E6CRefMTEE
+11IFileSystem
+11IRefCounted
+12CRefCounted1I11IRefCounted20CRefCountServiceBaseILb1E6CRefMTEE
+12CThreadEvent
+12CThreadedJob
+13CFileAsyncJob
+14CBaseAppSystemI11IFileSystemE
+14CBaseAppSystemI16IAsyncFileSystemE
+14ConCommandBase
+15CBaseFileSystem
+15CTier0AppSystemI11IFileSystemE
+15CTier0AppSystemI16IAsyncFileSystemE
+15CTier1AppSystemI11IFileSystemLi0EE
+15CTier1AppSystemI16IAsyncFileSystemLi0EE
+15CTier2AppSystemI11IFileSystemLi0EE
+15CTier2AppSystemI16IAsyncFileSystemLi0EE
+15IBaseFileSystem
+16
+16CAsyncFileSystem
+16CDefaultAccessor
+16CFioReadOnlyFile
+16IAsyncFileSystem
+17AsyncOpenedFile_t
+17CAsyncFileRequest
+17CFileAsyncReadJob
+17CFileSystem_Stdio
+17IAsyncFileRequest
+17IAsyncRequestBase
+18CCountedStringPool
+18CFileAsyncWriteJob
+18CPlaceholderConVar
+18CStdFilesystemFile
+18FileAsyncRequest_t
+19CAsyncSearchRequest
+19CIODelayAlarmThread
+19IAsyncSearchRequest
+19IKeyValuesErrorSpew
+20CPostConnectCallback
+20CRefCountServiceBaseILb0E6CRefMTE
+20CRefCountServiceBaseILb1E6CRefMTE
+21CFileAsyncFileSizeJob
+22CFileAsyncWriteFileJob
+22CSchemaInstallCallback
+23CFileAsyncAppendFileJob
+23IConCommandBaseAccessor
+25CFileSystemReloadFileList
+26CDefaultKeyValuesErrorSpew
+26CFileAsyncDirectoryScanJob
+6ConVar
+7IConVar
+8CFmtStrNILi256ELb0EE
+9IFileList
+;
+<< NULL >>
+<Invalid file time %lld>
+<NULL>
+<deferred>
+<no deferred ref found>
+<no failure reason set>
+<null>
+<unconnected>
+???
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
+AWATING_FINISH
+AbortAfterServicing
+Aborting IO request for %s
+Access of unconnected ConVarRef
+Access of unconnected SplitScreenConVarRef
+Add N ms of delay to every low-level read operation, to simulate a slow disk
+Adding VPK file: %s
+Addreffing existing VPK file: %s
+Alignment
+AllocInternal
+Allow AsyncBegin/EndRead()
+AnimGraphEditorUtils001
+AnimationSystemUtils_001
+AnimationSystem_001
+AssertMsg_ConditionFailed
+Assertion Failed in function %s():%s
+AssetBrowserSystem_001
+AssetPreviewSystem_001
+AssetSystem001
+AssetSystemTest001
+Async Request has not finished, unable to release (state=%i)
+Async result Status %d makes no sense
+AsyncIOCallBackHandler
+Attempted to mount UGC VPK "%s" but the UGC it lives inside (%llu) must be mounted first!
+Attempted to mount VPK "%s" but the VPK it lives inside ("%s") must be mounted first!
+Attempting to read UGC %llu but Steam isn't available!
+Attempting to read UGC %llu but failed to get installation directory.
+Attempting to read UGC %llu but failed to open vpk file: %s
+Attempting to read UGC %llu that isn't installed! Need to finish downloading first...
+Bad Release Request
+Bad expression operator: '%c%c', expected C style boolean expression operator.
+Bad expression syntax: '%s', expected a single matching pair of enclosing braces.
+Bad expression token: %c
+Bad inner op %d in %s
+BakedLODBuilderMgr001
+Basefilesystem Async Job submission failed
+BenchmarkService001
+BinaryProperties_GetValue
+Blocked change to read-only path %s!
+Buffer not big enough to hold requested File IO
+BuildHashTables
+CAsyncFileRequest::GetProfilingInfo called with bad buffer size (%d passed, expecting %llu)
+CAsyncRequestBase::ProcessCallback callback function:  %8.3f msec (>10): %s
+CAsyncRequestQueue destructor called while queue was not empty
+CBaseFileSystem::Close
+CBaseFileSystem::EnableWhitelistFileTracking called more than once.
+CBaseFileSystem::FPrintf
+CBaseFileSystem::FileExists
+CBaseFileSystem::FindFileAbsoluteList
+CBaseFileSystem::FindFirst
+CBaseFileSystem::FindNext
+CBaseFileSystem::Flush
+CBaseFileSystem::GetFileTime
+CBaseFileSystem::GetPathTime
+CBaseFileSystem::Open
+CBaseFileSystem::Read
+CBaseFileSystem::ReadLine
+CBaseFileSystem::Seek
+CBaseFileSystem::Size
+CBaseFileSystem::Tell
+CBaseFileSystem::Write
+CBufferString::AppendConcat(int, char const* const*, int const*, bool)
+CBufferString::AppendFormat(char const*, ...)
+CBufferString::ComposeFileName(char const*, char const*, char)
+CBufferString::Concat(char const*, char const*, ...)
+CBufferString::EnsureTrailingSlash(char)
+CBufferString::ExtendPath(char const*, char)
+CBufferString::ExtractFileBase(char const*)
+CBufferString::ExtractFileExtension(char const*)
+CBufferString::ExtractFilePath(char const*)
+CBufferString::ExtractFirstDir(char const*)
+CBufferString::FixSlashes(char)
+CBufferString::FixupPathName()
+CBufferString::Format(char const*, ...)
+CBufferString::Insert(int, char const*, int, bool)
+CBufferString::MakeAbsolutePath(char const*, char const*)
+CBufferString::MakeRelativePath(char const*, char const*)
+CBufferString::Purge(int)
+CBufferString::Relinquish(CBufferString::EAllocationOption_t)
+CBufferString::RemoveAt(int, int)
+CBufferString::RemoveDotSlashes(char)
+CBufferString::RemoveFirstDir(CBufferString*)
+CBufferString::SetLength(int, bool, int*)
+CBufferString::SetPtr(char*, int, int, bool, bool)
+CBufferString::ShortenPath()
+CBufferString::StripExtension()
+CBufferString::StripTrailingSlash()
+CBufferString::Swap(CBufferString&)
+CBufferString::ToLowerFast(int)
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CFileAsyncJob
+CMemAllocSystemInitialize
+COLORCORRECTION_VERSION_1
+COMPLETED
+COMPOSING
+COM_TimestampedLog
+CONTENTROOT
+CPackedStore
+CTSQueue corruption
+CThread::CThread()
+CThread::Init()
+CThread::IsThreadRunning()
+CThread::OnExit()
+CThread::Sleep(unsigned int)
+CThread::Start(unsigned int, ThreadPriorityEnum_t)
+CThread::WaitForCreateComplete(CThreadEvent*)
+CThread::~CThread()
+CThreadEvent::CThreadEvent(bool)
+CThreadEvent::Set()
+CThreadFastMutex::Lock(char const*, int, unsigned long long, unsigned int) volatile
+CThreadMultiWaitEvent::Set()
+CThreadRWLock::LockForWrite(char const*, int)
+CThreadRWLock::UnlockWrite(char const*, int)
+CThreadRWLock::WaitForRead()
+CThreadRWLock_FastRead::CThreadRWLock_FastRead()
+CThreadRWLock_FastRead::HandleFirstWriteLockTransition()
+CThreadRWLock_FastRead::UnlockReadAccounting(char const*, int, unsigned int)
+CThreadRWLock_FastRead::WaitForReadLockTransition(unsigned int, char const*, int)
+CThreadSemaphore::Release(int, int*)
+CThreadSemaphore::~CThreadSemaphore()
+CThreadSpinRWLock::LockForRead(char const*, int)
+CThreadSpinRWLock::SpinLockForWrite(char const*, int, unsigned long long)
+CThreadSpinRWLock::UnlockRead(char const*, int)
+CThreadSpinRWLock::UnlockWrite(char const*, int)
+CThreadSyncObject::Wait(unsigned int)
+CThreadSyncObject::WaitImpl(unsigned int)
+CThreadSyncObject::~CThreadSyncObject()
+CUtlBlockMemory overflow!
+CUtlFixedMemory overflow!
+CUtlLinkedList overflow! (exhausted index range)
+CUtlLinkedList overflow! (exhausted memory allocator)
+CUtlMemoryPoolBase
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
+CUtlRBTree overflow with %u elements!
+CVProfNode::EnterScope()
+CVProfNode::ExitScope()
+CVProfNode::GetSubNode(char const*, int, char const*, int)
+CXXABI_1.3
+Callback called at wrong time (%d)
+Can't find completed Async IO request, request description %s
+Cannot open %s for writing
+Cannot rename file "%s" that exists in a VPK or UGC file!
+Cannot rename file "%s" that exists in a read only search path!
+ChangeSize
+Clear the list of files that have been opened.
+CommandLine
+ConMsg(char const*, ...)
+ConVar(%s) defined with infinite float value (%s)
+ConVarRef %s doesn't point to an existing ConVar
+Conditional Error: %s
+ConfigurationSystem_001
+ConnectInterfaces
+CopyAFile: Cannot copy into a VPK or UGC file '%s'
+CopyAFile: Failed to copy file %s.
+CopyAFile: dest '%s' must be absolute path.
+CreateFile
+CreateInterface
+CreateNewThreadPool
+DEFAULT_WRITE_PATH
+DEMO
+DataOffset
+DebugTextureInfo001
+DeleteOuter
+DevMsg
+DevMsg(char const*, ...)
+DotaCardGameClient_001
+ERROR_ALIGNMENT
+ERROR_ALREADYSERVICED
+ERROR_ALREADYSUBMITTED
+ERROR_BADOPER
+ERROR_BADPATHSPEC
+ERROR_BADPTR
+ERROR_BADUSERBUFFER
+ERROR_FAILURE
+ERROR_FILENAMETOOLONG
+ERROR_FILEOPEN
+ERROR_INVALIDFILENAME
+ERROR_IOLOCKED
+ERROR_IOSUSPENDED
+ERROR_ISSYNCHRONOUS
+ERROR_NOBUFFER
+ERROR_NOMEMORY
+ERROR_NONOTIFICATION
+ERROR_NOTSUBMITTED
+ERROR_NOTVALIDSYNCRONOUS
+ERROR_PATHTOOLONG
+ERROR_READING
+ERROR_UNKNOWNID
+EXECUTABLE_PATH
+EXPORTSYSTEM_INTERFACE_VERSION_001
+EarlyInit_Tier0
+EconItemToolModel_001
+EnableWhitelistFileTracking
+EngineServiceMgr001
+EnvironmentMapBuilder_001
+EventSystem001
+Exceeded limit of number of vpk files supported (%d)!
+FATAL ERROR: unable to register all schema data: %s
+FCVAR_NEVER_AS_STRING
+FS:  Tried to Close NULL file handle!
+FS:  Tried to EndOfFile NULL file handle!
+FS:  Tried to FPrintf NULL file handle!
+FS:  Tried to Flush NULL file handle!
+FS:  Tried to IsOk NULL file handle!
+FS:  Tried to IsOk NULL file pointer inside valid file handle!
+FS:  Tried to Read NULL file handle!
+FS:  Tried to ReadLine NULL file handle!
+FS:  Tried to SetBufferSize NULL file handle!
+FS:  Tried to Size NULL file handle!
+FS:  Tried to Size NULL filename!
+FS:  Tried to Tell NULL file handle!
+FS:  Tried to Write NULL file handle!
+FS:  Tried to Write NULL file pointer inside valid file handle!
+FS: Specified two path IDs (%s, %s).
+Failed
+Failed to load module %s
+Failed to read %d bytes
+File %s was never closed
+File '%s' was returned by GetFileList, but OpenFile() fails?!
+File Path:
+File System
+FileSystem
+Filename '%s' is invalid to be contained in a VPK
+Filesystem
+FlattenedSerializersVersion001
+FontManager_001
+Fopen
+FormatV
+Fread
+From Steam: [%s]\%s
+GAMECONSOLE
+GAMEROOT
+GCC: (Ubuntu 5.4.0-7.really.6+steamrt1.1+srt1) 5.4.1 20160803
+GLIBC_2.14
+GLIBC_2.2.5
+GLIBC_2.3
+GLIBC_2.3.4
+GLIBC_2.4
+GNU
+GameResourceServiceClientV001
+GameResourceServiceServerV001
+GameUIService_001
+GetFileHandle
+GetInterfaceBase
+GetProfilingInfo
+GetResourceManifestCount
+GetResourceManifests
+GetWaitForResourcesProgress (stdio)
+Grow
+HIGHDPI
+HammerMapLoader001
+HangWatchdog_IndicateActivity
+HelpSystem_001
+HookUpConfigValue
+HostStateMgr001
+IN_CALLBACK
+IOJob
+IQuickTime001
+InputService_001
+InputStackSystemVersion001
+InputSystemVersion001
+InstallChangeCallback called with NULL callback, ignoring!!!
+InstallChangeCallback ignoring duplicate change callback!!!
+InstallSchemaBindings
+Intentionally vague touch behavior for %p
+Invalid Path
+Invalid access of deferred ConVarRef for '%s'
+Invalid async read of %s
+JSON error, unterminated element:
+KV Conditional Evaluation Error
+KeyValueCache001
+KeyValues Error: %s in file %s
+KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s
+KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.
+KeyValues::SaveToFile: couldn't open file "%s" in path "%s".
+KeyValuesSystem
+KickOffFileJobs
+LINUX
+LOG_GENERAL
+LOWVIOLENCE
+LengthOfMatchingPaths
+Linux/platform issue - filename '%s' contains uppercase
+LoadFromBuffer: expected '{', found '%s'
+Localize_001
+LogBadInnerOp
+LoggingSystem_IsChannelEnabled
+LoggingSystem_Log
+LoggingSystem_Log(int, LoggingSeverity_t, LeafCodeInfo_t const&, char const*, ...)
+LoggingSystem_LogDirect
+LoggingSystem_RegisterLoggingChannel
+Logic Error in CExpressionEvaluator
+Loose
+MATCHFRAMEWORK_001
+MOD
+MODEL_PROCESSING_SCRIPT_INTERFACE_001
+MODEL_PROCESSING_SERVICES_INTERFACE_001
+MapListService_001
+MaterialUtils_001
+MemAlloc_AllocFunc
+MemAlloc_FreeFunc
+MeshSystem001
+MeshUtils001
+ModelDocUtils001
+MustRead
+NULL
+NetworkClientService_001
+NetworkMessagesVersion001
+NetworkP2PService_001
+NetworkServerService_001
+NetworkService_001
+NetworkSystemUtilsVersion001
+NetworkSystemVersion001
+NewNode
+OK
+OSX
+Open( %llu microsecs, %s )
+Open( %s )
+POSIX
+PS3
+Packed store %s with refcount > 0.
+PanoramaTextServices001
+PanoramaUIClient001
+PanoramaUIEngine001
+ParticleSystemMgr003
+Path ID:
+Physics2 Interface Old v0.5
+PhysicsBuilderMgr001
+Plat_CreateDirectory
+Plat_DebugPrint
+Plat_DebugString
+Plat_ExitProcess
+Plat_FileSize
+Plat_FloatTime
+Plat_GetCurrentDirectory
+Plat_GetEnv
+Plat_GetFileType
+Plat_GetModuleFilename
+Plat_GetOSType
+Plat_IsFile
+Plat_IsHighDPI
+Plat_IsInDebugSession
+Plat_LoadModule
+Plat_RelativeTicks
+Plat_RemoveDirectory
+Plat_RemoveFile
+Plat_RenameFile
+Plat_SetFileReadOnly
+Plat_ShouldCollectMiniDumpsForFatalErrors
+Plat_TickDiffMicroSec
+Plat_TickDiffMicroSecF
+Plat_TickDiffMilliSecF
+Plat_TranslateSymbolicLinks
+Plat_USTime
+Plat_UnloadModule
+Plat_ctime
+PostProcessingSystem_001
+Preload size for '%s' is too big
+PreloadDirectoryEntries
+ProcessCallback
+PropertyEditorSystem_001
+QueuedLoaderVersion001
+RandomInt
+ReadFile
+ReadFileEx
+ReadToBuffer
+Reading UGC %llu that still needs update. Continuing...
+RecursiveLoadFromBuffer:  got EOF instead of keyname
+RecursiveLoadFromBuffer:  got NULL key
+RecursiveLoadFromBuffer:  got conditional between key and value
+RecursiveLoadFromBuffer:  got empty keyname
+RecursiveLoadFromBuffer:  got } in key
+RecursiveLoadFromBuffer:  recursion overflow
+RegisterAllModuleData
+RegisterConfigValue: Unknown error constructing config value "%s"!
+Release
+ReleaseAsyncRequest
+Removing VPK file: %s
+RenderDevice003
+RenderDeviceMgr001
+RenderHardwareConfig002
+RenderService_001
+RenderSystemSurface001
+RenderUtils_001
+Requested non-existent write path %s!
+ResourceCompilerSystem001
+ResourceHandleUtils001
+ResourceManifestRegistry001
+ResourceSystem013
+ResubmitRequest
+ReturnJobManualEventToPool
+SERVICING_IO
+STATUS_UNDEFINED
+STEAMAPPS_INTERFACE_VERSION008
+STEAMUGC_INTERFACE_VERSION013
+SceneSystem_002
+SceneUtils_001
+SchemaSystem_001
+SchemaTestExternal_One_001
+SchemaTestExternal_Two_001
+Sending Steam API content notification
+SerializedEntitiesVersion001
+ServerUploadGameStats001
+Set fs_report_long_reads 1 before loading to use this. Prints a list of files that were opened more than once and ~how long was spent reading from them.
+Set the async filesystem mode (0 = async, 1 = synchronous)
+Show the filesystem path.
+Simulate a delay of up to a set msec per file operation
+Size mismatch determining size of signed data block (%d vs %d)
+Size of per file buffers. 0 for none
+SoundOpSystem001
+SoundOpSystemEdit001
+SoundService_001
+SoundSystem001
+Source2Client002
+Source2ClientPrediction001
+Source2ClientUI001
+Source2EngineToClient001
+Source2EngineToClientStringTable001
+Source2EngineToServer001
+Source2EngineToServerStringTable001
+Source2GameClients001
+Source2GameEntities001
+Source2Host001
+Source2Server001
+Source2ServerSerializers002
+StatsService_001
+SteamAPI_GetHSteamUser
+SteamAudio001
+SteamInternal_ContextInit
+SteamInternal_FindOrCreateUserInterface
+SubmitAsyncFileRequest
+SubmitSyncFileRequest
+SyncGetFileSize
+TestFormatA
+TestFormatB
+TestFormatC
+TestFormatD
+TestFormatE
+TestScriptMgr001
+TextLayout_001
+TextMessageMgr_001
+ThreadGetCurrentId
+ThreadGetPriority
+ThreadInMainThread
+ThreadSetPriority
+ThreadSleep
+ToolFramework2_002
+ToolGameSimulationDispatcher_001
+ToolGameSimulationSystem_001
+ToolSceneNodeFactory_001
+ToolScriptManager001
+ToolService_001
+Total Seconds: %.5f
+Tried to Seek NULL file handle!
+Tried to close unknown file pointer %p
+Tried to read %i bytes from unknown file pointer %p
+Tried to write %i bytes from unknown file pointer %p
+UNKNOWN
+UNKNOWN VALUE
+Unable to determine async job type (%d)
+Unable to remove %s!
+Unable to rename "%s" to "%s"!
+Unable to watch '%s'
+Unknown
+Unknown Path Class
+Unknown Request
+Unknown read error %d
+Unknown version %d for vpk %s
+UnzipFile
+UpdateAfterServicing
+Use native FS or STDIO
+UserInfoChangeService_001
+VApplication001
+VAvi001
+VBAllocTracker001
+VBaseFileSystem011
+VBik001
+VConComm001
+VDebugService_001
+VEngineCvar007
+VFileSystem017
+VGAME
+VGUI_Input005
+VGUI_Panel010
+VGUI_Scheme010
+VGUI_Surface032
+VGUI_System010
+VGUI_ivgui008
+VMDLLIB001
+VMaterialSystem2_001
+VMediaFoundation001
+VNewAsyncFileSystem001
+VP4003
+VPK
+VPK directory for '%s' corrupt
+VPK signing not implemented
+VPhysX Interface ResourceMgr v0.1
+VPhysics2_Handle_Interface_001
+VPhysics2_Interface_001
+VProcessUtils002
+VProfService_001
+VR_001
+VRenderDeviceSetupV001
+VScript
+VScriptDbg
+VScriptManager010
+VStringTokenSystem001
+V_FixDoubleSlashes
+V_FixSlashes
+V_GetErrno
+V_GetFileExtension
+V_IsAbsolutePath
+V_IsFakePath
+V_MakeAbsolutePathBuffer
+V_MakeAbsoluteVPKPathNameBuffer
+V_PathContainsPath
+V_RemoveDotSlashes
+V_SetErrno
+V_StrTrim
+V_StripFilename
+V_StripTrailingSlash
+V_UTF16ToUTF8
+V_UTF32ToUTF8
+V_UTF8CharsToUTF16
+V_UTF8ToUTF32
+V_UnicodeCaseConvert(char const*, char*, int, int, EStringConvertErrorPolicy)
+V_UnicodeLength(char const*)
+V_UnqualifiedFileName
+V_atof
+V_atofloat64
+V_atoi
+V_fclose
+V_fdopen
+V_ferror
+V_fflush
+V_fopen
+V_fopenUTF8
+V_fprintf
+V_fread
+V_fseek
+V_fseeki64
+V_ftell
+V_ftelli64
+V_fwrite
+V_localeconv
+V_mkstemps
+V_qsort
+V_qsort_s
+V_setvbuf
+V_snprintf
+V_snwprintf_cch
+V_sscanf
+V_stricmp_fast
+V_stristr_fast(char const*, char const*)
+V_strlower_fast
+V_strnchr
+V_strnlen
+V_strtod
+V_strtoi64
+V_strtoui64
+V_strupper_fast
+V_swscanf
+V_tier0_strstr
+V_vsnprintf
+V_vsnprintfSize
+V_vsnprintfWarnTrunc
+V_wcstod
+V_wcstoi64
+Valid Content Absolute Path
+Valid External Path
+Valid Game Absolute Path
+Valid Relative Path
+ValidateLiveness
+ValidateSubmittedRequest
+Version
+VisBuilder_001
+WARNING: File might be corrupt or missing - '%s'
+WARNING: Local content might be corrupt or missing files
+WARNING: Local content might be corrupt or missing files. Not reporting to Steam due to disabled reporting.
+WIN32
+WINDOWS
+WINXP
+Warning
+Warning:  %s = '%s' is infinite, clamping value.
+Whitelist -       reload %s
+Whitelist -       reload (absolute path) %s
+Whitelist - don't reload %s
+Whitelist - don't reload (unheard-of-file) %s
+WorkshopSetup001
+WorldRendererBuilderMgr001
+WorldRendererMgr001
+X360
+XZP
+XZP%c %d
+ZIP_EndOfCentralDirRecord
+ZIP_FileHeader
+ZIP_LocalFileHeader
+ZIP_PreloadDirectoryEntry
+ZIP_PreloadHeader
+[%.3f server clamped to %.3f]
+[a]
+\*
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+_V_ComposeFileName
+_V_ExtractFileExtension
+_V_ExtractFilePath
+_V_FileBase
+_V_FixupPathName
+_V_MakeAbsolutePath
+_V_StrSubst
+_V_StringAfterPrefix
+_V_StripExtension
+_V_StripLastDir
+_V_strncat
+_V_strncmp
+_V_strncpy
+_V_strnicmp_fast
+_V_strnistr_fast
+__bss_start
+__ctype_toupper_loc
+__cxa_atexit
+__cxa_finalize
+__cxa_guard_acquire
+__cxa_guard_release
+__cxa_pure_virtual
+__errno_location
+__fxstat64
+__gmon_start__
+__lxstat64
+__stack_chk_fail
+__strcpy_chk
+__tls_get_addr
+__xstat64
+_addons
+_edata
+_end
+_fini
+_flt.vpk
+a+
+ab+
+alphasort64
+archive
+async_allow_held_files
+async_mode
+async_resume
+async_simulate_delay
+async_suspend
+asyncappend
+asyncwrite
+bIsLive
+bIsLive && !pRequestBase->m_bUsedAsContext
+basefilesystem.cpp
+basefilesystemasync.cpp
+binary
+binary_auto
+binary_bc
+binary_lz4
+borrow
+centralDirectorySize
+cheat
+chmod
+client
+clientcmd_can_execute
+closedir
+commentLength
+compressionMethod
+console.log
+content
+crc32
+d
+delete
+developer
+diskNumberStart
+dup
+externalFileAttribs
+extraFieldLength
+f
+fcntl
+fdatasync
+fileCommentLength
+fileNameLength
+fileno_unlocked
+filesystem_buffer_size
+filesystem_max_stdio_read
+filesystem_native
+filesystem_report_buffered_io
+filesystem_stdio
+filesystem_unbuffered_io
+filesystemasync.h
+filetime
+flags
+float( %f )
+flock
+fnumber=%d ofs=0x%x sz=%d
+free
+fs_clear_open_duplicate_times
+fs_debug
+fs_debug:
+fs_dump_open_duplicate_times
+fs_fake_read_delay_ms
+fs_monitor_read_from_pack
+fs_report_long_reads
+fs_report_sync_opens
+fs_warning_mode
+ftruncate64
+g_Tier1_CRC32Table
+g_Tier1_CRC64Table
+g_VProfCurrentProfile
+g_pMemAlloc
+g_pThreadPool
+game
+gameinfo.gi
+gameinfo.txt
+generic
+int( %d = 0x%X )
+interfaces.cpp
+internalFileAttribs
+keyvalues.cpp
+l
+lastModifiedDate
+lastModifiedTime
+ld-linux-x86-64.so.2
+libc.so.6
+libfilesystem_stdio.so
+libpthread.so.0
+libstdc++.so.6
+libsteam_api.so
+libtier0.so
+libvstdlib.so
+localtime
+lseek64
+materials/overviews/
+materials/vgui/hud/
+max. %f
+memcmp
+memcpy
+memmove
+mempool.cpp
+memset
+min. %f
+nCentralDirectoryEntries_ThisDisk
+nCentralDirectoryEntries_Total
+nTries < 10000000
+need to hook up zip for linux
+notconnected
+notify
+numberOfTheDiskWithStartOfCentralDirectory
+numberOfThisDisk
+open64
+opendir
+opened_files.txt
+operator delete(void*)
+operator delete[](void*)
+operator new(unsigned long)
+operator new(unsigned long, std::nothrow_t const&)
+operator new[](unsigned long)
+operator new[](unsigned long, std::nothrow_t const&)
+packedstore.cpp
+pak%s%02d.vpk
+pak%s%02d_dir.vpk
+path
+pipe
+posix_fadvise64
+pread64
+pthread_mutex_destroy
+pthread_mutex_init
+pthread_mutex_lock
+pthread_mutex_unlock
+pthread_mutexattr_init
+pthread_mutexattr_settype
+ptr( 0x%p )
+pwrite64
+rb
+rb+
+readdir64
+readlink
+relativeOffsetOfLocalHeader
+replicated
+resource/cursor/
+resource/flash3/images/
+resource/flash3/videos/
+rewind
+rw+
+scandir64
+schemabindings.cpp
+scripts/game_sounds_heroes/
+scripts/music/
+scripts/talker/
+scripts/voscripts/
+sdktools/bin/vproj.exe
+sdktools/bin/vprojUI.exe
+server_can_execute
+signature
+singleplayer
+sound/
+src
+src/public/tier0/platform.h
+ss_added
+startOfCentralDirOffset
+stat
+strcasecmp
+strchr
+strcmp
+strcpy
+strlen
+strrchr
+typeinfo for CThread
+typeinfo for CThreadSyncObject
+u64( %lld = 0x%llX )
+ugc:
+uncompressedSize
+unlink
+update
+user
+utlstring.cpp
+utlsymbol.cpp
+versionMadeBy
+versionNeededToExtract
+vpk:
+vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__vmi_class_type_info
+wb
+wcscmp
+wcslen
+wt
+zD
+{
+{}()':
+}

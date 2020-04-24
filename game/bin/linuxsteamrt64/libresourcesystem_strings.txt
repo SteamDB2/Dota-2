@@ -1,0 +1,1523 @@
+!m_bNeedsSort
+"""
+"%s"
+"%s" = "%s"
+#
+#[
+$ORIGIN
+% 5i:  [%32.32s]
+%-120s
+%-120s - %s
+%.15lf
+%02X
+%d General references (More ResourceAddRef() calls than ResourceRelease())
+%d Manifest references (Still holding onto a HResourceManifest somewhere)
+%d Schema references (Most likely a resource referring to another resource)
+%d Strong handle references (Still holding onto a CStrongHandle somewhere)
+%g
+%i %i %i %i
+%lg
+%lld
+%lld,
+%llu
+%s$Fence%d
+%s%d
+%s%s
+%s%s%s%sFinal operation count %llu
+%s.%s
+%s: string format requested %d chars
+%sResource System profile stats unavailable. Compile with RESOURCE_SYSTEM_GATHER_STATS as 1 to gather stats.
+&
+(
+( def. "%s" )
+(None)
+*
+** Forcing all resource loads to fail: "%s"
+*** Bad deletion request: Refcount for %s resource "%s" (%016llX) is greater than zero. (%d)!
++ CStrongHandle, %d operations: %s
++ CStrongHandle, operation: %lld)
++ Manifest, %d operations: %s
++ Manifest, operation: %lld)
++ ResourceAddRef(), %d operations: %s
++ ResourceAddRef(), ResourceReferencePairingId_t: %d, operation: %lld
++ Schematized reference, %d operations: %s
++ Schematized reference, Pairing ID: %d, operation: %lld
++inf
+,
+- CStrongHandle, %d operations: %s
+- CStrongHandle, operation: %lld)
+- Manifest, %d operations: %s
+- Manifest, operation: %lld)
+- ResourceRelease(), %d operations: %s
+- ResourceRelease(), ResourceReferencePairingId_t: %d, operation: %lld
+- Schematized reference, %d operations: %s
+- Schematized reference, Pairing ID: %d, operation: %lld
+-->
+-1
+-> Matched %d of %d loaded resources
+-avx
+-exit_on_resource_load_failure
+-force_all_resource_loads_to_fail
+-inf
+-resource_exit_after_time
+-resource_leaks
+-resource_system_verbose
+-sse2
+-sse3
+-sse4
+-start_resource_profiling
+...
+../public/ordered_constructor.h
+../public/tier0/tslist.h
+../public/tier1/utlblockmemory.h
+../public/tier1/utllinkedlist.h
+../public/tier1/utlrbtree.h
+../public/tier1/utlreferencetracker.h
+../public/tier1/utlsortvector.h
+../public/tier1/utlsymbol.h
+../public/tier1/utltshash.h
+00000000-0000-0000-0000-000000000000
+10ConCommand
+10IAppSystem
+11IRefCounted
+12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE
+12CThreadEvent
+14CBaseAppSystemI15IResourceSystemE
+14ConCommandBase
+15CMemberFunctor0IP25CAsyncResourceDataRequestMS0_FvvE12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+15CMemberFunctor1IP16CLoadingResourceMS0_FvP25CAsyncResourceDataRequestES3_12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
+15CResourceSystem
+15CTier0AppSystemI15IResourceSystemE
+15CTier1AppSystemI15IResourceSystemLi0EE
+15CTier2AppSystemI15IResourceSystemLi0EE
+15IResourceSystem
+16CDefaultAccessor
+16CLoadingResource
+16CNullTypeManager
+16ICommandCallback
+18CPlaceholderConVar
+18ITSHashConstructorI21ResourceBindingBase_tE
+19CSchemaRegistration
+1DBlend
+20CPostConnectCallback
+20CRefCountServiceBaseILb1E6CRefMTE
+20CResourceConstructor
+20IResourceHandleUtils
+20IResourceSystemUtils
+20IResourceTypeManager
+21IVConCommDataReceived
+22CSchemaInstallCallback
+22CStreamingResourceData
+23CResourceSystemProfiler
+23IConCommandBaseAccessor
+23IResourceSystemProfiler
+25CAsyncResourceDataRequest
+25CConCommandMemberAccessorI23CResourceSystemProfilerE
+25CResourceDeallocatorUtils
+25IAsyncResourceDataRequest
+25IResourceDeallocatorUtils
+25IResourceManifestRegistry
+26CResourceSystemLeakTracker
+26ICommandCompletionCallback
+26IResourceSystemLeakTracker
+28CCodeResourceManifestManager
+28CResourceManifestTypeManager
+28ICodeResourceManifestManager
+29CRD_RegisterResourceDataUtils
+29IRD_RegisterResourceDataUtils
+30IAsyncResourceDataRequestOwner
+32CSchemaRegistration_resourcefile
+34CSchemaRegistration_resourcesystem
+34CVConResourceProfileCommandHandler
+36CSchemaRegistration_mathlib_extended
+6ConVar
+7IConVar
+8CFmtStrNILi256ELb0EE
+8CFunctor
+<!--
+<INVALID>
+<deferred>
+<no deferred ref found>
+<no failure reason set>
+<null>
+<unconnected>
+<unknown>
+=
+A->B
+AE_ACTION_SET_TURN_RATE_SCALE
+AE_BLIND_ZOMBIE_SNIFF
+AE_CL_ADD_PARTICLE_EFFECT_CP
+AE_CL_BODYGROUP_SET_VALUE
+AE_CL_CREATE_PARTICLE_BRASS
+AE_CL_CREATE_PARTICLE_EFFECT
+AE_CL_CREATE_PARTICLE_EFFECT_CFG
+AE_CL_PLAYSOUND_LOOPING
+AE_CL_STOP_PARTICLE_EFFECT
+AE_DOTA_SUPPRESS_CONSTANT_LAYER
+AE_HIDE_WEAPON
+AE_IK_ALLOW_PLANE_TILT_NORMAL_UPDATES
+AE_IK_SET_CHAIN_BLEND_AMOUNT
+AE_IK_SET_LOCK_ROTATION_ALPHA
+AE_IK_SET_MASTER_BLEND_AMOUNT
+AE_MELEE_DAMAGE
+AE_NPC_BECOME_TEMPORARY_RAGDOLL
+AE_NPC_HURT_INTERACTION_PARTNER
+AE_NPC_SET_INTERACTION_CANTDIE
+AE_NPC_START_POWERED_RAGDOLL
+AE_NPC_WEAPON_FIRE
+AE_NPC_WEAPON_SET_SEQUENCE_NUMBER
+AE_PASSENGER_PHYSICS_PUSH
+AE_SCRIPT_EVENT_FIREEVENT
+AE_SV_DUSTTRAIL
+AE_VORTIGAUNT_START_HEAL_GLOW
+AE_VORTIGAUNT_START_HURT_GLOW
+AE_VORTIGAUNT_ZAP_POWERUP
+AE_VORTIGAUNT_ZAP_SHOOT
+AE_ZOMBIE_POPHEADCRAB
+AE_ZOMBIE_TOGGLE_HEAD
+AIWalkable
+ANIMATION_TYPE_FIT_LIFETIME
+ANIMATION_TYPE_FIXED_RATE
+APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!
+AbsolutePoseControl
+Access of unconnected ConVarRef
+Access of unconnected SplitScreenConVarRef
+AllocInternal
+An attempt was made to create a resource manifest with debug name "%s" while the resource system was shutting down.
+AnimAddLayer
+AnimAlign
+AnimAutoLayer
+AnimBaseParams
+AnimBlendLayer
+AnimBlendLayerBase
+AnimBlendLayerPoseParam
+AnimCommonParams
+AnimCycleOverride
+AnimDelta
+AnimEvent
+AnimFile
+AnimGraphEditorUtils001
+AnimIkLockLocal
+AnimLayer
+AnimLayerBase
+AnimLinearDelta
+AnimOffset
+AnimProxy
+AnimSmoothLoop
+AnimStartLoop
+AnimSubtract
+AnimationList
+AnimationSystemUtils_001
+AnimationSystem_001
+AssertMsg_ConditionFailed
+AssetBrowserSystem_001
+AssetPreviewSystem_001
+AssetSystem001
+AssetSystemTest001
+Attempted to register duplicate manifest name %s!
+Available resource leak tracking configuration aliases:
+B->C
+Bad header (unrecognized encoding specifier)
+Bad header format (expected ':'
+Bad header format (expected '<!--'
+Bad header format (expected 'encoding'
+Bad header format (expected 'format'
+Bad header format (expected 'kv3'
+Bad header format (expected 'version'
+Bad header format (expected encoding name)
+Bad header format (expected encoding uuid)
+Bad header format (expected format name)
+Bad header format (expected format uuid)
+Bad header format (malformed UUID)
+Bad header format (no closing marker)
+Bad header: invalid compression header
+Bad header: unrecognized encoding id
+BakedLODBuilderMgr001
+BaseIKRig
+BasePhysicsShape
+BenchmarkService001
+BentNormalData
+BinaryProperties_GetValue
+BlendList
+Blocking Manifest Load
+BlockingLoadResourceByNameIntoJustInTimeManifest
+BodyGroup
+BodyGroupChoice
+BreakCommand
+BreakPieceEmbedded
+BreakPieceExternal
+C->D
+C->E
+CAnimMotorList
+CAnimMovementManager
+CAsyncResourceDataRequest
+CAuthPhysBody
+CAuthPhysJoint
+CBufferString::AppendConcat(int, char const* const*, int const*, bool)
+CBufferString::AppendFormatV(char const*, __va_list_tag*)
+CBufferString::ComposeFileName(char const*, char const*, char)
+CBufferString::Concat(char const*, char const*, ...)
+CBufferString::ExtendPath(char const*, char)
+CBufferString::ExtractFileBase(char const*)
+CBufferString::ExtractFilePath(char const*)
+CBufferString::FixSlashes(char)
+CBufferString::FixupPathName()
+CBufferString::Format(char const*, ...)
+CBufferString::Insert(int, char const*, int, bool)
+CBufferString::MakeAbsolutePath(char const*, char const*)
+CBufferString::MakeRelativePath(char const*, char const*)
+CBufferString::Purge(int)
+CBufferString::Relinquish(CBufferString::EAllocationOption_t)
+CBufferString::RemoveAt(int, int)
+CBufferString::RemoveDotSlashes(char)
+CBufferString::RemoveFirstDir(CBufferString*)
+CBufferString::SetExtension(char const*)
+CBufferString::SetLength(int, bool, int*)
+CBufferString::SetPtr(char*, int, int, bool, bool)
+CBufferString::ShortenPath()
+CBufferString::StripExtension()
+CBufferString::StripTrailingSlash()
+CBufferString::Swap(CBufferString&)
+CBufferString::ToLowerFast(int)
+CCallStackCapture::CCallStackCapture(int (*)(void**, int, int), unsigned int, unsigned int)
+CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!
+CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!
+CEntityIndex
+CMemAllocSystemInitialize
+COLLISION_MODE_INITIAL_TRACE_DOWN
+COLLISION_MODE_PER_FRAME_PLANESET
+COLLISION_MODE_PER_PARTICLE_TRACE
+COLLISION_MODE_USE_NEAREST_TRACE
+COLORCORRECTION_VERSION_1
+CONTENT
+CONTENTROOT
+CParticleSystemDefinition
+CResourceArray
+CResourcePointer
+CResourceString
+CResourceSystem Init
+CResourceSystem PreShutdown()
+CResourceSystem Shutdown
+CResourceSystem::BlockingFinishAllCurrentlyLoadingManifests is blocking
+CResourceSystem::FindOrCreateProceduralResource: Passed in an empty name for a procedural resource!
+CResourceSystem::ForceSynchronizationAndBlockUntilManifestLoaded blocked for %.3f ms on %s [%s]
+CStackTop_Base::CStackTop_Base()
+CStackTop_Base::~CStackTop_Base()
+CStrongHandle
+CStrongHandleCopyable
+CStrongHandleVoid
+CStrongHandleVolatile
+CTSQueue corruption
+CThreadEvent::CThreadEvent(bool)
+CThreadEvent::Set()
+CThreadFastMutex::Lock(char const*, int, unsigned long long, unsigned int) volatile
+CThreadRWLock::LockForWrite(char const*, int)
+CThreadRWLock::UnlockWrite(char const*, int)
+CThreadRWLock::WaitForRead()
+CThreadSpinRWLock::LockForRead(char const*, int)
+CThreadSpinRWLock::SpinLockForWrite(char const*, int, unsigned long long)
+CThreadSpinRWLock::UnlockRead(char const*, int)
+CThreadSpinRWLock::UnlockWrite(char const*, int)
+CThreadSyncObject::Wait(unsigned int)
+CThreadSyncObject::WaitImpl(unsigned int)
+CThreadSyncObject::~CThreadSyncObject()
+CTransform
+CUtlBlockMemory overflow!
+CUtlBuffer::VaPrintf: String overflowed buffer [%llu]
+CUtlLinkedList overflow! (exhausted index range)
+CUtlLinkedList overflow! (exhausted memory allocator)
+CUtlMemoryPoolBase
+CUtlMemoryPoolBase: Cannot specify 0 elements to grow each time!
+CUtlRBTree overflow with %u elements!
+CUtlReferenceTracker::Release() release counts for group outnumber addref counts for the same group
+CUtlString
+CUtlStringToken
+CUtlSymbol
+CUtlSymbolLarge
+CVProfNode::EnterScope()
+CVProfNode::ExitScope()
+CVProfNode::GetSubNode(char const*, int, char const*, int)
+CWeakHandle
+CWeakHandleVoid
+CXXABI_1.3
+C_INIT_AddVectorToVector
+C_INIT_AgeNoise
+C_INIT_CreateFromCPs
+C_INIT_CreateInEpitrochoid
+C_INIT_CreateOnModelAtHeight
+C_INIT_CreateSequentialPath
+C_INIT_CreateWithinSphere
+C_INIT_DistanceToCPInit
+C_INIT_GlobalScale
+C_INIT_InheritFromParentParticles
+C_INIT_InheritVelocity
+C_INIT_InitFromCPSnapshot
+C_INIT_InitFromParentKilled
+C_INIT_InitialRepulsionVelocity
+C_INIT_InitialVelocityFromHitbox
+C_INIT_InitialVelocityNoise
+C_INIT_LifespanFromVelocity
+C_INIT_MakeShapes
+C_INIT_ModelCull
+C_INIT_MoveBetweenPoints
+C_INIT_NormalOffset
+C_INIT_OffsetVectorToVector
+C_INIT_PositionOffset
+C_INIT_PositionOffsetToCP
+C_INIT_PositionPlaceOnGround
+C_INIT_PositionWarp
+C_INIT_RandomVectorComponent
+C_INIT_RandomYawFlip
+C_INIT_RemapCPtoScalar
+C_INIT_RemapCPtoVector
+C_INIT_RemapInitialCPDirectionToRotation
+C_INIT_RemapInitialVisibilityScalar
+C_INIT_RemapNamedModelElementToScalar
+C_INIT_RemapParticleCountToScalar
+C_INIT_RemapScalar
+C_INIT_RemapScalarToVector
+C_INIT_RemapSpeedToScalar
+C_INIT_RtEnvCull
+C_INIT_SequenceFromCP
+C_INIT_SequenceLifeTime
+C_INIT_SetHitboxToClosest
+C_INIT_SetRigidAttachment
+C_INIT_VelocityFromCP
+C_INIT_VelocityFromNormal
+C_INIT_VelocityRadialRandom
+C_INIT_VelocityRandom
+C_OP_AttractToControlPoint
+C_OP_ContinuousEmitter
+C_OP_DistanceBetweenCPsToCP
+C_OP_DriveCPFromGlobalSoundFloat
+C_OP_EnableChildrenFromParentParticleCount
+C_OP_HSVShiftToCP
+C_OP_InheritFromParentParticles
+C_OP_InitSetSnapshotOnCP
+C_OP_InstantaneousEmitter
+C_OP_LockToSavedSequentialPath
+C_OP_NoiseEmitter
+C_OP_RampCPLinearRandom
+C_OP_RemapAverageScalarValuetoCP
+C_OP_RemapBoundingVolumetoCP
+C_OP_RemapCPtoCP
+C_OP_RemapModelVolumetoCP
+C_OP_RenderModels
+C_OP_RenderSprites
+C_OP_RenderTrails
+C_OP_RepeatedTriggerChildGroup
+C_OP_SetCPOrientationToPointAtCP
+C_OP_SetControlPointFieldToWater
+C_OP_SetControlPointFromObjectScale
+C_OP_SetControlPointOrientation
+C_OP_SetControlPointPositionToTimeOfDayValue
+C_OP_SetControlPointPositions
+C_OP_SetControlPointRotation
+C_OP_SetControlPointToCenter
+C_OP_SetControlPointToHMD
+C_OP_SetControlPointToHand
+C_OP_SetControlPointToImpactPoint
+C_OP_SetControlPointToPlayer
+C_OP_SetParentControlPointsToChildCP
+C_OP_SetRandomControlPointPosition
+C_OP_SetSingleControlPointPosition
+C_OP_StopAfterCPDuration
+C_OP_TwistAroundAxis
+C_OP_WorldTraceConstraint
+Cannot register same format from/to a KV3 conversion (from '%s' to '%s')
+ChangeCallbackOnChange
+ChangeSize
+ClothShapeCapsule
+ClothShapeList
+ClothShapeSphere
+CommandLine
+CommandProcedure
+CommandProcedureList
+ConMsg(char const*, ...)
+ConVar(%s) defined with infinite float value (%s)
+ConVarRef %s doesn't point to an existing ConVar
+ConfigAttachedModel
+ConfigurationSystem_001
+ConnectInterfaces
+CreateInterface
+Cycle or diamond double-reference to '%s'
+DISABLED
+DebugTextureInfo001
+Decompression failure
+Default
+DegreeEuler
+DeleteResource
+Deleting empty loading resource
+DevMsg
+DevMsg(char const*, ...)
+DotaCardGameClient_001
+Double-register of KV3 conversion (from '%s' to '%s')
+DynamicConfigList
+ENABLED
+ERROR: %s resource %016llX is the wrong resource type!
+ERROR: %s resource %016llX requested but not resident. (Missing from from a manifest?)
+ERROR: %s resource '%s' (%016llX) requested is not loaded and may have been deleted.
+ERROR: %s resource '%s' (%016llX) requested is still pending and is not loaded.
+ERROR: No type manager for resource "%s"!
+ERROR: Reentrant call to CResourceSystem::BlockUntilManifestLoaded() while already in a frame update!
+ERROR: Reentrant call to CResourceSystem::FrameUpdate()!
+ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!
+ERROR: Specified full path %s does not lie under the mod search path!)
+ERROR: Specified path %s could not be made content-relative
+EXPORTSYSTEM_INTERFACE_VERSION_001
+EarlyInit_Tier0
+EconItemToolModel_001
+EditorDynamicConfig
+EmptyAnim
+Encountered nonexistent %s: %016llX (file "%s")
+EngineServiceMgr001
+EnvironmentMapBuilder_001
+Error initializing resource manager for resource type "%lld"!
+Error loading resource "%s" (Invalid header version: %d != %d)
+Error loading resource file "%s" (Error: %s)
+Error loading resource manifest "%s" (No DATA block)
+EventSystem001
+Expected "="after member '%s'
+Expected '#'
+Expected '&' and instance name or 'NULL'
+Expected ',' or '%s'
+Expected '=' after member name '%s'
+Expected '['
+Expected '[' or '('
+Expected '{'
+Expected ( <count> )
+Expected <member name> after type
+Expected []
+Expected hex byte (eg. 00-FF)
+Expected member name or '}'
+Expected token
+Expected type of next member
+Expected value or ']'
+FATAL ERROR: %s resource '%s' (%016llX) is the wrong resource type! (This is likely caused by a hash collision between the strings '%s' and '%s')
+FATAL ERROR: unable to register all schema data: %s
+FCVAR_NEVER_AS_STRING
+Failed to assign bool literal value
+Failed to convert KV3 to string; error: %s
+Failed to load resource "%s" and -exit_on_resource_load_failure was set and it's not in badresources_whitelist.txt
+FileSystem
+Find
+FindLessOrEqual
+FindOrRegisterResourceByName
+FixupResourceName: Illegal full path passed in ("%s")!
+FixupResourceName: Illegal path, missing extension passed in ("%s")!
+FlattenedSerializersVersion001
+FontManager_001
+ForceSynchronizationAndBlockUntilManifestLoaded
+Forgot to remove resource type manager for type %s!
+FormatV
+FourVectors
+G->B
+GAME
+GCC: (Ubuntu 5.4.0-7.really.6+steamrt1.1+srt1) 5.4.1 20160803
+GLIBC_2.14
+GLIBC_2.2.5
+GLIBC_2.3.4
+GLIBC_2.4
+GNU
+GameResourceServiceClientV001
+GameResourceServiceServerV001
+GameUIService_001
+GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!
+GenericGameData
+GetCPUInformation
+GetCStringCharConversion
+GetNamedManifestResources: Manifest group name is empty or null.
+GetNamedManifestResources: Manifest name not registered: "%s"
+GetRegistrationForType(pResourceData->m_nResourceType)->m_pTypeManager == NULL
+GetResourceManifestCount
+GetResourceManifests
+GetResourceStatus( resourceName ) == RESOURCE_STATUS_RESIDENT
+HammerMapLoader001
+HelpSystem_001
+HookUpConfigValue
+HostStateMgr001
+IKChain
+IKChainOld
+IKData
+IKRigBiped
+IKRigBug
+IKRigSimple
+IQuickTime001
+Idle (ResourceSystemSleep)
+InfoForResourceTypeCAnimData
+InfoForResourceTypeCAnimationGroup
+InfoForResourceTypeCChoreoSceneFileData
+InfoForResourceTypeCDACGameDefsData
+InfoForResourceTypeCDOTAPatchNotesList
+InfoForResourceTypeCDotaItemDefinitionResource
+InfoForResourceTypeCEntityLump
+InfoForResourceTypeCModel
+InfoForResourceTypeCMorphSetData
+InfoForResourceTypeCPanoramaDynamicImages
+InfoForResourceTypeCPanoramaLayout
+InfoForResourceTypeCPanoramaScript
+InfoForResourceTypeCPanoramaStyle
+InfoForResourceTypeCPhysAggregateData
+InfoForResourceTypeCPostProcessingResource
+InfoForResourceTypeCRenderMesh
+InfoForResourceTypeCSequenceGroupData
+InfoForResourceTypeCTextureBase
+InfoForResourceTypeCVMixListResource
+InfoForResourceTypeCVPhysXSurfacePropertiesList
+InfoForResourceTypeCVSoundEventScriptList
+InfoForResourceTypeCVSoundStackScriptList
+InfoForResourceTypeCVoxelVisibility
+InfoForResourceTypeCWorldNode
+InfoForResourceTypeIAnimationGraph
+InfoForResourceTypeIMaterial2
+InfoForResourceTypeIParticleSnapshot
+InfoForResourceTypeIParticleSystemDefinition
+InfoForResourceTypeIVectorGraphic
+InfoForResourceTypeVSound_t
+InfoForResourceTypeWorld_t
+InputService_001
+InputStackSystemVersion001
+InputSystemVersion001
+Insert
+InstallChangeCallback called with NULL callback, ignoring!!!
+InstallChangeCallback ignoring duplicate change callback!!!
+InstallResourceTypeManager
+InstallSchemaBindings
+InstallTypeManager
+Intentionally vague touch behavior for %p
+Invalid access of deferred ConVarRef for '%s'
+Invalid compressed buffer size
+Invalid data for member '%s'
+Invalid data.
+Invalid header
+Invalid member name '%s'
+IsResourceManifestGroupKnown: Manifest group name is empty or null
+KeyValueCache001
+KeyValuesSystem
+LIGHT_SOURCE_SHAPE_SPHERE
+LOG_GENERAL
+Leaked reference to ERROR resource for type %s!
+Leaked resource: Refcount %s for %s%s resource "%s" (%016llX).  This may result in a crash.
+LightSourceShape_t
+Line %d at "%s": %s
+Line %d: %s
+Line %d: Invalid literal value "%s"
+Line %d: Invalid value "%s"
+List loaded resources matching a substring
+Loading Resource %016llX (file "%s") is waiting for an external system to finish work.
+Loading Resource %016llX (file "%s") is waiting for its file to load.
+Loading Resource %016llX (file "%s") is waiting for streaming bits to load.
+Localize_001
+LoggingSystem_GetChannel
+LoggingSystem_GetChannelVerbosity
+LoggingSystem_IsChannelEnabled
+LoggingSystem_Log
+LoggingSystem_Log(int, LoggingSeverity_t, Color, char const*, ...)
+LoggingSystem_Log(int, LoggingSeverity_t, LeafCodeInfo_t const&, Color, char const*, ...)
+LoggingSystem_Log(int, LoggingSeverity_t, LeafCodeInfo_t const&, char const*, ...)
+LoggingSystem_Log(int, LoggingSeverity_t, LoggingMetaData_t const*, Color, char const*, ...)
+LoggingSystem_LogDirect
+LoggingSystem_RegisterLoggingChannel
+LoggingSystem_SetChannelVerbosity
+MATCHFRAMEWORK_001
+MATERIAL_LIGHT_DIRECTIONAL
+MATERIAL_LIGHT_DISABLE
+MATERIAL_LIGHT_ENVIRONMENT_PROBE
+MATERIAL_LIGHT_ORTHO
+MATERIAL_LIGHT_POINT
+MATERIAL_LIGHT_SPOT
+MNetworkBitCount
+MNetworkChangeCallback
+MNetworkEncoder
+MNetworkOverride_Invalid
+MNetworkPriority
+MNetworkRemoveAll
+MNetworkSerializeAs
+MNetworkSerializer
+MNetworkUserGroup
+MODEL_PROCESSING_SCRIPT_INTERFACE_001
+MODEL_PROCESSING_SERVICES_INTERFACE_001
+MResourceTypeForInfoType
+MapListService_001
+MaterialUtils_001
+MathLib_Init
+MaybeExitBecauseOfResourceLoadFailure
+MemAlloc_AllocFunc
+MemAlloc_FreeFunc
+MeshSystem001
+MeshUtils001
+Missing file '%s'
+ModelDocUtils001
+N24CFieldPathHuffmanEncoder12InternalNodeE
+N24CFieldPathHuffmanEncoder5INodeE
+N24CFieldPathHuffmanEncoder8LeafNodeE
+NETWORK_FIELD_LOWEST_PRIORITY
+NULL
+NetworkClientService_001
+NetworkMessagesVersion001
+NetworkP2PService_001
+NetworkServerService_001
+NetworkService_001
+NetworkSystemUtilsVersion001
+NetworkSystemVersion001
+NewNode
+Newline in string literal
+No Buffer
+No valid format conversion from '%s' to '%s'
+NoPoseControl
+PARTICLE_DEPTH_FEATHERING_OFF
+PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
+PARTICLE_SET_REPLACE_VALUE
+PARTICLE_SET_SCALE_CURRENT_VALUE
+PARTICLE_SET_SCALE_INITIAL_VALUE
+PF_BIAS_TYPE_EXPONENTIAL
+PF_MAP_TYPE_MULT
+PF_MAP_TYPE_REMAP
+PF_MAP_TYPE_REMAP_BIASED
+PF_RANDOM_MODE_VARYING
+PF_TYPE_CONTROL_POINT_COMPONENT
+PF_TYPE_LITERAL
+PF_TYPE_PARTICLE_AGE_NORMALIZED
+PF_TYPE_RANDOM_UNIFORM
+PVEC_TYPE_LITERAL
+PVEC_TYPE_LITERAL_COLOR
+PanoramaTextServices001
+PanoramaUIClient001
+PanoramaUIEngine001
+ParticleSystemMgr003
+Physics2 Interface Old v0.5
+PhysicsBodyMarkup
+PhysicsBoneMarkup
+PhysicsBuilderMgr001
+PhysicsFile
+PhysicsFileReference
+PhysicsHullFile
+PhysicsHullFromRender
+PhysicsMeshFile
+PhysicsShapeCapsule
+PhysicsShapeHull
+PhysicsShapeMesh
+PhysicsShapeSphere
+Plat_DebugPrint
+Plat_ExitProcess
+Plat_FloatTime
+Plat_GetEnv
+Plat_GetModuleFilename
+Plat_GetOSType
+Plat_IsHighDPI
+Plat_IsInDebugSession
+Plat_MicroSecTickDiff
+Plat_RelativeTicks
+Plat_SetDenormalsAreZero
+Plat_ShouldCollectMiniDumpsForFatalErrors
+Plat_TickDiffMilliSecF
+Plat_USTime
+Plat_UUIDFromString
+Plat_UUIDToString
+PostProcessingSystem_001
+PreviewAttachmentModel
+PreviewBoneAttachedModel
+PreviewBoneMergedModel
+PreviewPreset
+PreviewPresetList
+PropertyEditorSystem_001
+Push
+QAngle
+Quaternion
+QueuedLoaderVersion001
+RESOURCE_MANIFEST_HANDLE_INVALID
+RESOURCE_TYPE_NONE
+RESOURCE_TYPE_RESOURCE_MANIFEST
+RKS_DEFAULT
+RKS_DISABLE_GROUP_CLEARING
+RKS_KEEP_ALL_RECORDS
+RKS_REQUIRE_EXACT_PAIRINGS
+RSProfilerTool
+RadianEuler
+RandomFloat
+RandomSeed
+Re-entrant calls to CResourceSystem::PreShutdown()
+RegisterAllModuleData
+RegisterConfigValue: Unknown error constructing config value "%s"!
+RegisterFormatConversion
+RegisterStringToken
+Release
+RemoveBoneAndChildren
+RenderDevice003
+RenderDeviceMgr001
+RenderHardwareConfig002
+RenderMeshFile
+RenderService_001
+RenderSystemSurface001
+RenderUtils_001
+Reporting references for leak tracker error: "%s"
+Reporting references for resource "%s":
+Resource "%s" was explicitly loaded with a blocking load.
+Resource "%s" was not precached and could not be loaded by a just in time blocking load.
+Resource "%s" was not precached but was loaded by a just in time blocking load.
+Resource Leak Breakdown
+Resource leak tracking is disabled, run with "-resource_leaks" to track references
+Resource system profile mode %s
+ResourceBinding_t
+ResourceCompilerSystem001
+ResourceHandleUtils001
+ResourceId_t
+ResourceManifestRegistry001
+ResourceSystem
+ResourceSystem/SpewBlockingLoads
+ResourceSystem013
+ResourceSystemWaitingForFutureWork
+SSE and SSE2 are required.
+SceneSystem_002
+SceneUtils_001
+SchemaSystem_001
+SchemaTestExternal_One_001
+SchemaTestExternal_Two_001
+SequenceMarkup
+SequenceMarkupList
+SerializedEntitiesVersion001
+SeriousWarning
+ServerUploadGameStats001
+Sleeping
+SoundOpSystem001
+SoundOpSystemEdit001
+SoundService_001
+SoundSystem001
+Source2Client002
+Source2ClientPrediction001
+Source2ClientUI001
+Source2EngineToClient001
+Source2EngineToClientStringTable001
+Source2EngineToServer001
+Source2EngineToServerStringTable001
+Source2GameClients001
+Source2GameEntities001
+Source2Host001
+Source2Server001
+Source2ServerSerializers002
+StatsService_001
+SteamAudio001
+TestFormatA
+TestFormatB
+TestFormatC
+TestFormatD
+TestFormatE
+TestScriptMgr001
+TextLayout_001
+TextMessageMgr_001
+ThreadGetCurrentId
+ThreadGetCurrentProcessId
+ThreadNanoSleep
+ThreadSleep
+TimestampedEvent_RegisterListenerAndFlushBuffer
+ToolFramework2_002
+ToolGameSimulationDispatcher_001
+ToolGameSimulationSystem_001
+ToolSceneNodeFactory_001
+ToolScriptManager001
+ToolService_001
+Tried to double-register resource manager for two resource types! ( "%lld" and "%lld")
+Tried to install a NULL resource manager for resource type "%lld"!
+Tried to install a placeholder resource manager for an existing resource type "%lld"!
+Tried to install two resource managers for the same resource type "%lld"!
+Tried to release UGC that hasn't been referenced: %lld
+Truncated data
+Two Bone
+Two KV3 format GUIDs with the same human-friendly name ('%s')
+UPDATE_STRING_TOKEN_DATABASE
+Unable to determine buffer encoding.
+Unable to write file '%s'
+Unexpected end of file
+Unrecognized flag name '%s'
+Unrecognized resource leak tracking parameter: "%s", available configuration aliases:
+Unrecognized type '%d'
+UnregisterNamedManifest called, but we are not shutting down!!!
+Unresolved object reference '%s'
+Unsupported text encoding id.
+Update_Internal
+Usage: resource_leaks <resource_name>
+Usage: resource_repeated_reload <count> <resource_name>
+UserInfoChangeService_001
+VApplication001
+VAvi001
+VBAllocTracker001
+VBaseFileSystem011
+VBik001
+VConComm001
+VDebugService_001
+VEngineCvar007
+VFileSystem017
+VGUI_Input005
+VGUI_Panel010
+VGUI_Scheme010
+VGUI_Surface032
+VGUI_System010
+VGUI_ivgui008
+VMDLLIB001
+VMaterialSystem2_001
+VMatrix
+VMediaFoundation001
+VNewAsyncFileSystem001
+VP4003
+VPhysX Interface ResourceMgr v0.1
+VPhysics2_Handle_Interface_001
+VPhysics2_Interface_001
+VProcessUtils002
+VProfService_001
+VR_001
+VRenderDeviceSetupV001
+VSNAPFile
+VScript
+VScriptDbg
+VScriptManager010
+VStringTokenSystem001
+V_FixDoubleSlashes
+V_FixSlashes
+V_GetErrno
+V_GetFileExtension
+V_IsAbsolutePath
+V_PathContainsPath
+V_RemoveDotSlashes
+V_SetErrno
+V_StrTrim
+V_StripTrailingSlash
+V_UTF16ToUTF8
+V_UTF32ToUTF8
+V_UTF8CharsToUTF16
+V_UTF8ToUTF32
+V_UnicodeCaseConvert(char const*, char*, int, int, EStringConvertErrorPolicy)
+V_UnicodeLength(char const*)
+V_UnqualifiedFileName
+V_acosf
+V_asinf
+V_atan2f
+V_atanf
+V_atof
+V_atofloat32
+V_atofloat64
+V_atoi
+V_atoi64
+V_atoui64
+V_cosf
+V_expf
+V_fmodf
+V_fpclassify
+V_frexpf
+V_isnan
+V_localeconv
+V_logf
+V_powf
+V_qsort_s
+V_sincosf
+V_sinf
+V_snprintf
+V_snwprintf_cch
+V_sscanf
+V_stricmp_fast
+V_stristr_fast(char const*, char const*)
+V_strlower_fast
+V_strnchr
+V_strnlen
+V_strtod
+V_strtoi64
+V_strtok
+V_strtoui64
+V_strupper_fast
+V_swscanf
+V_tanf
+V_tier0_strstr
+V_vsnprintf
+V_vsnprintfSize
+V_vsnprintfWarnTrunc
+V_wcstod
+V_wcstoi64
+VaPrintf
+Vector2D
+Vector4D
+VectorAligned
+VisBuilder_001
+WARNING: %s resource '%s' (%016llX) requested but is not in the system. (Missing from from a manifest?)
+WARNING: Long frame update (%.2fms) for resource type manager '%s' in frame %d (%d long updates total for this manager)
+WARNING: Long resource system update - should have taken no more than %dns, but took %.4fs! (Frame #%d)
+WARNING: Resource "%s" references itself!
+WARNING: Resource system exiting at %.2f seconds due to '-resource_exit_after_time' command line flag
+WARNING: Trying to deallocate a resource after the type manager was uninstalled! ("%s")
+WARNING: Trying to deallocate a resource with no associated resource type! ("%s")
+WARNING: resource '%s' is an unrecognized resource type!
+Warning:  %s = '%s' is infinite, clamping value.
+WeightList
+WorkshopSetup001
+WorldRendererBuilderMgr001
+WorldRendererMgr001
+[
+[%.3f server clamped to %.3f]
+[refcount % 4d]
+\"
+\"""
+\'
+\n
+\t
+_GetCallStack
+_ITM_deregisterTMCloneTable
+_ITM_registerTMCloneTable
+_Jv_RegisterClasses
+_V_ComposeFileName
+_V_ExtractFileExtension
+_V_ExtractFilePath
+_V_FileBase
+_V_MakeAbsolutePath
+_V_SetExtension
+_V_StringAfterPrefix
+_V_StripExtension
+_V_StripLastDir
+_V_strncat
+_V_strncmp
+_V_strncpy
+_V_strnicmp_fast
+_V_strnistr_fast
+___error_resource__
+__bss_start
+__cxa_atexit
+__cxa_finalize
+__cxa_guard_acquire
+__cxa_guard_release
+__cxa_pure_virtual
+__gmon_start__
+__memcpy_chk
+__oldschema_object_name
+__stack_chk_fail
+__temp_unserialization_member__
+_c
+_edata
+_end
+_fini
+_test_conversion_counter
+ai_model_info
+allowstatic
+anchor_angles
+anchor_position
+anim_name
+anim_name_a
+anim_name_b
+animgraph0
+animgraph1
+anonymous
+archive
+attach_point
+attachment
+attachment_offset
+attachment_type
+attenuation0
+attenuation1
+attenuation2
+auto_unragdoll_duration
+bUpdate
+badresources_whitelist.txt
+baked_light_indexing
+bakelightindex
+bakelightindexscale
+binary
+binary_auto
+binary_bc
+binary_lz4
+blendamount
+blockLOS
+body_type
+bone_name
+bone_names
+bonemerge
+bouncecolor
+break_create_joint_revolute
+break_uniform_burst
+breakable_count
+breakable_model
+breakable_skin
+burst_randomize
+burst_scale
+cable
+calloc
+cantdie
+castshadows
+center
+cheat
+children
+client
+clientcmd_can_execute
+cloth_collide
+cloth_collision_layer0
+cloth_collision_layer1
+cloth_collision_layer2
+cloth_collision_layer3
+collision_group
+collision_prop
+command
+composite
+configvalue.cpp
+control_point
+create_particle
+default
+dimension0
+dimension1
+disable_group_clearing
+dmg.bullets
+dmg.club
+dmg.explosive
+dmg.fire
+dynamic_interaction
+emitFromWorld
+enable_limit
+enable_profiling
+encoding
+event_class
+event_keys
+eventindex
+exact
+explosion_behavior
+explosion_buildup
+explosion_delay
+explosion_type
+explosive_damage
+explosive_radius
+eye
+faceMergeAngle
+falloff
+false
+filesystem_stdio
+floor
+floorf
+fltx4
+fog_lighting
+fogcontributionstrength
+force
+format
+frame
+free
+friction
+g_Tier1_BitWriteMasks
+g_Tier1_CRC32Table
+g_Tier1_CRC64Table
+g_Tier1_ExtraMasks
+g_VProfCurrentProfile
+g_pMemAlloc
+game
+game_class
+game_keys
+generic
+glow
+gravity
+handindex
+headtype
+health
+health_override
+help
+hurt_me
+hurt_them
+ikdata
+innerconeangle
+interfaces.cpp
+invert_orientation
+is_debris
+keep_all_records
+keepall
+kv3
+kv3format_manager.cpp
+last_sniff
+ld-linux-x86-64.so.2
+length
+libc.so.6
+libm.so.6
+libpthread.so.0
+libresourcesystem.so
+libstdc++.so.6
+libtier0.so
+libvstdlib.so
+lightcookie
+lightsourceshape
+lighttype
+loadingresource.cpp
+lockRotationAlpha
+loop
+loop_break_on_damage
+loop_break_on_flashlight
+loop_in_action
+looping
+m_Attenuation0
+m_Attenuation1
+m_Attenuation2
+m_Bone
+m_BounceColor
+m_ChainData
+m_Children
+m_Color
+m_ColorScale
+m_Constraints
+m_ControlRigData
+m_DefaultSolverSettings
+m_DefaultTargetSettings
+m_Emitters
+m_EndEffectorBone
+m_EndEffectorTargetBone
+m_Falloff
+m_ForceGenerators
+m_IKChains
+m_IkChain
+m_IkChains
+m_Initializers
+m_JointConstraintData
+m_JointConstraintPairs
+m_JointName
+m_Joints
+m_LiteralColor
+m_MotorList
+m_Name
+m_Operators
+m_Phi
+m_PreEmissionOperators
+m_Range
+m_Renderers
+m_Shape
+m_SolverSettingSource
+m_SolverType
+m_TargetSettingSource
+m_TargetSource
+m_Theta
+m_Type
+m_bApplyMinForce
+m_bCastShadows
+m_bDisableChild
+m_bDisableOperator
+m_bDoBonesOrientAlongPositiveX
+m_bFitCycleToLifetime
+m_bForceLoopingAnimation
+m_bInitFromKilledParentParticles
+m_bLocalSpace
+m_bOffsetExistingPos
+m_bParticleFeathering
+m_bRemapPullForceToLife
+m_bRenderDiffuse
+m_bRenderSpecular
+m_bRenderTransmissive
+m_bRunForParentApplyKillList
+m_bScaleCurrent
+m_bScaleInitialRange
+m_bScaleInitialValue
+m_bScalePerParticle
+m_bTrailBias
+m_bUseHighestEndCP
+m_bUsesIndexedBakedLighting
+m_fForceAmount
+m_fForceAmountMin
+m_fLifespanScaleExp
+m_flBakeLightIndexScale
+m_flBiasParameter
+m_flClusterCooldown
+m_flClusterCooldownMax
+m_flClusterCooldownMin
+m_flClusterRefireTime
+m_flClusterRefireTimeMax
+m_flClusterRefireTimeMin
+m_flClusterSize
+m_flDuration
+m_flEmissionDuration
+m_flEmissionScale
+m_flEmitRate
+m_flFogContributionStength
+m_flInitFromKilledParentParticles
+m_flInput0
+m_flInput1
+m_flLightSourceDim0
+m_flLightSourceDim1
+m_flLightSourceSize0
+m_flLightSourceSize1
+m_flLiteralValue
+m_flMultFactor
+m_flNearClipPlane
+m_flOpStrength
+m_flOpStrengthMaxScale
+m_flOpStrengthMinScale
+m_flOutput0
+m_flOutput1
+m_flPrecomputedMaxRange
+m_flRadiusScale
+m_flRadiusTaper
+m_flRandomMax
+m_flRandomMin
+m_flScalePerParentParticle
+m_flShadowCascadeDistance
+m_flStartTime
+m_flStartTimeMax
+m_flTailAlphaScale
+m_hResource->m_nLoadingResource != LOADING_RESOURCE_INDEX_INVALID
+m_hResource->m_nStreamingResource != STREAMING_RESOURCE_DATA_INDEX_INVALID
+m_hSnapshot
+m_lightCookie
+m_lightGroups
+m_nAnimationType
+m_nAttributeToWrite
+m_nBakeLightIndex
+m_nBehaviorVersion
+m_nBiasType
+m_nCP
+m_nCPField
+m_nClusterSizeMax
+m_nClusterSizeMin
+m_nCollisionMode
+m_nControlPoint
+m_nControlPointNumber
+m_nFeatheringMode
+m_nFirstMultipleOverride_BackwardCompat
+m_nFogLightingMode
+m_nIncrement
+m_nLightGroupCount
+m_nMapType
+m_nMinParticlesToEmit
+m_nOpScaleCP
+m_nOpStrengthScaleSeed
+m_nParticlesToEmit
+m_nPriority
+m_nRandomMode
+m_nScaleCP
+m_nScaleCPComponent
+m_nScaleCPField
+m_nScaleControlPoint
+m_nScaleControlPointField
+m_nSetMethod
+m_nShadowCascadeCount
+m_nShadowCascadeResolution
+m_nShadowHeight
+m_nShadowWidth
+m_nType
+m_nVectorComponent
+m_pBody
+m_pJointConstraintData
+m_pMovementManager
+m_pParent
+m_pszSnapshotName
+m_snapshotName
+m_vEndTrailTintFactor
+m_vLiteralValue
+m_vMaxBounds
+m_vMinBounds
+m_vecColorScale
+m_vecTailColorScale
+m_vecUp
+malloc
+master_morph_weight
+material
+mathlib.cpp
+mathlib_extended
+matrix3x4_t
+matrix3x4a_t
+max. %f
+maxHullVertices
+maxVerticesPerHull
+max_angle
+memcmp
+memcpy
+memmove
+memset
+mesh
+meshes
+min. %f
+min_angle
+model_name
+modeldoc0
+modeldoc1
+modeldoc10
+modeldoc11
+modeldoc12
+modeldoc13
+modeldoc14
+modeldoc15
+modeldoc16
+modeldoc17
+modeldoc18
+modeldoc19
+modeldoc2
+modeldoc20
+modeldoc21
+modeldoc22
+modeldoc23
+modeldoc24
+modeldoc25
+modeldoc26
+modeldoc27
+modeldoc28
+modeldoc3
+modeldoc4
+modeldoc5
+modeldoc6
+modeldoc7
+modeldoc8
+modeldoc9
+multiplayer_break
+nTries < 10000000
+nan
+nav_attribute_avoid
+nav_data
+nogroup
+none
+notconnected
+notify
+null
+numsegments
+operator delete(void*)
+operator delete[](void*)
+operator new(unsigned long)
+operator new(unsigned long, std::nothrow_t const&)
+operator new[](unsigned long)
+operator new[](unsigned long, std::nothrow_t const&)
+origin_max_delta
+origin_relative
+outerconeangle
+particles/
+physgun_interactions
+physicsmode
+placement_attach
+placement_bone
+placement_mode
+play_endcap
+point0
+point1
+pose_control
+pose_control_type
+precomputedmaxrange
+preferred_carryangles
+priority
+prop_data
+pthread_mutex_destroy
+pthread_mutex_init
+pthread_mutex_lock
+pthread_mutex_unlock
+pthread_mutexattr_init
+pthread_mutexattr_settype
+radius0
+radius1
+recenter_on_parent_bone
+relative_angles
+relative_origin
+renderdiffuse
+renderspecular
+rendertransmissive
+replicated
+require_exact_pairings
+resource
+resource_leaks %s
+resource_leaks <resource_name>: Show resource leaks for the named resource
+resource_leaks: Invalid resource name '%s'
+resource_leaks: No resource named '%s'
+resource_list
+resource_repeated_reload
+resource_repeated_reload <count> <resource_name> (<resource name> ...): Load and unload the specified resource(s)
+resource_repeated_reload(%d)
+resource_repeated_reload: Invalid resource name '%s'
+resourcefile
+resourcesystem
+resourcesystem.cpp
+rnd_down
+rnd_up
+rootNode
+rs_dump_stats
+rs_dump_stats - Dump resourcesystem stats.
+schema
+schemabindings.cpp
+schemasystem
+secondary
+sequence_name
+sequence_number
+server_can_execute
+set_profile_mode
+shadowcascadecount
+shadowcascadedistance%d
+shadowcascaderesolution%d
+shadowtextureheight
+shadowtexturewidth
+shapeType
+singleplayer
+size
+size0
+size1
+source_filename
+spawn_motion_disabled
+speed
+sqrt
+sqrtf
+ss_added
+stop_immediately
+stop_instantly
+stop_on_seq_change
+strchr
+strcmp
+strcpy
+streamingresourcedata.cpp
+strlen
+suppress
+surface_prop
+test_angles_relative
+text
+texturescale
+true
+turn_rate
+typeinfo for CThreadSyncObject
+ugc:
+uint64
+use_additional_offset
+user
+utlbuffer.cpp
+utlstring.cpp
+utlsymbol.cpp
+value
+vanmgrph
+version
+vmdl
+vmdlkeys0
+vmdlkeys1
+vmdlkeys2
+vmdlkeys3
+vpcf
+vpcf1
+vpcf10
+vpcf11
+vpcf12
+vpcf13
+vpcf14
+vpcf15
+vpcf16
+vpcf17
+vpcf18
+vpcf19
+vpcf2
+vpcf20
+vpcf21
+vpcf22
+vpcf23
+vpcf24
+vpcf25
+vpcf26
+vpcf3
+vpcf4
+vpcf5
+vpcf6
+vpcf7
+vpcf8
+vpcf9
+vr_carry_type
+vrgrp
+vsnap
+vstdlib
+vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__vmi_class_type_info
+wcscmp
+wcslen
+yaw
+yaw_end
+yaw_start
+z
+zero
+{
+{}()':
+|
+}
+~CLoadingResource
+~CStreamingResourceData

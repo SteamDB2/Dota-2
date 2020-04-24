@@ -1,0 +1,141 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/frontpage_shared.vcss_c" />
+		<include src="s2r://panorama/styles/frontpage_contents.vcss_c" />
+	</styles>
+
+	<DOTAFrontpageContents>
+		
+		<!-- <CustomLayoutPanel id="OmArcana" class="FrontpageCell TopMiddleCell" onactivate="DOTAShowReferencePage(file://{resources}/layout/leaf_pages/dashboard_page_debut_ogre_magi_arcana.xml)"
+											 layout="file://{resources}/layout/banners/front_page_debut_arcana_ogre_magi.xml" /> -->
+
+		<DOTAFrontpageDefaultButton	class="FrontpageCell TopLeftCell" 
+										cellimage="s2r://panorama/images/front_page/ads/february2020_treasure_png.vtex"
+										cellheader="#FrontPage_February2020_Treasure_Header"
+										celltitle="#FrontPage_February2020_Treasure_Name"
+										celltext="#FrontPage_February2020_Treasure_Desc"
+										onactivate="DOTAShowItemDefPage( 13455 )" />
+
+		<!-- !!! Don't comment out DOTAFrontpageLastMatch, just make it not visible in the css !!! -->
+		<DOTAFrontpageLastMatch id="LastMatch" class="FrontpageCell TopRightCell" />
+		
+		<FrontpageWeekendTourneyButton id="BattleCup" class="FrontpageCell TopRightCell" />
+
+		<!-- <DOTAFrontpageDefaultButton id="Blog" class="FrontpageCell TopLeftCell" cellheader="#DOTA_Blog" /> -->
+		
+		<DOTAFrontpageCarousel id="SpectatorCarousel" class="FrontpageCell TopMiddleCell">
+			<DOTAFrontpageProCircuit id="FrontpageProCircuit" />
+			<DOTAFrontpageProPlaying id="FrontpageProPlaying"  />
+			<DOTAFrontpageTopLive id="FrontpageTopLive" />
+		</DOTAFrontpageCarousel>
+		
+		<DOTAFrontpageDefaultButton id="TopCustomGame" class="FrontpageCell BottomRightCell" cellheader="#DOTA_Custom_Game_Of_The_Day" />
+
+		<DOTAFrontpageGameplayPatch id="GameplayPatch" class="FrontpageCell BottomMiddleCell"
+					patchlink="DOTAShowPatchVersion( 7.26a )">
+			<Panel id="NumberImageContainer" class="color4">
+				<Panel id="GamePlayPatchNumberContainer">
+					<Panel id="Slot1"  class="7 PatchNumber"/>
+					<Panel id="Period" class="PatchNumber"/>
+					<Panel id="Slot2"  class="2 PatchNumber"/>
+					<Panel id="Slot3"  class="6 PatchNumber"/>
+					<Panel id="Slot4"  class="a PatchNumber"/>
+				</Panel>
+			</Panel>
+		</DOTAFrontpageGameplayPatch>
+		
+		
+
+		<DOTAFrontpageCarousel id="FeaturedTournament" class="FrontpageCell BottomLeftCell" autoscroll-delay="6s, 1.5s">
+			<CustomLayoutPanel class="FrontpageCell" layout="file://{resources}/layout/banners/front_page_featured_tournament.xml" />
+			<!-- <CustomLayoutPanel class="FrontpageCell" layout="file://{resources}/layout/banners/front_page_secondary_featured_tournament.xml" /> -->
+		</DOTAFrontpageCarousel>
+
+		<!-- itemdef for the spotlight sale is set through code -->
+		<!--<DOTAFrontpageStoreItem id="SpotlightSale" class="FrontpageCell BottomMiddleCell" cellheader="#DOTA_Store_SpotlightSale" /> -->
+
+		<!--<DOTAFrontpageDefaultButton	class="FrontpageCell BottomMiddleCell" 
+								cellimage="s2r://panorama/images/front_page/ads/treasure_of_twilight_procession_jpg.vtex"
+								cellheader="#FrontPage_New_Treasure_Header"
+								celltitle="#FrontPage_Treasure_Of_Twilight_Procession_Name"
+								celltext="#FrontPage_Treasure_Of_Twilight_Procession_Desc"
+								onactivate="DOTAShowItemDefPage( 10416 )" />-->
+
+		<!--<DOTAFrontpageCarousel id="SpectatorCarousel" class="FrontpageCell BottomRightCell">
+			<DOTAFrontpageProCircuit id="FrontpageProCircuit" />
+			<DOTAFrontpageProPlaying id="FrontpageProPlaying"  />
+			<DOTAFrontpageTopLive id="FrontpageTopLive" />
+		</DOTAFrontpageCarousel>-->
+
+		<!-- 
+		<DOTATriviaGame id="TriviaGame" class="FrontpageCell TopRightCell TallCell" />
+
+					<DOTAFrontpageDefaultButton	class="FrontpageCell BottomRightCell"
+										   cellheader="#DOTA_TI9_FrontPage_Watch_Label"
+										   celltitle="#DOTA_TI9_FrontPage_Watch_Title"
+										   celltext="#DOTA_TI9_FrontPage_Watch_Desc"
+										   cellimage="s2r://panorama/images/front_page/ti9-replays_jpg.vtex"
+										   onactivate="DOTAShowWatchTournamentsPage()">
+	
+			</DOTAFrontpageDefaultButton>
+			 -->
+
+		<!-- =-=-=-=-=-=-=-=  PREVIOUS NON-COMMON XML STUFF BELOW,  SAVED FOR FUTURE REFERENCE AND COPY PASTA  =-=-=-=-=-=-=-= -->
+
+				<!-- <DOTAFrontpageDefaultButton class="FrontpageCell TallCell TopLeftCell"
+			cellimage="s2r://panorama/images/front_page/ti9_winners_jpg.vtex"
+			cellheader="#DOTA_TI9_FrontPage_Champs_Label"
+			celltitle="#DOTA_TI9_FrontPage_Champs_Title"
+			celltext="#DOTA_TI9_FrontPage_Champs_Desc"
+			onactivate="BrowserGoToURL( blog.dota2.com/2019/08/the-international-grand-champions-3 )" /> -->
+
+		<!-- <DOTAFrontpageCarousel class="FrontpageCell BottomRightCell TallCell" autoscroll-delay="6s, 1.5s">
+
+			<DOTAFrontpageDefaultButton	class="FrontpageCell BottomRightCell"
+										   cellheader="#DOTA_TI9_FrontPage_Watch_Label"
+										   celltitle="#DOTA_TI9_FrontPage_Watch_Title"
+										   celltext="#DOTA_TI9_FrontPage_Watch_Desc"
+										   cellimage="s2r://panorama/images/front_page/ti9-replays_jpg.vtex"
+										   onactivate="DOTAShowWatchTournamentsPage()">
+	
+			</DOTAFrontpageDefaultButton>
+			
+			<DOTAFrontpageGameplayPatch id="GameplayPatch" class="FrontpageCell BottomRightCell"
+						patchlink="DOTAShowPatchVersion( 7.22g )">
+				<Panel id="NumberImageContainer" class="color4">
+					<Panel id="GamePlayPatchNumberContainer">
+						<Panel id="Slot1"  class="7 PatchNumber"/>
+						<Panel id="Period" class="PatchNumber"/>
+						<Panel id="Slot2"  class="2 PatchNumber"/>
+						<Panel id="Slot3"  class="2 PatchNumber"/>
+						<Panel id="Slot4"  class="g PatchNumber"/>
+					</Panel>
+				</Panel>
+			</DOTAFrontpageGameplayPatch>
+		</DOTAFrontpageCarousel> -->
+
+		<!--<DOTAFrontpageDefaultButton	class="FrontpageCell BottomLeftCell" 
+										cellimage="s2r://panorama/images/front_page/ads/treasure_of_the_emerald_revival_jpg.vtex"
+										cellheader="#FrontPage_Winter_2017_Treasure1_Header"
+										celltitle="#FrontPage_Treasure_Emerald_Revival_Name"
+										celltext="#FrontPage_Treasure_Emerald_Revival_Desc"
+										onactivate="DOTAShowItemDefPage( 12159 )" />-->
+
+
+		<!-- 
+		<DOTAFrontpageStoreItem id="BattlePassTreasure"
+								class="FrontpageCell TopMiddleCell VisibleWhenBattlePassOwned"
+								cellheader="#FrontPage_TI7_Treasure1_Header"
+								itemdef="12958" /> -->
+	<!-- 
+		<DOTALeaderboard id="BPLeaderBoard"
+						 class="FrontpageCell BottomRightCell"
+						 eventid="EVENT_ID_INTERNATIONAL_2019"
+						 showlevel="true"
+						 pointsheader="#DOTA_SeasonPass_Friends_Leaderboard_BattleLevel" /> -->
+
+
+
+	</DOTAFrontpageContents>
+</root>

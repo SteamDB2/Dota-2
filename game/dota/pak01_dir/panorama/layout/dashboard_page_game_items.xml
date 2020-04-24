@@ -1,0 +1,43 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/dashboard_page_shared.vcss_c" />
+		<include src="s2r://panorama/styles/quick_search.vcss_c" />
+		<include src="s2r://panorama/styles/dashboard_page_game_items.vcss_c" />
+	</styles>
+
+	<Panel class="DashboardPage" oncancel="DOTAClearGameItemShopSearch()" onactivate="DOTAQuickSearchActivated()">
+		<Panel id="PageContents">
+
+			<Panel id="ItemDetails">
+				<Label class="ColumnTitle" text="#DOTA_GameItems_ItemDetails" />
+				<Panel id="ItemDetailsContents">
+					<DOTAAbilityDetails id="AbilityDetails" class="ShowExtraDescription" />
+					<Panel class="FillHeight" />
+					<Panel id="ItemAvailability">
+						<Panel id="ItemAvailibilityMainShop" class="ItemAvailabilityRow">
+							<Panel class="ItemAvailabilityIcon MainShopIcon" />
+							<Label text="#DOTA_GameItems_AvailableAtMainShop" />
+						</Panel>
+						<!--<Panel id="ItemAvailibilitySideShop" class="ItemAvailabilityRow">
+							<Panel class="ItemAvailabilityIcon SideShopIcon" />
+							<Label text="#DOTA_GameItems_AvailableAtSideShop" />
+						</Panel>-->
+						<Panel id="ItemAvailibilitySecretShop" class="ItemAvailabilityRow">
+							<Panel class="ItemAvailabilityIcon SecretShopIcon" />
+							<Label text="#DOTA_GameItems_AvailableAtSecretShop" />
+						</Panel>
+					</Panel>
+					<DOTAShopItemCombines id="ItemCombines" />
+				</Panel>
+			</Panel>
+
+			<DOTAGameItemTable id="GameItemTable" />
+			<DOTAGameNeutralItemTable id="GameNeutralItemTable" />
+
+		</Panel>
+
+		<DOTAQuickSearch id="ItemQuickSearch" />
+
+	</Panel>
+</root>

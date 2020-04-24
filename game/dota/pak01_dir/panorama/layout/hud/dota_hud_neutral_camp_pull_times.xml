@@ -1,0 +1,21 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/hudstyles.vcss_c" />
+		<include src="s2r://panorama/styles/hud/dota_hud_neutral_camp_pull_times.vcss_c" />
+	</styles>
+
+	<snippets>
+		<snippet name="NeutralCampPullTimes">
+			<Panel class="NeutralCampTextContainer">
+				<Label id="NeutralCampPullCountdown" text="#DOTA_HUD_NeutralPullCountdown" />
+				<Label id="NeutralCampPullNow" text="#DOTA_HUD_NeutralPullNow" />
+				<Label id="NeutralCampName" text="{s:neutral_camp_name}" />
+			</Panel>
+		</snippet>
+	</snippets>
+	
+	<DOTAHUDNeutralCampPullTimes hittest="false" hittestchildren="false">
+		
+	</DOTAHUDNeutralCampPullTimes>
+</root>

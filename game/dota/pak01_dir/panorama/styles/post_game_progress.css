@@ -1,0 +1,2946 @@
+/* styles for the post game progress panel */
+@import url("file://{resources}styles/battle_pass/current_battle_pass.css");
+
+@define BattlePassProgressFadeTime: 0.1s;
+
+DOTAPostGameProgress
+{
+	width: 100%;
+	height: 100%;
+}
+
+#DebugControls
+{
+	width: 1400px;
+
+	flow-children: right;
+	horizontal-align: center;
+	vertical-align: bottom;
+
+	visibility: collapse;
+	margin-bottom: 110px;
+}
+
+#DebugControls .PopupButton
+{
+	min-width: 120px;
+	margin: 0px 4px;
+	padding: 4px 6px 2px 6px;
+}
+
+#DebugControls .PopupButton Label
+{
+	font-size: 18px;
+}
+
+
+.DebuggingProgress #DebugControls
+{
+	visibility: visible;
+}
+
+#ProgressScreens
+{
+	width: 100%;
+	height: 100%;
+}
+
+.PlusBackground
+{
+	background-color: gradient(linear, 0% 0%, 0% 30%, from( #43341c ), to( #12191f ) );
+	width: 100%;
+	height: 100%;
+	margin-top: 180px;
+	border-top: 2px solid #846534;
+}
+
+.ProgressScreen
+{
+	width: 100%;
+	height: 100%;
+
+	opacity: 0.0;
+	//transform: translateX( 100px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+}
+
+.ProgressScreen.ShowScreen
+{
+	opacity: 1.0;
+	transform: none;
+}
+
+
+.ProgressScreenTitle
+{
+	horizontal-align: center;
+	font-size: 72px;
+	color: white;
+	margin-bottom: 30px;
+	letter-spacing: 2px;
+	//text-shadow: 2px 2px 0px black;
+}
+
+#HeroBadgeProgressMain
+{
+	width: 1440px;
+	horizontal-align: center;
+	overflow: noclip;
+
+	margin-top: 60px;
+}
+
+#HeroBadgeHeroModel
+{
+	width: 800px;
+	height: 900px;
+
+	transform: translateY( -40px );
+
+	opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
+
+	opacity: 0.01;
+
+	transition-property: opacity;
+	transition-duration: 0.5s;
+}
+#HeroBadgeHeroModel.SceneLoaded
+{
+	opacity: 1.0;
+}
+
+.HeroProgressTitle
+{
+	flow-children: right;
+}
+
+.HeroProgressPlusIcon
+{
+	width: 64px;
+	height: 64px;
+
+	background-image: url("s2r://panorama/images/dotaplus_logo_png.vtex");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.HeroProgressTitle > Label
+{
+	margin-left: 16px;
+	vertical-align: middle;
+	font-size: 48px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+#HeroBadgeProgressCenter
+{
+	width: 800px;
+	margin-left: 620px;
+	margin-top: 195px;
+	flow-children: down;
+
+	opacity: 0.0;
+	transform: translateX( -20px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+}
+
+.ShowHeroProgress #HeroBadgeProgressCenter
+{
+	opacity: 1.0;
+	transform: none;
+}
+
+#HeroBadgeLevelProgressSection
+{
+	width: 600px;
+	flow-children: right;
+	margin-top: 18px;
+}
+
+#HeroBadgeLevelProgressSection > Label
+{
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.HeroBadgeProgressLevelProgressTitle
+{
+	color: white;
+}
+.HeroBadgeProgressCurrentLevel
+{
+	color: #d7c883;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	padding-top: 4px;
+	letter-spacing: 2px;
+}
+
+#HeroBadgeLevelProgressSection .HeroBadgeLevelProgressXP
+{
+	color: #d7c883;
+	font-size: 16px;
+	vertical-align: bottom;
+	padding-bottom: 4px;
+	margin-left: 8px;
+}
+
+#LevelUpText
+{
+	margin-right: 200px;
+	horizontal-align: right;
+
+	font-size: 42px;
+	font-weight: bold;
+	color: #d7c883;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+
+	opacity: 0;
+	pre-transform-scale2d: 1.3;
+
+	transition-property: opacity, pre-transform-scale2d;
+	transition-duration: 0.5s;
+}
+
+.LeveledUp #LevelUpText
+{
+	sound: "HeroBadge.Levelup";
+	opacity: 1;
+	pre-transform-scale2d: 1.0;
+}
+
+#HeroBadgeProgressHeroBadge
+{
+	ui-scale: 300%;
+	margin-top: 220px;
+	margin-left: 1120px;
+
+	opacity: 0.0;
+	transform: translateX( 20px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+}
+
+.ShowHeroProgress #HeroBadgeProgressHeroBadge
+{
+	opacity: 1.0;
+	transform: none;
+}
+
+#HeroBadgeProgressCore
+{
+	width: 100%;
+	margin-top: 8px;
+}
+
+#HeroBadgeProgressXPGrid
+{
+	flow-children: down;
+	width: 600px;
+	margin-top: 8px;
+}
+
+#HeroBadgeProgressRows
+{
+	flow-children: down;
+	height: 240px;
+	width: 100%;
+}
+
+.HeroBadgeProgressRow
+{
+	flow-children: right;
+
+	width: 100%;
+
+	opacity: 0.0;
+	transform: translateX( 50px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+}
+
+.HeroBadgeProgressRow.ShowRow
+{
+	sound: "HeroBadgeProgressRow.ShowRow";
+	opacity: 1.0;
+	transform: none;
+}
+
+.HeroBadgeProgressRowType
+{
+	color: white;
+	width: 450px;
+	font-size: 24px;
+	padding-bottom: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	//text-shadow: 2px 2px 0px black;
+}
+
+.HeroBadgeProgressRowValue
+{
+	color: dotaPlusGold;
+	font-size: 24px;
+	font-weight: normal;
+	width: 150px;
+	text-align: right;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	//text-shadow: 2px 2px 0px black;
+
+	opacity: 0;
+
+	transition-property: opacity;
+	transition-duration: 0.2s;
+}
+
+.HeroBadgeProgressRow.ShardReward .HeroBadgeProgressRowValue
+{
+	width: 120px;
+	text-overflow: shrink;
+}
+
+.HeroBadgeProgressRow.ShowValue .HeroBadgeProgressRowValue
+{
+	opacity: 1;
+}
+
+.HeroBadgeProgressRow.ShardReward .DotaPlusCurrencyIcon
+{
+	width: height-percentage( 100% );
+	height: 75%;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.HeroBadgeProgressRow_Challenge .HeroBadgeProgressRowChallengeDetails
+{
+	flow-children: down;
+	width: 450px;
+}
+
+.HeroBadgeProgressRow_Challenge .HeroBadgeProgressRowChallengeDetailsBottom
+{
+	flow-children: right;
+	width: 450px;
+}
+
+.HeroBadgeProgressRowChallengeStars
+{
+	flow-children: right;
+}
+
+.HeroBadgeProgressRow_Challenge .HeroBadgeProgressRowChallengeStar
+{
+	width: 22px;
+	height: 22px;
+
+	margin-right: 2px;
+
+	background-image: url("s2r://panorama/images/control_icons/star_png.vtex");
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	wash-color: #ccc;
+}
+
+.HeroBadgeProgressRow_Challenge.StarsEarned_1 .HeroBadgeProgressRowChallengeStar.Star1,
+.HeroBadgeProgressRow_Challenge.StarsEarned_2 .HeroBadgeProgressRowChallengeStar.Star1,
+.HeroBadgeProgressRow_Challenge.StarsEarned_2 .HeroBadgeProgressRowChallengeStar.Star2,
+.HeroBadgeProgressRow_Challenge.StarsEarned_3 .HeroBadgeProgressRowChallengeStar.Star1,
+.HeroBadgeProgressRow_Challenge.StarsEarned_3 .HeroBadgeProgressRowChallengeStar.Star2,
+.HeroBadgeProgressRow_Challenge.StarsEarned_3 .HeroBadgeProgressRowChallengeStar.Star3
+{
+	background-image: url("s2r://panorama/images/control_icons/starfilled_psd.vtex");
+}
+
+.HeroBadgeProgressRow_Challenge .HeroBadgeProgressRowChallengeName
+{
+	vertical-align: middle;
+	color: #ccc;
+	margin-left: 4px;
+	margin-top: 1px;
+	letter-spacing: 1px;
+	width: 324px;
+}
+
+#TotalsRow
+{
+	border-top: 1px solid white;
+	padding-top: 12px;
+}
+
+#TotalsRow.HeroBadgeProgressRow
+{
+	opacity: 1;
+	transform: none;
+}
+#TotalsRow.HeroBadgeProgressRow .HeroBadgeProgressRowValue
+{
+	opacity: 1;
+}
+
+#HeroBadgeLevelProgressContainer
+{
+	width: 600px;
+	margin-top: 6px;
+}
+
+#HeroBadgeLevelProgress
+{
+	height: 18px;
+	width: 100%;
+}
+
+#HeroBadgeLevelProgressContainer > Label
+{
+	font-size: 24px;
+	color: white;
+	//text-shadow: 1px 1px 0px black;
+	horizontal-align: center;
+	margin-top: 1px;
+	letter-spacing: 2px;
+}
+
+#HeroBadgeLevelProgress .ProgressBarLeft
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( #B78946 ), to( #DCD086 ) );
+}
+
+#HeroBadgeProgressRewards
+{
+	flow-children: down;
+	horizontal-align: center;
+	min-width: 700px;
+	margin-top: 550px;
+}
+
+#RewardsFinishedButton
+{
+	margin-top: 30px;
+	horizontal-align: center;
+
+	opacity: 0.0;
+
+	transition-property: opacity;
+	transition-duration: 0.5s;
+}
+
+.RewardsFinished #RewardsFinishedButton
+{
+	opacity: 1.0;
+}
+
+#HeroBadgeProgressRewardsList
+{
+	margin-top: 40px;
+	flow-children: right;
+	horizontal-align: center;
+}
+
+.HeroBadgeLevelUpReward
+{
+	flow-children: down;
+	width: 164px;
+	margin-right: 8px;
+
+	opacity: 0.0;
+	transform: translateY( -20px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+}
+
+.HeroBadgeLevelUpReward.ShowReward
+{
+	sound: "HeroBadgeLevelUpReward.ShowReward";
+	opacity: 1.0;
+	transform: none;
+}
+
+.HeroBadgeLevelUpRewardImage
+{
+	width: 100px;
+	height: 100px;
+	margin-top: 8px;
+	horizontal-align: center;
+	margin-bottom: 8px;
+
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+
+}
+
+.HeroBadgeLevelUpRewardTitle
+{
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	horizontal-align: center;
+	font-size: 16px;
+	text-align: center;
+	width: 164px;
+	//text-shadow: 2px 2px 0px black;
+	height: 27px;
+	text-overflow: shrink;
+}
+
+.HeroBadgeLevelUpRewardLine
+{
+	width: 20px;
+	height: 2px;
+	margin-top: 4px;
+	margin-bottom: 10px;
+	background-color: dotaPlusGold&66;
+	horizontal-align: center;
+}
+
+.HeroBadgeLevelUpRewardValue
+{
+	color: dotaPlusGold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	horizontal-align: center;
+	font-size: 20px;
+	text-align: center;
+	width: 194px;
+	//text-shadow: 2px 2px 0px black;
+	height: 27px;
+	text-overflow: shrink;
+}
+
+.HeroBadgeLevelUpRewardChatWheel:hover
+{
+	brightness: 2.0;
+}
+
+.HeroBadgeLevelUpRewardChatWheel:active
+{
+	brightness: 1.5;
+}
+
+#HeroRelicsProgressCenter
+{
+	width: 800px;
+	margin-left: 620px;
+	margin-top: 195px;
+	flow-children: down;
+
+	opacity: 0.0;
+	transform: translateX( 20px );
+
+	transition-property: transform, opacity;
+	transition-duration: 0.5s;
+}
+
+.ShowRelicsProgress #HeroRelicsProgressCenter
+{
+	sound: "SingleRelic.Show";
+    opacity: 1.0;
+	transform: none;
+}
+
+#HeroRelicsProgressCenter .HeroProgressTitle
+{
+	margin-left: 28px;
+}
+
+#HeroRelicsProgressList
+{
+	flow-children: right-wrap;
+	margin-left: 21px;
+	margin-top: 21px;
+}
+
+.SingleRelicProgress
+{
+	sound: "SingleRelicProgress";
+
+    flow-children: right;
+	margin-right: 24px;
+	margin-bottom: 12px;
+
+	transform: translateX( -20px );
+	opacity: 0.0;
+
+	transition-property: transform, opacity;
+	transition-duration: 0.2s;
+}
+
+.SingleRelicProgress.ShowProgress
+{
+	transform: none;
+	opacity: 1.0;
+}
+
+.SingleRelicImageContainer
+{
+	width: 80px;
+}
+
+#SingleRelicImage
+{
+	ui-scale: 50%;
+	horizontal-align: center;
+}
+
+.SingleRelicProgressDetails
+{
+	flow-children: down;
+	width: 260px;
+	margin-left: 8px;
+	vertical-align: middle;
+}
+
+.SingleRelicProgressValues
+{
+	flow-children: right;
+	width: 100%;
+
+	padding-bottom: 4px;
+}
+
+.SingleRelicCurrentProgress
+{
+	font-size: 28px;
+	color: white;
+	font-weight: bold;
+	letter-spacing: 3px;
+
+	height: 30px;
+}
+
+.SingleRelicIncrementAmount
+{
+	font-size: 21px;
+	color: dotaPlusLightGold;
+	font-weight: bold;
+	letter-spacing: 3px;
+	vertical-align: bottom;
+
+	opacity: 0.0;
+	transform: scale3d( 1.5, 1.5, 1.0 );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.4s;
+}
+
+.SingleRelicProgress.ShowIncrement .SingleRelicIncrementAmount
+{
+	opacity: 1.0;
+	transform: none;
+}
+
+.SingleRelicProgressLine
+{
+	width: 100%;
+	height: 2px;
+
+	background-color: dotaPlusGold;
+}
+
+.SingleRelicName
+{
+	color: white;
+	text-transform: uppercase;
+	margin-top: 4px;
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+
+#HeroBadgeLevelUpPanel
+{
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	background-color: #000000F4;
+	opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: 0.5s;
+}
+
+.LeveledUp #HeroBadgeLevelUpPanel
+{
+	opacity: 1;
+}
+
+.LeveledUp #HeroBadgeProgressCenter
+{
+	blur: gaussian( 2, 2, 1 );
+}
+
+.LeveledUp #HeroBadgeHeroModel
+{
+	blur: gaussian( 2, 2, 1 );
+}
+
+
+#LevelUpRankScene
+{
+	width: 700px;
+	height: 700px;
+	horizontal-align: center;
+	margin-top: 100px;
+}
+
+#LevelUpTitle
+{
+	margin-top: 300px;
+	width: 100%;
+	text-align: center;
+	font-size: 56px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: #d9c98d;
+}
+
+#LevelUpValue
+{
+	width: 100%;
+	margin-top: 530px;
+	text-align: center;
+	font-size: 36px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: #a68141;
+}
+
+#CavernCrawl
+{
+	transition-property: opacity;
+	transition-delay: 0.0s;
+	transition-timing-function: ease-in-out;
+	transition-duration: 0.5s;
+
+	opacity: 0;
+}
+
+.ShowCavernCrawlProgress #CavernCrawl
+{
+	opacity: 1;
+}
+
+//-----------------------------------------------------------------------------
+// Battle Points
+
+.BattlePassBackground
+{
+	background-color: gradient(linear, 0% 0%, 0% 100%, from( secondaryDarkColor ), to( ultraDarkColor ) );
+	width: 100%;
+	height: 100%;
+	margin-top: 180px;
+	border-top: 2px solid accentColor;
+}
+
+.BattlePassBackgroundImage
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	background-image: url("s2r://panorama/images/compendium/international2019/tokenpoints_psd.vtex");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	brightness: .2;
+}
+
+#BattlePassProgressMain
+{
+	width: 1440px;
+	horizontal-align: center;
+	overflow: noclip;
+
+	margin-top: 60px;
+
+	opacity: 0.0;
+	transform: translateX( -20px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+
+}
+
+.ShowBattlePassProgress #BattlePassProgressMain
+{
+	opacity: 1.0;
+	transform: none;
+}
+
+
+#BattlePassProgressCenter
+{
+	width: 1378px;
+	margin-top: 165px;
+	flow-children: down;
+	horizontal-align: center;
+
+}
+
+.BattlePassProgressTitle
+{
+	horizontal-align: center;
+	flow-children: right;
+}
+
+.BattlePassLogo
+{
+	width: 48px;
+	height: 48px;
+	margin-right: 8px;
+	vertical-align: center;
+	wash-color: defaultColor;
+
+	background-image: url("s2r://panorama/images/control_icons/battlepass_logo_grayscale_png.vtex");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.BattlePassProgressTitleGlowContainer
+{
+	margin-top: 8px;
+}
+
+.BattlePassProgressTitleText
+{
+	vertical-align: middle;
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: gradient( linear, 0% 50%, 0% 90%, from( textAccentColorBright ), to( #dddddd ) );
+}
+
+.BattlePassProgressTitleText.Glow
+{
+	blur: gaussian( 4 );
+	color: textAccentColor;
+}
+
+#BattlePassLevelShield
+{
+	ui-scale: 150%;
+	margin-left: 260px;
+	margin-top: 230px;
+}
+
+@keyframes 'battle_pass_level_up'
+{
+	0%
+	{
+		pre-transform-scale2d: 1.5;
+	}
+
+	15%
+	{
+		pre-transform-scale2d: 1.5;
+		brightness: 3;
+	}
+
+	70%
+	{
+		pre-transform-scale2d: 1.5;
+		brightness: 1;
+	}
+
+	100%
+	{
+		pre-transform-scale2d: 1.0;
+	}
+}
+
+#BattlePassLevelShield.LeveledUp
+{
+	sound: "Relic.Received";
+	animation-name: battle_pass_level_up;
+	animation-duration: 0.5s;
+	z-index: 2;
+	pre-transform-scale2d: 1.0;
+}
+
+#BattleLevelProgressContainer
+{
+	horizontal-align: center;
+	flow-children: right;
+}
+
+#BattleLevelProgressSection
+{
+	margin-top: 8px;
+	horizontal-align: center;
+	flow-children: right;
+}
+
+#BattleLevelProgressSection > Label
+{
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.BattlePassProgressLevelProgressTitle
+{
+	color: white;
+	vertical-align: center;
+}
+   
+#BattleLevelProgressSection .BattlePassLevelProgressBP
+{
+	color: accentColorBright;
+	font-size: 24px;
+	vertical-align: bottom;
+	padding-bottom: 4px;
+	margin-left: 8px;
+}
+
+#BattleLevelProgress
+{
+	width: 700px;
+	height: 20px;
+}
+
+.BattleShieldSpacer
+{
+	width: 120px;
+	height: 20px;
+	margin-right: 18px;
+}
+
+.ProgressBarContainer
+{
+	margin-top: 26px;
+	flow-children: down;
+}
+
+#BattleLevelProgressContainer > Label
+{
+	font-size: 24px;
+	color: white;
+	//text-shadow: 1px 1px 0px black;
+	horizontal-align: center;
+	margin-top: 1px;
+	letter-spacing: 2px;
+}
+
+#BattleLevelProgress .ProgressBarLeft
+{
+	background-color: gradient( linear, 20% 0%, 80% 0%, from( textAccentColor ), to( textAccentColorBright ) );
+}
+
+#BattleLevelProgress .ProgressBarMiddle
+{
+	background-color: white;
+	box-shadow: 0px 0px 8px textUltraBrightColor;
+	z-index: 2;
+}
+
+#BattleLevelProgress .ProgressBarRight
+{
+	background-color: black;
+}
+
+.BattlePassPointsTotalContainer
+{
+	width: 120px;
+	flow-children: down;
+	margin-left: 18px;
+}
+
+.BattlePassPointsTotalTitle
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	horizontal-align: center;
+	color: accentColor;
+	font-size: 24px;
+}
+
+.BattlePassPointsTotalGlowContainer
+{
+	horizontal-align: center;
+	margin-top: -10px;
+	margin-left: -4px;
+}
+
+.BattlePassPointsTotal
+{
+	font-weight: bold;
+	color: white;
+	font-size: 40px;
+}
+
+.BattlePassPointsTotal.Glow
+{
+	blur: gaussian( 2 );
+	color: textUltraBrightColor;
+}
+
+#BattlePassProgressCore
+{
+	margin-top: 250px;
+	padding: 96px;
+	flow-children: right;
+	horizontal-align: center;
+}
+
+
+.BattlePassProgressTypeContainer
+{
+	width: 200px;
+	height: 480px;
+	background-color: gradient( linear, 0% 20%, 0% 80%, from( #000000C0 ), to( textAccentColor&44 ) );
+	margin: 8px;
+	border: 3px solid accentBorderColor;
+	border-radius: 16px;
+	opacity: 0;
+	transform: scale3d( 1.3, 1.3, 1.0 );
+	visibility: collapse;
+
+	transition-property: opacity, transform;
+	transition-duration: BattlePassProgressFadeTime;
+	transition-timing-function: ease-in;
+}
+
+.BattlePassProgressTypeContainer.Visible
+{
+	visibility: visible;
+}
+
+.BattlePassProgressTypeContainer.BecomeVisible
+{
+	sound: "ui_chat_slide_in";
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.BattlePassProgressTypeDetails
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 64px;
+	flow-children: down;
+}
+
+.ProgressTypeTitle
+{
+	horizontal-align: center;
+	margin-top: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	text-overflow: shrink;
+	color: textAccentColor;
+	text-shadow: 2px 2px 0px 1.0 #000000FF;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* XP Circle */
+#XPCircleContainer
+{
+	padding: 16px;
+	horizontal-align: center;
+	vertical-align: bottom;
+	margin-bottom: 8px;
+	opacity: 0;
+	transform: scale3d( 2, 2, 1.0 );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in;
+}
+
+.HideXPCircle.ShowTotals #XPCircleContainer
+{
+	opacity: 0.2;
+	saturation: 0.5;
+}
+
+.ShowTotals #XPCircleContainer
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.XPGlow
+{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	color: white;
+	box-shadow: 0px 0px 12px accentColor;
+}
+
+#XPCircleContainer .XPCircle
+{
+	margin: 0px;
+	width: 80px;
+	height: 80px;
+	flow-children: none; 
+	vertical-align: center;
+	horizontal-align: center;
+	box-shadow: none;
+}
+
+.PointsLabel
+{
+	horizontal-align: center;
+	font-size: 32px;
+	margin-top: 10px;
+	max-width: 60px;
+	text-overflow: shrink;
+	color: #dddddd;
+}
+
+#XPCircleContainer #PTS
+{
+	width: 32px;
+	height: 32px;
+	vertical-align: bottom;
+	margin-bottom: 8px;
+}
+
+/* Wagering */
+.WagerContainer
+{
+	margin-top: 4px;
+	horizontal-align: center;
+	flow-children: right;
+	opacity: 0;
+	transform: scale3d( 1.3, 1.3, 1.0 );
+
+	transition-property: opacity, transform;
+	transition-duration: BattlePassProgressFadeTime;
+	transition-timing-function: ease-in;
+}
+
+.ShowWager .WagerContainer.Wager 
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.ShowTeamWager250 .WagerContainer.TeamWager250 
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.ShowTeamWager500 .WagerContainer.TeamWager500 
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.ShowTeamWager1000 .WagerContainer.TeamWager1000 
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.TeamWagerTokenCount
+{
+	color: #dddddd;
+	font-size: 32px;
+	margin: 0px;
+	margin-left: 6px;
+}
+
+/* Tipping */
+.TotalTipContainer
+{
+	horizontal-align: center;
+	flow-children: right;
+	margin-bottom: 10px;
+	opacity: 0;
+	transform: scale3d( 1.5, 1.5, 1.5 );
+
+	transition-property: opacity, transform;
+	transition-duration: BattlePassProgressFadeTime;
+	transition-timing-function: ease-in;
+}
+
+.ShowTotalTips .TotalTipContainer
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.TotalTipCount
+{
+	color: #dddddd;
+	font-size: 36px;
+}
+
+.TipBottomSection
+{
+	margin-bottom: 120px;
+	height: 100%;
+	width: 100%;
+}	
+	
+.TipListContainer
+{
+	horizontal-align: center;
+	flow-children: right;
+	vertical-align: center;
+}
+
+#TipContainer
+{
+	flow-children: down;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+#TipContainer2
+{
+	flow-children: down;
+	margin-left: 4px;
+	margin-right: 4px;
+	visibility: collapse;
+}
+
+.TwoTipColumns #TipContainer2
+{
+	visibility: visible;
+}
+
+.BattlePassTip
+{
+	width: fit-children;
+	horizontal-align: center;
+	height: 40px;
+	margin-bottom: 4px;
+	flow-children: right;
+
+	opacity: 0;
+	transform: scale3d( 1.5, 1.5, 1.0 );
+
+	transition-property: opacity, transform;
+	transition-duration: BattlePassProgressFadeTime;
+	transition-timing-function: ease-in;
+}
+
+.ShowTip.BattlePassTip
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+#Avatar
+{
+	height: 40px;
+	width: height-percentage( 100% );
+}
+
+.TipCountContainer
+{
+	width: 76px;
+	margin-left: 12px;
+	margin-top: 2px;
+	height: 100%;
+}
+
+.TwoTipColumns .TipCountContainer
+{
+	width: 42px;
+	margin-left: 4px;
+}
+
+.TipToken
+{
+	width: 40px;
+	height: 40px;
+	vertical-align: center;
+
+	background-image: url("s2r://panorama/images/compendium/international2018/tipping_token_png.vtex");
+	background-size: contain;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	visibility: collapse;
+}
+
+.TwoTipColumns .TipToken
+{
+	width: 30px; 
+	height: 30px;
+}
+
+.TipToken.First
+{
+	visibility: visible;
+}
+
+.TipCount2 .TipToken.Second,
+.TipCount3 .TipToken.Second
+{
+	visibility: visible;
+}
+
+.TipCount3 .TipToken.Third
+{
+	visibility: visible;
+}
+
+.TipToken.Second
+{
+	margin-left: 18px;
+}
+
+.TwoTipColumns .TipToken.Second
+{
+	margin-left: 6px;
+}
+
+.TipToken.Third
+{
+	margin-left: 36px;
+}
+
+.TwoTipColumns .TipToken.Third
+{
+	margin-left: 12px;
+}
+
+.TotalTipContainer .TipToken
+{
+	visibility: visible;
+	height: 64px;
+	width: 64px;
+}
+
+.TipLabel
+{
+	horizontal-align: center;
+	font-size: 24px;
+	margin-top: 10px;
+	max-width: 60px;
+	text-overflow: shrink;
+	color: #dddddd;
+}
+
+/* Event Actions */
+
+.ActionOuterContainer
+{
+	width: 100%;
+	height: 256px;
+}
+
+#ActionContainer
+{
+	width: 100%;
+	vertical-align: center;
+	flow-children: down;
+}
+
+.BattlePassAction
+{
+	width: fit-children;
+	horizontal-align: center;
+	height: 80px;
+	margin-bottom: 10px;
+	flow-children: right;
+
+	opacity: 0;
+	transform: scale3d( 1.5, 1.5, 1.0 );
+
+	transition-property: opacity, transform;
+	transition-duration: BattlePassProgressFadeTime;
+	transition-timing-function: ease-in;
+}
+
+.ShowAction.BattlePassAction
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+#ConsumableImage
+{
+	width: height-percentage( 100% );
+	height: 100%;
+}
+
+.ActionDescription
+{
+	vertical-align: center;
+	margin-top: 35px;
+	width: 80px;
+	margin-left: 10px;
+}
+
+.ActionCount
+{
+	font-size: 20px;
+	max-width: 60px;
+	text-overflow: shrink;
+	color: #dddddd;
+	vertical-align: center;
+	margin-right: 4px;
+}
+
+.ActionPoints
+{
+	horizontal-align: right;
+	font-size: 24px;
+	text-overflow: shrink;
+	color: textUltraBrightColor;
+}
+
+/* Cavern Crawl */
+
+.CavernCrawlTitleContainer
+{
+	horizontal-align: center;
+	flow-children: right;
+	margin-top: 12px;
+}
+
+.CavernCrawlTitleContainer .ProgressTypeTitle
+{
+	margin-top: 0px;
+}
+
+.CavernCrawlLogo
+{
+	width: 24px;
+	height: 24px;
+	margin-left: 4px;
+
+	wash-color: textAccentColor;
+	margin-right: 4px;
+
+	background-image: bp_cavern_crawl_logo;
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.CavernCrawlMap
+{
+	width: 100%;
+	height: 256px;
+	transform: scale3d( 1.5, 1.5, 1.0 );
+	opacity: 0;
+
+	transition-property: opacity, transform;
+	transition-duration: BattlePassProgressFadeTime;
+	transition-timing-function: ease-in;
+}
+
+.ShowMap .CavernCrawlMap
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.MapImage
+{
+	width: 100%;
+	height: 100%;
+	wash-color: secondaryBrightColor;
+	opacity: 0.5;
+	background-image: url("s2r://panorama/images/cavern/post_game_points_png.vtex");
+	background-size: contain;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+#CavernCrawlHero
+{
+	opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
+}
+
+#DailyChallengeHeroMovie
+{
+	opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
+}
+
+.ProgressCompletedContainer
+{
+	margin-top: 4px;
+	horizontal-align: center;
+
+	transform: scale3d( 1.5, 1.5, 1.0 );
+	opacity: 0;
+
+	transition-property: opacity, transform;
+	transition-duration: BattlePassProgressFadeTime;
+	transition-timing-function: ease-in;
+}
+
+.ShowCompleted .ProgressCompletedContainer
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.HideXPCircle .ProgressCompletedContainer
+{
+	visibility: collapse;
+}
+
+.ProgressCompleted
+{
+	padding-left: 4px;
+	padding-right: 4px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.ProgressCompleted.Glow
+{
+	blur: gaussian( 4 );
+	color: textAccentColorBright;
+}
+
+.SideQuestDesc
+{
+	color: #666666;
+	text-transform: none;
+	font-weight: thin;
+}
+
+.WeeklyChallengeProgressLabel
+{
+    vertical-align: bottom;
+    horizontal-align: center;	
+	font-weight: bold;
+    font-size: 20px;
+    color: textAccentColorBright;
+	text-align: center;
+}
+
+.WeeklyChallengeIncrementGlowContainer
+{
+	margin-top: 8px;
+	horizontal-align: center;
+}
+
+.WeeklyChallengeIncrementText
+{
+	font-weight: bold;
+	color: textUltraBrightColor;
+	font-size: 30px;
+}
+
+.WeeklyChallengeIncrementText.Glow
+{
+	blur: gaussian( 2 );
+	color: textAccentColor;
+}
+
+.CurrentValue
+{
+    color: #dddddd;
+}
+
+.WeeklyChallengeContainer
+{
+	width: 100%;
+	height: 256px;
+
+	opacity: 0;
+	transform: scale3d( 1.5, 1.5, 1.0 );
+
+	transition-property: opacity, transform;
+	transition-duration: BattlePassProgressFadeTime;
+	transition-timing-function: ease-in;
+}
+
+.ShowChallenge .WeeklyChallengeContainer 
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.WeeklyChallengeInfo
+{
+	width: 100%;
+	vertical-align: center;
+	flow-children: down;
+}
+
+.WeeklyChallengeDesc
+{
+	horizontal-align: center;
+	color: textAccentColorBright;
+	text-align: center;
+}
+
+
+.WeeklyChallengeProgress
+{
+    box-shadow: inset accentColor 1px 1px 2px 2px;
+    background-color: darkColor;
+    border: 1px solid secondaryBrightColor;
+	
+    height: 20px;
+	margin: 20px 8px 8px 8px;
+    padding: 2px;
+    width: 100%;
+}
+
+.WeeklyChallengeProgress .ProgressBarLeft
+{
+	background-color: gradient( linear, 20% 0%, 80% 0%, from( textAccentColor ), to( textAccentColorBright ) );
+	box-shadow: none;
+}
+
+.WeeklyChallengeProgress .ProgressBarMiddle
+{
+	background-color: white;
+	box-shadow: 0px 0px 8px textUltraBrightColor;
+	z-index: 2;
+}
+
+.WeeklyChallengeProgress .ProgressBarRight
+{
+	background-color: black;
+}
+
+.EventGame_Margin
+{
+    padding: 5px;
+    width:100%;
+    flow-children: down;
+}
+
+.EventGame_Progress
+{
+    flow-children: down;
+    width: 100%;
+
+	opacity: 0;
+	transform: scale3d( 1.5, 1.5, 1.0 );
+
+	transition-property: opacity, transform;
+	transition-duration: BattlePassProgressFadeTime;
+	transition-timing-function: ease-in;
+
+    margin-top: 30px;
+}
+
+.EventGame_ShowWeeklyProgress .EventGame_Progress
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.EventGame_Progress_Cap
+{
+    horizontal-align: center;
+    color: textAccentColorBright;
+}
+
+.EventGame_Progress_Bar
+{
+    box-shadow: inset accentColor 1px 1px 2px 2px;
+    background-color: darkColor;
+    border: 1px solid secondaryBrightColor;
+
+    height: 20px;
+   	margin: 4px 8px 8px 8px;
+    padding: 2px;
+    width: 100%;
+}
+
+.EventGame_Progress_Bar .ProgressBarLeft
+{
+	background-color: gradient( linear, 20% 0%, 80% 0%, from( textAccentColor ), to( textAccentColorBright ) );
+	box-shadow: none;
+}
+
+.EventGame_Progress_Bar .ProgressBarMiddle
+{
+	background-color: white;
+	box-shadow: 0px 0px 8px textUltraBrightColor;
+	z-index: 2;
+}
+
+.EventGame_Progress_Bar .ProgressBarRight
+{
+	background-color: black;
+}
+
+.EventGame_Win
+{
+    width: 100%;
+
+    visibility: collapse;
+	opacity: 0;
+	transform: scale3d( 1.5, 1.5, 1.0 );
+
+	transition-property: opacity, transform;
+	transition-duration: BattlePassProgressFadeTime;
+	transition-timing-function: ease-in;
+}
+.EventGame_HasWin .EventGame_Win
+{
+    visibility: visible;
+}
+.EventGame_ShowWin .EventGame_Win
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.EventGame_WinBonus
+{
+    width: 100%;
+
+    visibility: collapse;
+	opacity: 0;
+	transform: scale3d( 1.5, 1.5, 1.0 );
+
+	transition-property: opacity, transform;
+	transition-duration: BattlePassProgressFadeTime;
+	transition-timing-function: ease-in;
+}
+.EventGame_HasDailyBonus .EventGame_WinBonus
+{
+    visibility: visible;
+}
+.EventGame_ShowDailyBonus .EventGame_WinBonus
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+
+.EventGame_Loss
+{
+    width: 100%;
+
+    visibility: collapse;
+	opacity: 0;
+	transform: scale3d( 1.5, 1.5, 1.0 );
+
+	transition-property: opacity, transform;
+	transition-duration: BattlePassProgressFadeTime;
+	transition-timing-function: ease-in;
+}
+.EventGame_HasLoss .EventGame_Loss
+{
+    visibility: visible;
+}
+.EventGame_ShowLoss .EventGame_Loss
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.EventGame_Treasure
+{
+    width: 100%;
+
+    visibility: collapse;
+	opacity: 0;
+	transform: scale3d( 1.5, 1.5, 1.0 );
+
+	transition-property: opacity, transform;
+	transition-duration: BattlePassProgressFadeTime;
+	transition-timing-function: ease-in;
+}
+.EventGame_HasTreasure .EventGame_Treasure
+{
+    visibility: visible;
+}
+.EventGame_ShowTreasure .EventGame_Treasure
+{
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.EventGame_Label_Title
+{
+    horizontal-align: left;
+    color: textAccentColorBright;
+}
+.EventGame_Label_Progress
+{
+    horizontal-align: right;
+    font-weight: bold;
+    color: textUltraBrightColor;
+}
+
+
+#BattlePassProgressBPGrid
+{
+	flow-children: down;
+	width: 600px;
+	margin-top: 8px;
+	visibility: collapse;
+}
+
+#BattlePassProgressRows
+{
+	flow-children: down;
+	height: 218px;
+	width: 100%;
+}
+
+.BattlePassProgressRow
+{
+	flow-children: right;
+
+	width: 100%;
+
+	opacity: 0.0;
+	transform: translateX( 50px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+}
+
+.BattlePassProgressRow.ShowRow
+{
+	sound: "HeroBadgeProgressRow.ShowRow";
+	opacity: 1.0;
+	transform: none;
+}
+
+.BattlePassProgressRowType
+{
+	color: white;
+	width: 450px;
+	font-size: 24px;
+	padding-bottom: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	//text-shadow: 2px 2px 0px black;
+}
+
+.BattlePassProgressRowValue
+{
+	color: accentColor;
+	font-size: 24px;
+	font-weight: normal;
+	width: 150px;
+	text-align: right;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	//text-shadow: 2px 2px 0px black;
+
+	opacity: 0;
+
+	transition-property: opacity;
+	transition-duration: 0.2s;
+}
+
+.BattlePassProgressRow.ShowValue .BattlePassProgressRowValue
+{
+	opacity: 1;
+}
+
+
+.BattlePassProgressRow_Challenge .BattlePassProgressRowChallengeDetails
+{
+	flow-children: down;
+	width: 450px;
+}
+
+.BattlePassProgressRow_Challenge .BattlePassProgressRowChallengeDetailsBottom
+{
+	flow-children: right;
+	width: 450px;
+}
+
+.BattlePassProgressRow_Challenge .HeroBadgeProgressRowChallengeName
+{
+	vertical-align: middle;
+	color: #ccc;
+	margin-left: 4px;
+	margin-top: 1px;
+	letter-spacing: 1px;
+	width: 324px;
+}
+
+#BattlePassTotalsRow
+{
+	border-top: 1px solid white;
+	padding-top: 12px;
+}
+
+#BattlePassTotalsRow.BattlePassProgressRow
+{
+	opacity: 1;
+	transform: none;
+}
+#BattlePassTotalsRow.BattlePassProgressRow .BattlePassProgressRowValue
+{
+	opacity: 1;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/*  Rubick Arcana                                                            */
+/* ------------------------------------------------------------------------- */
+
+#RubickArcanaProgressMain
+{
+	horizontal-align: center;
+	width: 1300px;
+}
+
+.RubickArcanaBackground
+{
+	background-color: gradient(linear, 0% 0%, 0% 30%, from( #00363100 ), color-stop( 0.5, #003631FF ), to( #001321 ) );
+	width: 100%;
+	height: 100%;
+	margin-top: 0px;
+	//border-top: 2px solid #00d595;
+}
+
+
+#RubickArcanaModel
+{
+	horizontal-align: right;
+
+	width: 800px;
+	height: 900px;
+
+	opacity-mask: url("s2r://panorama/images/masks/softedge_box_png.vtex");
+
+	opacity: 0.001;
+	transform: translateX( 100px );
+
+	transition-property: transform, opacity;
+	transition-duration: 0.5s;
+}
+
+#RubickArcanaModel.SceneLoaded
+{
+	opacity: 1.0;
+	transform: none;
+}
+
+#RubickArcanaProgress
+{
+	margin-top: 150px;
+
+	transform: translateX( -100px );
+	opacity: 0.0;
+	
+	transition-property: transform, opacity;
+	transition-duration: 0.5s;
+}
+
+.ShowProgress #RubickArcanaProgress
+{
+	transform: none;
+	opacity: 1.0;
+}
+
+
+//-----------------------------------------------------------------------------
+// EventPoints
+
+.EventPointsBackground
+{
+	background-color: gradient(linear, 0% 0%, 0% 100%, from( #1f1b1f), to( #84090780 ) );
+	width: 100%;
+	height: 100%;
+	margin-top: 180px;
+	border-top: 2px solid #e7b16380;
+}
+
+.EventPointsBackgroundImage
+{
+	width: 100%;
+	height: 100%;
+	margin-top: -60px;
+	margin-bottom: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	brightness: .1;
+}
+
+.Season_NewBloom2019 .EventPointsBackgroundImage
+{
+	background-image: url("s2r://panorama/images/events/newbloom/postgame_progress_bg_png.vtex");
+	background-size: 1600px;
+}
+
+#EventPointsProgressMain
+{
+	width: 1440px;
+	horizontal-align: center;
+	overflow: noclip;
+
+	margin-top: 60px;
+
+	opacity: 0.0;
+	transform: translateX( -20px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+
+}
+
+.ShowEventPointsProgress #EventPointsProgressMain
+{
+	opacity: 1.0;
+	transform: none;
+}
+
+
+#EventPointsProgressMain
+{
+	width: 1440px;
+	horizontal-align: center;
+	overflow: noclip;
+
+	margin-top: 60px;
+
+	opacity: 0.0;
+	transform: translateX( -20px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+
+}
+
+.ShowEventPointsProgress #EventPointsProgressMain
+{
+	opacity: 1.0;
+	transform: none;
+}
+
+#EventPointsProgressCenter
+{
+	width: 1378px;
+	margin-top: 165px;
+	flow-children: down;
+	horizontal-align: center;
+
+}
+
+.EventPointsProgressTitle
+{
+	horizontal-align: center;
+	flow-children: right;
+}
+
+.EventPointsLogo
+{
+	width: 48px;
+	height: 48px;
+	margin-right: 8px;
+	vertical-align: center;
+	wash-color: defaultColor;
+
+	background-image: url("s2r://panorama/images/control_icons/battlepass_logo_grayscale_png.vtex");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.EventPointsProgressTitleGlowContainer
+{
+	margin-top: 8px;
+}
+
+.EventPointsProgressTitleText
+{
+	vertical-align: middle;
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: gradient( linear, 0% 50%, 0% 90%, from( #d3524b ), to( #840907 ) );
+}
+
+.EventPointsProgressTitleText.Glow
+{
+	blur: gaussian( 4 );
+	color: #840907;
+}
+
+#EventPointsLevelShield
+{
+	ui-scale: 150%;
+	margin-left: 240px;
+	margin-top: 210px;
+}
+
+#EventPointsLevelShield.LeveledUp
+{
+	sound: "Relic.Received";
+	animation-name: battle_pass_level_up;
+	animation-duration: 0.5s;
+	z-index: 2;
+	pre-transform-scale2d: 1.0;
+}
+
+#EventPointsLevelShield
+{
+	background-size: cover;
+	width: 80px;
+}
+
+.Season_NewBloom2019 #EventPointsLevelShield
+{
+	background-image: url("s2r://panorama/images/events/newbloom/newbloom_pig_psd.vtex");
+	opacity: 0.4;
+	padding-top: 10px;
+}
+
+#EventPointsLevelProgressContainer
+{
+	horizontal-align: center;
+	flow-children: right;
+}
+
+#EventPointsLevelProgressSection
+{
+	margin-top: 8px;
+	horizontal-align: center;
+	flow-children: right;
+}
+
+#EventPointsLevelProgressSection > Label
+{
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.EventPointsProgressLevelProgressTitle
+{
+	color: white;
+	vertical-align: center;
+}
+   
+#EventPointsLevelProgressSection .EventPointsLevelProgressBP
+{
+	color: #d3524b;
+	font-size: 24px;
+	vertical-align: bottom;
+	padding-bottom: 4px;
+	margin-left: 8px;
+}
+
+#EventPointsLevelProgress
+{
+	width: 700px;
+	height: 20px;
+}
+
+.EventPointsShieldSpacer
+{
+	width: 120px;
+	height: 20px;
+	margin-right: 48px;
+}
+
+.ProgressBarContainer
+{
+	margin-top: 26px;
+	flow-children: down;
+}
+
+#EventPointsLevelProgressContainer > Label
+{
+	font-size: 24px;
+	color: white;
+	//text-shadow: 1px 1px 0px black;
+	horizontal-align: center;
+	margin-top: 1px;
+	letter-spacing: 2px;
+}
+
+#EventPointsLevelProgress .ProgressBarLeft
+{
+	background-color: gradient( linear, 20% 0%, 80% 0%, from( textAccentColor ), to( textAccentColorBright ) );
+}
+
+#EventPointsLevelProgress .ProgressBarMiddle
+{
+	background-color: white;
+	box-shadow: 0px 0px 8px textUltraBrightColor;
+	z-index: 2;
+}
+
+#EventPointsLevelProgress .ProgressBarRight
+{
+	background-color: black;
+}
+
+.EventPointsPointsTotalContainer
+{
+	width: 120px;
+	flow-children: down;
+	margin-left: 18px;
+}
+
+.EventPointsPointsTotalTitle
+{
+	text-transform: uppercase;
+	font-weight: bold;
+	horizontal-align: center;
+	color: #d3524b;
+	font-size: 24px;
+}
+
+.EventPointsPointsTotalGlowContainer
+{
+	horizontal-align: center;
+	margin-top: -10px;
+	margin-left: -4px;
+}
+
+.EventPointsPointsTotal
+{
+	font-weight: bold;
+	color: white;
+	font-size: 40px;
+}
+
+.EventPointsPointsTotal.Glow
+{
+	blur: gaussian( 2 );
+	color: #bcebfd;
+}
+
+#EventPointsProgressCore
+{
+	margin-top: 250px;
+	padding: 96px;
+	flow-children: right;
+	horizontal-align: center;
+}
+
+
+.EventPointsProgressTypeContainer
+{
+	width: 200px;
+	height: 480px;
+	background-color: gradient( linear, 0% 20%, 0% 80%, from( #000000C0 ), to( textAccentColor&44 ) );
+	margin: 8px;
+	border: 3px solid accentBorderColor;
+	border-radius: 16px;
+	opacity: 0;
+	transform: scale3d( 1.3, 1.3, 1.0 );
+	visibility: collapse;
+
+	transition-property: opacity, transform;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-in;
+}
+
+.EventPointsProgressTypeContainer.Visible
+{
+	visibility: visible;
+}
+
+.EventPointsProgressTypeContainer.BecomeVisible
+{
+	sound: "ui_chat_slide_in";
+	opacity: 1;
+	transform: scale3d( 1.0, 1.0, 1.0 );
+}
+
+.EventPointsProgressTypeDetails
+{
+	width: 100%;
+	height: 100%;
+	margin-top: 64px;
+	flow-children: down;
+}
+
+#EventPointsLevelProgressContainer #BattleLevelProgress_Left
+{
+	background-color: gradient( linear, 20% 0%, 80% 0%, from( #840907 ), to( #d3524b) );
+}
+
+#EventPointsLevelProgressContainer .ProgressBarMiddle
+{
+	box-shadow: 0px 0px 8px #d3524b;
+}
+
+
+#EventPointsProgressBPGrid
+{
+	flow-children: down;
+	width: 600px;
+	margin-top: 8px;
+}
+
+#EventPointsProgressRows
+{
+	flow-children: down;
+	height: 218px;
+	width: 100%;
+}
+
+.EventPointsProgressRow
+{
+	flow-children: right;
+
+	width: 100%;
+
+	opacity: 0.0;
+	transform: translateX( 50px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+}
+
+.EventPointsProgressRow.ShowRow
+{
+	sound: "HeroBadgeProgressRow.ShowRow";
+	opacity: 1.0;
+	transform: none;
+}
+
+.EventPointsProgressRowType
+{
+	color: white;
+	width: 450px;
+	font-size: 24px;
+	padding-bottom: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	//text-shadow: 2px 2px 0px black;
+}
+
+.EventPointsProgressRowValue
+{
+	color: #d3524b;
+	font-size: 24px;
+	font-weight: normal;
+	width: 150px;
+	text-align: right;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	//text-shadow: 2px 2px 0px black;
+
+	opacity: 0;
+
+	transition-property: opacity;
+	transition-duration: 0.2s;
+}
+
+.EventPointsProgressRow.ShowValue .EventPointsProgressRowValue
+{
+	opacity: 1;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* Coach Rating                                                              */
+/* ------------------------------------------------------------------------- */
+
+.CoachRatingMain {
+	width: 100%;
+	height: 100%;
+	margin-top: 180px;
+	border-top: 2px solid accentColor;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( secondaryDarkColor ), to( ultraDarkColor ) );
+	overflow: clip;
+}
+
+.CoachRatingBackground {
+	horizontal-align: center;
+	width: 1008px;
+	height: 738px;
+	background-image: url("s2r://panorama/images/coaching/tiny_coach_background_png.vtex");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+
+	opacity: 0.0;
+	transform: translateX( -360px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+}
+
+.RatingScreenForceVisible .CoachRatingBackground,
+.RatingScreenVisible .CoachRatingBackground
+{
+	opacity: 1.0;
+	transform: translateX( -320px );
+}
+
+.CoachRatingContents
+{
+	horizontal-align: center;
+	width: 700px;
+	height: 100%;
+	padding-top: 24px;
+	margin-bottom: 200px;
+	flow-children: down;
+
+	opacity: 0.0;
+	transform: translateX( 370px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+}
+
+.RatingScreenForceVisible .CoachRatingContents,
+.RatingScreenVisible .CoachRatingContents
+{
+	opacity: 1.0;
+	transform: translateX( 330px );
+}
+
+.CoachRatingTitle
+{
+	font-size: 42px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: white;
+}
+
+.CoachRatingQuestion
+{
+	font-size: 24px;
+	color: #999;
+	margin-top: -6px;
+}
+
+.CoachDetails
+{
+	flow-children: right;
+	margin-top: 12px;
+}
+
+#CoachRatingBadge
+{
+	ui-scale: 50%;
+	margin-right: 16px;
+}
+
+#CoachAvatarImage
+{
+	width: 80px;
+	height: 80px;
+}
+
+.CoachInfo
+{
+	flow-children: down;
+	margin-left: 16px;
+	vertical-align: middle;
+}
+
+.CoachUserName
+{
+	font-size: 24px;
+	color: white;
+}
+
+.CoachSubtitle
+{
+	text-transform: uppercase;
+	color: #666;
+	margin-top: -4px;
+}
+
+.CoachTimeRemaining
+{
+	vertical-align: middle;
+	color: #666;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-right: 12px;
+}
+
+.CountdownFinished .CoachTimeRemaining
+{
+	visibility: collapse;
+}
+
+.CoachTimeRemainingProgress
+{
+	width: 80px;
+	height: 80px;
+}
+
+.CountdownFinished .CoachTimeRemainingProgress
+{
+	visibility: collapse;
+}
+
+
+#CoachTimeRemainingProgressBar
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: black;
+}
+
+#CoachTimeRemainingProgressBar_FG
+{
+	width: 100%;
+	height: 100%;
+
+	background-color: accentColor;
+}
+
+.CoachTimeRemainingProgressBarOverlay
+{
+	width: 68px;
+	height: 68px;
+	horizontal-align: center;
+	vertical-align: middle;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.CoachTimeRemainingProgressText {
+	horizontal-align: center;
+	text-align: center;
+	vertical-align: middle;
+	width: 80px;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: 4px;
+}
+
+.CoachRatingButtons
+{
+	flow-children: right;
+	width: 100%;
+	margin-top: 16px;
+}
+
+.CoachRatingButton
+{
+	width: fill-parent-flow( 1.0 );
+	height: 360px;
+}
+
+.CoachRatingButton:hover
+{
+	brightness: 2.0;
+}
+
+.CoachRatingButton:active
+{
+	brightness: 1.5;
+}
+
+.CoachRatingButton:disabled
+{
+	brightness: 0.1;
+}
+
+.CoachRatingButton.Selected:disabled
+{
+	brightness: 2.0;
+}
+
+.CoachRatingButtonIcon
+{
+	width: 150px;
+	height: 150px;
+
+	vertical-align: middle;
+	horizontal-align: center;
+	margin-bottom: 96px;
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#GoodRatingButton.CoachRatingButton
+{
+	border: 2px solid #19510a;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #011706cc ), to( #01170666 ) );
+	margin-right: 16px;
+}
+
+#GoodRatingButton.CoachRatingButton .CoachRatingButtonIcon
+{
+	background-image: url("s2r://panorama/images/coaching/good_coach_icon_png.vtex");
+}
+
+#BadRatingButton.CoachRatingButton
+{
+	border: 2px solid #741f0f;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #220500cc ), to( #22050066 ) );
+}
+
+#BadRatingButton.CoachRatingButton .CoachRatingButtonIcon
+{
+	background-image: url("s2r://panorama/images/coaching/bad_coach_icon_png.vtex");
+}
+
+.CoachRatingButtonText
+{
+	flow-children: down;
+	vertical-align: bottom;
+	width: 100%;
+	margin-bottom: 32px;
+}
+
+.CoachRatingButtonTitle
+{
+	width: 300px;
+
+	horizontal-align: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 2px;
+	margin-bottom: 4px;
+}
+
+.CoachRatingButtonSubtitle
+{
+	width: 300px;
+	horizontal-align: center;
+	text-align: center;
+	color: white;
+	margin-top: 2px;
+	height: 52px;
+}
+
+#AbusiveRatingButton
+{
+	horizontal-align: center;
+	margin-top: 16px;
+	width: 100%;
+	border: 2px solid #333;
+	height: 72px;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #0006 ), to( #3336 ) );
+}
+
+.AbusiveRatingButtonCenter
+{
+	vertical-align: middle;
+	horizontal-align: center;
+	flow-children: right;
+	margin-top: 4px;
+}
+
+.AbusiveRatingButtonIcon
+{
+	vertical-align: middle;
+
+	width: 32px;
+	height: 32px;
+	margin-right: 12px;
+
+	background-image: url("s2r://panorama/images/conduct/report_flag_png.vtex");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
+	wash-color: #666;
+}
+
+#AbusiveRatingButton Label
+{
+	vertical-align: middle;
+	letter-spacing: 2px;
+	color: #666;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+#AbusiveRatingButton:hover
+{
+	brightness: 2.0;
+}
+
+#AbusiveRatingButton:active
+{
+	brightness: 1.5;
+}
+
+.PlayerMatchSurveyMain {
+	width: 100%;
+	height: 100%;
+	margin-top: 180px;
+	border-top: 2px solid #444444;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #060A13 ), to( #162034 ) );
+
+	overflow: clip;
+}
+
+.PlayerMatchSurveyBackground {
+	horizontal-align: center;
+	width: 1200px;
+	height: 100%;
+	background-image: url("s2r://panorama/images/post_game/rate_match_bg_png.vtex");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+
+	opacity: 0.5;
+	transform: translateX( -360px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.5s;
+}
+
+.PlayerMatchSurveyContents
+{
+	horizontal-align: right;
+	vertical-align: center;
+	width: 1200px;
+	height: 100%;
+	margin-bottom: 140px;
+	margin-right: 80px;
+	flow-children: down;
+
+	opacity: 0.0;
+	transform: translateX( 200px );
+
+	transition-property: opacity, transform;
+	transition-duration: 0.3s;
+}
+
+.RatingScreenForceVisible .PlayerMatchSurveyContents,
+.RatingScreenVisible .PlayerMatchSurveyContents
+{
+	opacity: 1.0;
+	transform: translateY( 0px );
+}
+
+.PlayerMatchSurveyTitle
+{
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: white;
+	horizontal-align: center;
+
+	margin-top: 32px;
+}
+
+.PlayerMatchSurveyQuestion
+{
+	font-size: 18px;
+	font-weight: normal;
+	color: #999;
+	horizontal-align: center;
+}
+
+.PlayerMatchSurveyButtons
+{
+	flow-children: right;
+	margin-top: 42px;
+	horizontal-align: center;
+	padding: 0px;
+}
+
+.PlayerMatchSurveyButtons .PopupButton
+{
+	background-color: #00000000;
+	border: 1px solid #75829F00;
+	border-bottom: 1px solid #75829F40;
+}
+
+.PopupButton.PlayerMatchSurveyHeader 
+{
+	background-color: rgba(117, 130, 159, 0.07);
+}
+
+.PlayerMatchSurveyRatingContainer
+{
+	width: 400px;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #060A13 ), to( #162034 ) );
+	flow-children: down;
+	/* border-color: red;
+	border: 1px; */
+	margin: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+	border: 1px solid #75829F40;
+	box-shadow: fill 0px 12px 48px #00000030;
+}
+
+.PositiveIcon,
+.NegativeIcon
+{
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	margin-top: 14px;
+	margin-left: 16px;
+}
+
+.PositiveIcon {	background-image: url("s2r://panorama/images/post_game/positive_icon_png.vtex");}
+.NegativeIcon {	background-image: url("s2r://panorama/images/post_game/negative_icon_png.vtex");	margin-top: 18px;}
+
+
+.PlayerMatchSurveyButton,
+.PlayerMatchSurveyHeader
+{
+	width: 100%;
+	height: 66px;
+	margin: 0px;
+	background-color: #44444444;
+	text-align: center;
+}
+
+.PlayerMatchSurveyButton:hover
+{
+	background-color: #75829F40;
+}
+
+.PlayerMatchSurveyButton.Positive:hover
+{
+	background-color: #769f7540;
+}
+
+.PlayerMatchSurveyButton.Negative:hover
+{
+	background-color: #9f757540;
+}
+
+.PlayerMatchSurveyButton > Label,
+.PlayerMatchSurveyHeader > Label
+{
+	vertical-align: center;
+	horizontal-align: center;
+	text-align: center;
+	font-size: 15px;
+	color: #75829F;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.PlayerMatchSurveyHeader > Label
+{
+	flow-children: right;
+	font-size: 21px;
+	color: #fff;
+}
+
+.PlayerMatchSurveyButton:hover > Label
+{
+	color: #B6BDCC;
+}
+
+.PlayerMatchSurveyButton:active
+{
+	background-color: #6E7A97;
+}
+
+.PlayerMatchSurveyButton:active > Label
+{
+	color: #fff;
+}
+
+
+.PlayerMatchSurveyFooter
+{
+	flow-children: none;
+	margin-top: 40px;
+	/* vertical-align: bottom; */
+	horizontal-align: center;
+}
+
+.PlayerMatchSurveySubmitted
+{
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: white;
+	margin-bottom: 20px;
+	
+	horizontal-align: center;
+
+	opacity: 0.0;
+	transform: translateX( 200px );	
+
+	transition-property: opacity, transform;
+	transition-duration: .2s;
+}
+
+.SubmitFeedbackVisible .PlayerMatchSurveySubmitted
+{
+	opacity: 1.0;
+	transform: translateX( 0px );
+}
+
+.Skipped .PlayerMatchSurveySubmitted
+{
+	visibility: collapse;
+}
+
+#SkipButton
+{
+	horizontal-align: center;
+	vertical-align: bottom;
+	margin-top: 0px;
+	width: 200px;
+	border-top: 1px solid #9EA5A9;
+	border-bottom: 1px solid #293337;
+	height: 54px;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #596B74 ), to( #3F4C53 ) );
+}
+
+.HideSkipButton #SkipButton 
+{
+	visibility: collapse;
+}
+
+.SkipButtonCenter
+{
+	vertical-align: middle;
+	horizontal-align: center;
+	flow-children: right;
+	margin-top: 4px;
+}
+
+#SkipButton Label
+{
+	vertical-align: middle;
+	letter-spacing: 1px;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 2px;
+	padding-bottom: 4px;
+}
+
+#SkipButton:hover
+{
+	brightness: 2.0;
+}
+
+#SkipButton:active
+{
+	brightness: 1.5;
+}

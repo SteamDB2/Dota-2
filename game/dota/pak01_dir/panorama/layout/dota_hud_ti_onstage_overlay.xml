@@ -1,0 +1,110 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/hudstyles.vcss_c" />
+		<include src="s2r://panorama/styles/dota_hud_ti_onstage_overlay.vcss_c" />
+	</styles>
+	<DOTATIOnstageOverlay hittestchildren="false">
+
+		<Panel id="minimap_bg">
+			<DOTAMinimap id="minimap" require-composition-layer="true" />
+		</Panel>"
+
+		<Panel class="TeamLogosContainer TopBottomFlow">
+			<Image id="HomeTeamLogo" class="TeamLogo" particleonly="false" scaling="stretch-to-fit-preserve-aspect"/>
+			<Image id="AwayTeamLogo" class="TeamLogo" particleonly="false" scaling="stretch-to-fit-preserve-aspect"/>
+		</Panel>
+
+		<Panel id="RightColumn">
+
+			<Panel id="PickInfoContainer">
+				<Label id="PickLabel" text="{s:pick_phase}" />
+				<Label id="PickTimer" text="{s:timer}" />
+				<Panel id="BonusContainer">
+					<Label class="BonusTitle BonusLabel" text="Reserve" />
+					<Label class="BonusTime BonusLabel" text="{s:bonus_timer}" />
+				</Panel>
+			</Panel>
+			<Panel id="PickArrow" />
+			
+			<Panel id="HomePickArrow" />
+
+			<Panel id="BonusContainer2">
+				<Label class="BonusTitle BonusLabel" text="Reserve" />
+				<Label class="BonusTime BonusLabel" text="{s:bonus_timer}" />
+			</Panel>
+		
+			<Panel id="AwayPickArrow" />			
+
+
+			<Panel class="PickContainer" id="PickContainerHome">
+				<Panel>
+					<MoviePanel class="PickBGMovie" id="BGMovie0"/>
+					<DOTAHeroMovie class="PickMovie" id="HeroPick0" />
+				</Panel>
+				<Panel>
+					<MoviePanel class="PickBGMovie"  id="BGMovie1"/>
+					<DOTAHeroMovie class="PickMovie" id="HeroPick1" />	
+				</Panel>			
+				<Panel>
+					<MoviePanel class="PickBGMovie" id="BGMovie2"/>
+					<DOTAHeroMovie class="PickMovie" id="HeroPick2" />	
+				</Panel>			
+				<Panel>
+					<MoviePanel class="PickBGMovie" id="BGMovie3"/>
+					<DOTAHeroMovie class="PickMovie" id="HeroPick3" />
+				</Panel>
+				<Panel>
+					<MoviePanel class="PickBGMovie" id="BGMovie4"/>
+					<DOTAHeroMovie class="PickMovie" id="HeroPick4" />
+				</Panel>
+				
+			</Panel>
+
+			<Panel class="PickContainer" id="PickContainerAway">
+				<Panel>
+					<MoviePanel class="PickBGMovie" id="BGMovie5"/>
+					<DOTAHeroMovie class="PickMovie" id="HeroPick5" />
+				</Panel>
+				<Panel>
+					<MoviePanel class="PickBGMovie" id="BGMovie6"/>
+					<DOTAHeroMovie class="PickMovie" id="HeroPick6" />
+				</Panel>				
+				<Panel>
+					<MoviePanel class="PickBGMovie" id="BGMovie7"/>
+					<DOTAHeroMovie class="PickMovie" id="HeroPick7" />
+				</Panel>				
+				<Panel>
+					<MoviePanel class="PickBGMovie" id="BGMovie8"/>
+					<DOTAHeroMovie class="PickMovie" id="HeroPick8" />
+				</Panel>
+				<Panel>
+					<MoviePanel class="PickBGMovie" id="BGMovie9"/>
+					<DOTAHeroMovie class="PickMovie" id="HeroPick9" />
+				</Panel>
+			</Panel>
+
+			<Panel class="BanContainer" id="BanContainerHome">
+				<DOTAHeroImage class="BanImage" id="HeroBan0" heroimagestyle="landscape" />
+				<DOTAHeroImage class="BanImage" id="HeroBan1" heroimagestyle="landscape" />
+				<DOTAHeroImage class="BanImage" id="HeroBan2" heroimagestyle="landscape" />
+				<DOTAHeroImage class="BanImage" id="HeroBan3" heroimagestyle="landscape" />
+				<DOTAHeroImage class="BanImage" id="HeroBan4" heroimagestyle="landscape" />
+				<DOTAHeroImage class="BanImage" id="HeroBan5" heroimagestyle="landscape" />
+			</Panel>
+
+			<Panel class="BanContainer" id="BanContainerAway">
+				<DOTAHeroImage class="BanImage" id="HeroBan6" heroimagestyle="landscape" />
+				<DOTAHeroImage class="BanImage" id="HeroBan7" heroimagestyle="landscape" />
+				<DOTAHeroImage class="BanImage" id="HeroBan8" heroimagestyle="landscape" />
+				<DOTAHeroImage class="BanImage" id="HeroBan9" heroimagestyle="landscape" />
+				<DOTAHeroImage class="BanImage" id="HeroBan10" heroimagestyle="landscape" />
+				<DOTAHeroImage class="BanImage" id="HeroBan11" heroimagestyle="landscape" />
+			</Panel>		
+
+		</Panel>
+
+	</DOTATIOnstageOverlay>
+</root>
+
+

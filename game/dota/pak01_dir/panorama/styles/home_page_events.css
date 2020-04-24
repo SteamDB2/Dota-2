@@ -1,0 +1,548 @@
+@import url("file://{resources}/styles/battle_pass/current_battle_pass.css");
+
+DOTAHomePageEvents
+{
+	flow-children: down;
+	box-shadow: fill #0005 -2px -2px 6px 6px;
+	background-image: url("s2r://panorama/images/compendium/international2019/compendium/bp_widget_bg_psd.vtex");
+	background-size: cover;
+}
+
+#Header
+{
+	flow-children: right;
+	width: 100%;
+	padding-left: 8px;
+	height: 38px;
+	background-color: black;
+}
+
+#BattlePassTabIcon
+{
+	width: 20px;
+	height: 20px;
+	margin-right: 4px;
+	margin-top: 8px;
+	background-image: bp_point_log_pass_activated;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.EventName
+{
+	text-transform: uppercase;
+	vertical-align: middle;
+	letter-spacing: 2px;
+	color: #aaa;
+	margin-left: 1px;
+	text-overflow: shrink;
+	min-height: 25px;
+	margin-top: 4px;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/*  Battle Pass                                                              */
+/* ------------------------------------------------------------------------- */
+
+#Contents
+{
+	width: 100%;
+	height: 200px;
+	padding: 12px;
+}
+
+.GlobalEventActive.SelfEventActive.EventHasUnclaimedRewards #Contents
+{
+	height: 260px;
+}
+
+.GlobalEventEnded.SelfEventActive #Contents
+{
+	height: 110px;
+}
+
+.GlobalEventEnded.SelfEventActive.EventHasUnclaimedRewards #Contents
+{
+	height: 195px;
+}
+
+.GlobalEventEnded.SelfEventNotActive #Contents
+{
+	height: 80px;
+}
+
+.BattlePassState
+{
+	width: 100%;
+	height: 100%;
+
+	visibility: collapse;
+}
+
+.GlobalEventNotActive #BattlePassLoading,
+.GlobalEventActive.SelfEventNotActive #BattlePassNotOwned,
+.GlobalEventActive.SelfEventNeedsActivate #BattlePassNeedsActivate,
+.GlobalEventEnded.SelfEventNeedsActivate #BattlePassNeedsActivate,
+.GlobalEventActive.SelfEventActive #BattlePassOwned,
+.GlobalEventEnded.SelfEventActive #BattlePassEndedActive,
+.GlobalEventEnded.SelfEventNotActive #BattlePassEndedInactive
+{
+	visibility: visible;
+}
+
+#BattlePassLoading .Spinner
+{
+	horizontal-align: center;
+	vertical-align: middle;
+}
+
+.BattlePassInactiveState
+{
+	width: 100%;
+	vertical-align: middle;
+	flow-children: down;
+}
+
+.BattlePassInactiveState > Label
+{
+	width: 300px;
+	horizontal-align: center;
+	text-align: center;
+	font-size: 16px;
+	color: accentColorBright;
+	
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 18px;
+}
+
+.BattlePassInactiveState > TextButton
+{
+	horizontal-align: center;
+	margin-top: 8px;
+	width: 300px;
+}
+
+#BattlePassNotOwnedLabel
+{
+	visibility: collapse;
+}
+
+.GlobalEventPurchasable #BattlePassNotOwnedLabel
+{
+	visibility: visible;
+}
+
+#BattlePassUnpurchasableLabel
+{
+	visibility: visible;
+}
+
+.GlobalEventPurchasable #BattlePassUnpurchasableLabel
+{
+	visibility: collapse;
+}
+
+#BattlePassPurchaseButton
+{
+	visibility: collapse;
+}
+
+.GlobalEventPurchasable #BattlePassPurchaseButton
+{
+	visibility: visible;
+}
+
+#BattlePassPreviewButton
+{
+	horizontal-align: center;
+	width: fit-children;
+}
+
+#BattlePassLevelPreview
+{
+	margin-top: 10px;
+	font-size: 15px;
+	letter-spacing: 1.2px;
+	opacity: 0.75;
+	visibility: collapse;
+}
+
+.ShowEventLevelPreview #BattlePassLevelPreview
+{
+	visibility: visible;
+}
+
+#BattlePassOwned
+{
+	flow-children: down;
+}
+
+#BattlePassMainSection
+{
+	flow-children: right;
+}
+
+#BattlePassProgressRightCol
+{
+	flow-children: down;
+}
+
+.BattlePassLevelShield
+{
+	//margin-top: 16px;
+	ui-scale: 110%;
+
+	vertical-align: center;
+	margin-left: 12px;
+	margin-right: 0px;
+}
+
+.BattlePassUnclaimedRewards
+{
+	flow-children: down;
+	width: 100%;
+
+	visibility: collapse;
+}
+
+.SelfEventActive.EventHasUnclaimedRewards .BattlePassUnclaimedRewards
+{
+	visibility: visible;
+}
+
+.EventHasUnclaimedRewards.EventHasUnclaimedRewardsSingular .BattlePassUnclaimedRewards .UnclaimedCount.Singular,
+.EventHasUnclaimedRewards:not(.EventHasUnclaimedRewardsSingular) .BattlePassUnclaimedRewards .UnclaimedCount.Plural
+{
+	visibility: visible;
+}
+
+@keyframes 'PulseUnclaimed'
+{
+	0%
+	{
+		box-shadow:	fill accentColor&80 0px 0px 150px;
+	}
+
+	50%
+	{
+		box-shadow: fill darkColor&80  0px 0px 100px;
+	}
+	
+	100%
+	{
+		box-shadow:	fill accentColor&80 0px 0px 150px;
+	}
+}
+
+.BattlePassUnclaimedRewards .UnclaimedCount
+{
+	margin-top: 14px;
+
+	horizontal-align: center;
+	text-align: center;
+	border-radius: 4px;
+	background-color: ultraDarkColor;
+
+	animation-name: PulseUnclaimed;	
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+	visibility: collapse;
+}
+
+.BattlePassUnclaimedRewards .UnclaimedCount Label
+{
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 11px 42px 8px 42px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.BattlePassUnclaimedRewards .UnclaimedDescription
+{
+	margin-top: 4px;
+	text-transform: uppercase;
+	horizontal-align: center;
+	text-align: center;
+	font-weight: thin;
+	font-size: 10px;
+	width: 220px;
+	letter-spacing: 2px;
+	color: accentColorBright;
+}
+
+
+#BattlePassLevelDetails
+{
+	vertical-align: middle;
+	flow-children: down;
+}
+
+.SelfEventActive.EventHasUnclaimedRewards #BattlePassLevelDetails
+{
+	visibility: collapse;
+}
+
+.BattlePassLevelProgressBar
+{
+	width: 180px;
+	height: 10px;
+	margin-left: 18px;
+	margin-top: 12px;
+	border-radius: 50px;
+	background-color: #000;
+}
+
+.BattlePassLevelProgressBar .ProgressBarLeft
+{
+	background-color: gradient( linear, 0% 0%, 100% 0%, from( defaultColor ), to( accentColorBright ) );
+}
+.SelfEventActive.SelfEventTierSilver .BattlePassLevelProgressBar .ProgressBarLeft
+{
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #999999 ), to( #111111 ) );
+}
+.SelfEventActive.SelfEventTierGold .BattlePassLevelProgressBar .ProgressBarLeft
+{
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #eebd3d ), to( #111111 ) );
+}
+.SelfEventActive.SelfEventTierPlatinum .BattlePassLevelProgressBar .ProgressBarLeft
+{
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( #71e183 ), to( #111111 ) );
+}
+
+#BattlePassLevelDetails > Label
+{
+	font-size: 14px;
+	margin-left: 12px;
+	margin-top: 4px;
+	color: defaultColor;
+	horizontal-align: left;
+}
+
+#BattlePassPurchaseLevelsSection
+{
+	width: 100%;
+	height: 68px;
+	visibility: collapse;
+	padding-top: 6px;
+}
+
+.GlobalEventPurchasable.SelfEventActive #BattlePassPurchaseLevelsSection
+{
+	visibility: visible;
+}
+
+#BattlePassPurchaseLevelsButton
+{
+	horizontal-align: center;
+	vertical-align: top;
+	border-top: 1px solid textUltraBrightColor;
+	box-shadow: 0px 0px 16px accentColorSectionBG;
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( defaultColor ), to( shadeColor ) );
+}
+
+#BattlePassPurchaseLevelsButton:hover
+{
+	brightness: 1.2;
+}
+
+#BattlePassPurchaseLevelsButton:active
+{
+	background-color: gradient( linear, 0% 0%, 0% 100%, from( secondaryDefaultColor ), to( defaultColor ) );
+}
+
+#BattlePassPurchaseLevelsButton Label
+{
+	color: white;
+	font-weight: semi-bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 10px 48px 8px 48px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#BattlePassEndingSoon
+{
+	width: 100%;
+	height: 68px;
+	visibility: collapse;
+	padding-top: 6px;
+	flow-children: down;
+}
+
+.SelfEventActive:not(.GlobalEventPurchasable) #BattlePassEndingSoon
+{
+	visibility: visible;
+}
+
+#BattlePassEndingSoon Label
+{
+	horizontal-align: center;
+	text-align: center;
+	font-size: 24px;
+	color: textAccentColorBright;
+	text-overflow: shrink;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+
+#BattlePassActivitiesRow
+{
+	flow-children: right;
+	width: fill-parent-flow( 1.0 );
+}
+
+#BattlePassActivitiesTempContainer
+{
+	visibility: collapse;
+}
+
+#BattlePassActivitiesCarousel
+{
+	width: fill-parent-flow( 1.0 );
+	margin-top: 15px;
+	flow-children: right;
+	padding-bottom: 6px;
+	overflow: clip;
+}
+
+.BattlePassActivitiesPage
+{
+	width: 242px;
+	flow-children: right;
+	transition-property: position;
+	transition-duration: 0.4s;
+}
+
+.BattlePassActivitiesPageButton
+{
+	width: 10px;
+	height: 100%;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
+	opacity: 0.0;
+
+	wash-color: secondaryBrightColor;
+
+	transition-property: opacity;
+	transition-duration: 0.4s;
+}
+
+.BattlePassActivitiesPageButton:hover
+{
+	brightness: 2.0;
+}
+.BattlePassActivitiesPageButton:active
+{
+	brightness: 1.5;
+}
+
+#BattlePassActivitiesPreviousPage
+{
+	background-image: url("s2r://panorama/images/control_icons/arrow_solid_left_png.vtex");
+	margin-left: 0px;
+}
+.BattlePassActivitiesShowPreviousPage #BattlePassActivitiesPreviousPage
+{
+	opacity: 1.0;
+}
+
+#BattlePassActivitiesNextPage
+{
+	background-image: url("s2r://panorama/images/control_icons/arrow_solid_right_png.vtex");
+	margin-right: 8px;
+}
+.BattlePassActivitiesShowNextPage #BattlePassActivitiesNextPage
+{
+	opacity: 1.0;
+}
+
+.BattlePassActivity
+{
+	flow-children: down;
+	width: 46px;
+	margin-right: 3px;
+	tooltip-position: top;
+	tooltip-body-position: 50% 50%;
+}
+.BattlePassActivity:hover
+{
+	brightness: 2.0;
+}
+.BattlePassActivity:active
+{
+	brightness: 1.5;
+}
+
+.BattlePassActivity #BattlePassActivityIcon
+{
+	width: 24px;
+	height: 24px;
+	margin-bottom: 4px;
+	horizontal-align: center;
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.BattlePassActivity #BattlePassActivityText
+{
+	horizontal-align: center;
+	text-align: center;
+	font-size: 16px;
+	color: textAccentColorBright;
+	width: 46px;
+	text-overflow: shrink;
+}
+
+.BattlePassActivity.Wagering #BattlePassActivityIcon { background-image: bp_point_log_wager_won; }
+.BattlePassActivity.Achievements #BattlePassActivityIcon { background-image: bp_point_log_achievement; }
+.BattlePassActivity.WeeklyChallenge #BattlePassActivityIcon { background-image: url("s2r://panorama/images/control_icons/clock_psd.vtex"); wash-color: accentColor; }
+.BattlePassActivity.DPCPredictions #BattlePassActivityIcon { background-image: url("s2r://panorama/images/compendium/international2018/icon_prediction_tokens_png.vtex"); }
+.BattlePassActivity.CavernCrawl #BattlePassActivityIcon { background-image: bp_cavern_crawl_logo; wash-color: accentColor; }
+.BattlePassActivity.ArcanaVote #BattlePassActivityIcon { background-image: url("s2r://panorama/images/compendium/international2018/icon_arcana_vote_png.vtex"); }
+.BattlePassActivity.Tipping #BattlePassActivityIcon { background-image: url("s2r://panorama/images/compendium/international2018/icon_tipping_token_png.vtex"); }
+.BattlePassActivity.Consumables #BattlePassActivityIcon { background-image: bp_point_log_shovel; }
+
+.BattlePassActivity.cavern #BattlePassActivityIcon { background-image: url("s2r://panorama/images/compendium/international2018/underhollow_icon_psd.vtex"); }
+.BattlePassActivity.jungle_spirits_2019 #BattlePassActivityIcon { background-image: bp_point_log_event_game; }
+
+#BattlePassEndedActive
+{
+	flow-children: down;
+}
+
+#BattlePassEndedHeader
+{
+	flow-children: right;
+}
+
+.BattlePassEndedRightCol
+{
+	flow-children: down;
+}
+
+.BattlePassEndedRightCol > Label
+{
+	font-size: 16px;
+	color: accentColorBright;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-left: 8px;
+	margin-top: 8px;
+	width: 240px;
+	text-align: center;
+}
+
